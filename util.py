@@ -2,9 +2,13 @@ import pickle
 
 feature_vec_path='feature_vectors/'
 
-comedy = ["moonrise2.p", "grandbudapest2.p", "royal2.p"]
-animated = ['princess2.p', 'totoro2.p', 'corpse2.p', 'spirited2.p']
-drama = ['sweeney2.p', 'chevalier2.p', 'dark2.p']
+# comedy = ["moonrise2.p", "grandbudapest2.p", "royal2.p"]
+# animated = ['princess2.p', 'totoro2.p', 'corpse2.p', 'spirited2.p']
+# drama = ['sweeney2.p', 'chevalier2.p', 'dark2.p']
+
+comedy = ["The_Grand_Budapest_Hotel.p"]
+animated = ['Planes:Fire_&_Rescue.p']
+drama = []
 
 genre_lists={
     'comedy' : comedy,
@@ -12,7 +16,10 @@ genre_lists={
     'drama' : drama
 }
 
-trainFiles = animated[:2] + drama[:2] + comedy[:2]
+# trainFiles = animated[:2] + drama[:2] + comedy[:2]
+# testFiles = animated[2:] + drama[2:] + comedy[2:]
+
+trainFiles = animated[:] + drama[:] + comedy[:]
 testFiles = animated[2:] + drama[2:] + comedy[2:]
 
 def getTrainExamples(genre):
@@ -38,7 +45,7 @@ def getTestExamples(genre):
     return testExamples
 
 def getColors():
-    return pickle.load(open(feature_vec_path + "colors2.p", "rb"))
+    return pickle.load(open("extra/colors2.p", "rb"))
 
 def dotProduct(d1, d2):
     """

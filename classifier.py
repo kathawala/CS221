@@ -21,7 +21,7 @@ class predictor():
         self.weights = {x : 0 for x in util.getColors()}
 
     def predict(self, x):
-        print util.dotProduct(self.weights, x)
+        print "Learned Score:" + str(util.dotProduct(self.weights, x))
         return math.copysign(1.0, util.dotProduct(self.weights, x))
 
     def learn(self, trainExamples):
@@ -46,5 +46,5 @@ if p.trainExamples is None or p.testExamples is None:
     
 p.learn(p.trainExamples)
 for ex in p.testExamples:
-    print ex[1]
-    print (p.predict(ex[0]))
+    print "Corect:" + str(ex[1])
+    print "Predicted: " +str((p.predict(ex[0])))

@@ -21,4 +21,3 @@ def get_colour_name(requested_colour):
 
 def allColors():
     return list(webcolors.CSS3_NAMES_TO_HEX.keys())
-    
