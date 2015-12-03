@@ -19,6 +19,6 @@ if sys.argv[1]:
             colors.append(color)
         feature_vec.update(colors)
             
-    pickle.dump(feature_vec, open("/home/cs221/project/feature_vectors/" + name.lower() + "2.p", "wb"), 2)
+    pickle.dump(feature_vec, open("/home/cs221/project/feature_vectors/" + name.lower() + ".p", "wb"), 2)
 else:
     print ("Please specify a video file to count the colors of")
