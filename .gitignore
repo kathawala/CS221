@@ -1,5 +1,6 @@
 __pycache__/
 rgb/
+rgb
 *.py[cod]
 
 *.odt
