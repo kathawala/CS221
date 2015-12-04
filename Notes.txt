@@ -1,0 +1,18 @@
+Notes: 
+
+#########################
+# AASHNA				#
+#########################
+1. I hardcoded genres in movie_genre.py. Perhaps there's a better way to do it using the API? I used this in MLB (multilabelclassifier) in init fn of classifier.py, so we 
+know the names of the genres when it predicts the test data. 
+^^^ Actually nvm. 
+
+2. What is fit in the context of mlb and dictVectorizer? Still unsure.
+
+3. change colors.p such that it returns a dict --- so i don't have to change it in classifier.py. 
+
+4. We're using way too many labels--- we should check which ones we're actually using and only do them.
+
+#########################
+# FARHAN				#
+#########################

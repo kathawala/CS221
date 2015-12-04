@@ -28,21 +28,18 @@ testFiles = dataset[numTrainExamples:]
 def getColors():
     return pickle.load(open("extra/colors2.p", "rb"))
 
-def getFeatureVectors(dataset):	
+def getFeatureVectors(dataset, dVec):	
 	"""
 	Returns the feature vectors from the pickle files into NumPy arrays for use with 
 	scikit-learn estimators.
 	@param list dataset: filenames of the movies whose correct genres are required
+	@param dVec DictVectorizer from scikit-learn
 	"""
-	allColors = getColors()
-	l = [dict((feature,0) for feature in allColors)]
-	v = DictVectorizer()
-	v.fit(l)
 	feature_vectors = []
 	for movie in dataset: 		
 		feature_vec = pickle.load(open(path + "/" + movie, "rb"))
 		feature_vectors.append(feature_vec)
-	return v.transform(feature_vectors)
+	return dVec.transform(feature_vectors)
 
 
 def getCorrectGenres(dataset):
@@ -50,6 +47,7 @@ def getCorrectGenres(dataset):
 	Returns an array [n_samples, n_classes] corresponding to the genre of each movie 
 	that can be fed into a scikit-learn estimator.
 	@param list dataset: filenames of the movies whose correct genres are required
+	@param mlb MultiLabelBinarizer from scikit-learn
 	@return 2-D matrix in which cell [i, j] is 1 if movie i has genre j and 0 otherwise
 	"""
 	movie_genres = []
@@ -58,5 +56,13 @@ def getCorrectGenres(dataset):
 		#refer to movie_genre.py, which uses the IMDB API to query genres.
 		genres = set(movie_genre.get(movie_name).split(", ")) 
 		movie_genres.append(genres) 
-	mlb = MultiLabelBinarizer()
-	return mlb.fit_transform(movie_genres)
+	return movie_genres
+
+def printOutput(mlb, testExamples, result):
+	assert (len(result) == len(testExamples)), "No. of samples in predicted and test data don't match"
+	for i, sample in enumerate(result):
+		print testExamples[i]
+		assert(len(sample) == len(mlb.classes_)), "Labels of the predicted output and fit input don't match"
+		for index, label in enumerate(sample): 
+			if label: 
+				print "\t" + mlb.classes_[index]
