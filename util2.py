@@ -34,16 +34,16 @@ def getFeatureVectors(dataset):
 	scikit-learn estimators.
 	@param list dataset: filenames of the movies whose correct genres are required
 	"""
-	# allColors = getColors()
-	# d = dict((feature,0) for feature in allColors)
-	v = DictVectorizer(sparse=False)
-	# print d
-	# v.fit(d)
+	allColors = getColors()
+	l = [dict((feature,0) for feature in allColors)]
+	v = DictVectorizer()
+	v.fit(l)
 	feature_vectors = []
 	for movie in dataset: 		
 		feature_vec = pickle.load(open(path + "/" + movie, "rb"))
 		feature_vectors.append(feature_vec)
-	return v.fit_transform(feature_vectors)
+	return v.transform(feature_vectors)
+
 
 def getCorrectGenres(dataset):
 	""" 
