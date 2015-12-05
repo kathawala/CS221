@@ -6,6 +6,9 @@ from sklearn.feature_extraction import DictVectorizer
 import util2, movie_genre, os, sys
 
 class predictor():
+        # In this perhaps pass in customizable parameters so
+        # __init__(self, loss="hinge", penalty="l2")
+        # This way, we can try out different loss functions easily
 	def __init__(self):
 		self.trainExamples = util2.trainFiles
 		self.testExamples = util2.testFiles
@@ -17,7 +20,7 @@ class predictor():
 		# OneVsRestClassifier used for prediction
 		self.classif = OneVsRestClassifier(SGDClassifier(loss="hinge", penalty="l2"))
 
-	def learnPredictor(self):   
+	def learnPredictor(self):
 		train_feature_vecs = util2.getFeatureVectors(self.trainExamples, self.dVec)
 		train_genres = self.mlb.fit_transform(util2.getCorrectGenres(self.trainExamples))
 		self.classif.fit(train_feature_vecs, train_genres)
