@@ -3,7 +3,8 @@ from random import shuffle
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.feature_extraction import DictVectorizer
 
-path = "feature_vectors" #path for  pickle files that store feature vecs of movies 
+num_path = "feature_vectors" #path for  pickle files that store feature vecs of movies
+percent_path = "percentage_feature_vectors"
 trainingRatio = .80 # divides up the dataset into training/ test sets in a 80-20 ratio. 
 
 def getMovieDataset():
@@ -11,10 +12,10 @@ def getMovieDataset():
 	Gathers all the names of the movies in the dataset by going through each pickle
 	file that stores it's feature vectors. Returns a list of shuffled movie names.
 	"""
-	if os.path.exists(path):
-		filenames = os.listdir(path)
+	if os.path.exists(num_path):
+		filenames = os.listdir(num_path)
 	else: 
-		print "Path does not exist: \"" + path + "\""
+		print "Path does not exist: \"" + num_path + "\""
 		return 	
 	shuffle(filenames)
 	return filenames
@@ -28,13 +29,16 @@ testFiles = dataset[numTrainExamples:]
 def getColors():
     return pickle.load(open("extra/colors2.p", "rb"))
 
-def getFeatureVectors(dataset, dVec):	
+def getFeatureVectors(dataset, dVec, numbers=False):
 	"""
 	Returns the feature vectors from the pickle files into NumPy arrays for use with 
 	scikit-learn estimators.
 	@param list dataset: filenames of the movies whose correct genres are required
 	@param dVec DictVectorizer from scikit-learn
+        @param bool numbers: If true, then use feature vectors with total number counts.
+        If false, use feature vectors with percentage counts. False by default
 	"""
+        path = num_path if numbers else percent_path
 	feature_vectors = []
 	for movie in dataset: 		
 		feature_vec = pickle.load(open(path + "/" + movie, "rb"))

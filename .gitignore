@@ -7,3 +7,4 @@ rgb
 *.pdf
 
 count.sh
+convert_to_percentage.py
