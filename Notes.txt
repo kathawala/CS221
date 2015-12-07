@@ -16,3 +16,38 @@ know the names of the genres when it predicts the test data.
 #########################
 # FARHAN				#
 #########################
+1. From looking at the genres list, here are genres not worth keeping:
+   Music: every music movie is also a drama
+   Sport: only one movie
+   Western: no movies
+   War: no movies
+   Musical: no movies
+   Mystery: only 4 movies and at least 2 of them aren't really mysteries
+   Family: only 3 movies and no reason why these are family while others not
+   Film-Noir: no movies
+   History: only 2, always paired with documentary and biography
+   Crime: only 6 but pretty varied
+   Thriller: only 6, always paired with action or horror
+   Biography: Nearly every biography film is also a drama (the ones that aren't
+   are arguably not biography films at all)
+   Fantasy: Only 5 films, but they are varied
+   Sci-Fi: Some of the movies here shouldn't count. Like "The Purge: Anarchy"
+   is not really sci-fi at all (a horror movie about a society which has
+   a night every year where all laws are suspended and people kill each other)
+   or Hot Tub Time Machine 2 (the sci-fi here is not really sci-fi).
+   It's not a super discernible genre and it's never ever given unless with
+   two other genres.
+   Romance: Only 4 films, a few are arguably not Romance films
+   (like "The Other Woman")
+2. Genres to think about:
+   Action: Half of the time it shows up, it is paired with adventure
+   Adventure: Half of the time it shows up, it is paired with action
+   Documentary: I strongly believe every film listed as a documentary is
+   not a crossover with any other genre of film. For instance, one film
+   "On Any Sunday The Next Chapter" is listed as "Action, Documentary, Adventure"
+   because it's a documentary about motorcycle riders, but being a documentary
+   it isn't even close to the other action/adventure movies. Maybe stripping
+   any genres when "documentary" is given would be helpul.
+
+
+   

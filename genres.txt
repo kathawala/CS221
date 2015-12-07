@@ -1,0 +1,68 @@
+alexander and the terrible horrible no good very bad day		{'Family', 'Comedy'}
+american sniper		{'Drama', 'Action', 'Biography'}
+annabelle		{'Mystery', 'Horror'}
+bears		{'Documentary'}
+beyond the lights		{'Music', 'Drama'}
+big hero 6		{'Animation', 'Action', 'Adventure'}
+cabin fever patient zero		{'Horror', 'Thriller', 'Sci-Fi'}
+captain america the winter soldier		{'Sci-Fi', 'Action', 'Adventure'}
+citizenfour		{'Documentary'}
+dawn of the planet of the apes		{'Drama', 'Action', 'Sci-Fi'}
+dracula untold		{'Drama', 'Fantasy', 'Action'}
+dumb and dumber to		{'Comedy'}
+get on up		{'Music', 'Drama', 'Biography'}
+gone girl		{'Mystery', 'Crime', 'Drama'}
+guardians of the galaxy		{'Sci-Fi', 'Action', 'Adventure'}
+hercules		{'Action', 'Adventure'}
+horrible bosses 2		{'Comedy', 'Crime'}
+hot tub time machine 2		{'Sci-Fi', 'Comedy'}
+how to train your dragon 2		{'Animation', 'Action', 'Adventure'}
+if i stay		{'Fantasy', 'Music', 'Drama'}
+i frankenstein		{'Sci-Fi', 'Fantasy', 'Action'}
+interstellar		{'Sci-Fi', 'Drama', 'Adventure'}
+into the storm		{'Thriller', 'Action'}
+iris		{'History', 'Documentary', 'Biography'}
+jersey boys		{'Music', 'Drama', 'Biography'}
+jessabelle		{'Horror', 'Thriller'}
+let's be cops		{'Comedy'}
+lucy		{'Thriller', 'Sci-Fi', 'Action'}
+maleficent		{'Family', 'Action', 'Adventure'}
+mr peabody & sherman		{'Animation', 'Comedy', 'Adventure'}
+muppets most wanted		{'Comedy', 'Crime', 'Adventure'}
+night at the museum secret of the tomb		{'Family', 'Comedy', 'Adventure'}
+noah		{'Drama', 'Action', 'Adventure'}
+on any sunday the next chapter		{'Action', 'Documentary', 'Adventure'}
+ouija		{'Horror'}
+planes:fire & rescue		{'Animation', 'Comedy', 'Adventure'}
+red army		{'History', 'Documentary', 'Biography'}
+{'Response': 'False', 'Error': 'Movie not found!'}
+ride along		{'Comedy', 'Action'}
+rio 2		{'Animation', 'Comedy', 'Adventure'}
+rosewater		{'Drama', 'Biography'}
+song one		{'Music', 'Drama'}
+spring		{'Romance', 'Horror', 'Sci-Fi'}
+st vincent		{'Comedy', 'Drama'}
+tammy		{'Comedy'}
+teenage mutant ninja turtles		{'Comedy', 'Action', 'Adventure'}
+the book of life		{'Animation', 'Comedy', 'Adventure'}
+the drop		{'Crime', 'Drama'}
+the fault in our stars		{'Romance', 'Drama'}
+the grand budapest hotel		{'Comedy', 'Drama', 'Adventure'}
+the hero of color city		{'Animation', 'Family'}
+the hobbit the battle of the five armies		{'Fantasy', 'Adventure'}
+the hunger games mockingjay part 1		{'Sci-Fi', 'Thriller', 'Adventure'}
+the identical		{'Music', 'Drama'}
+the interview		{'Comedy', 'Action'}
+the judge		{'Crime', 'Drama'}
+the lego movie		{'Animation', 'Action', 'Adventure'}
+the maze runner		{'Mystery', 'Sci-Fi', 'Action'}
+the november man		{'Thriller', 'Crime', 'Action'}
+the other woman		{'Romance', 'Comedy'}
+the purge anarchy		{'Horror', 'Action', 'Sci-Fi'}
+the salt of the earth		{'Documentary', 'Biography'}
+the theory of everything		{'Romance', 'Drama', 'Biography'}
+this is where i leave you		{'Comedy', 'Drama'}
+unbroken		{'Sport', 'Drama', 'Biography'}
+wild		{'Drama', 'Adventure', 'Biography'}
+winter's tale		{'Mystery', 'Fantasy', 'Drama'}
+x-men days of future past		{'Sci-Fi', 'Action', 'Adventure'}
