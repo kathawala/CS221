@@ -11,4 +11,6 @@ genres = ["Action", "Adventure", "Animation", "Biography", "Comedy", "Crime", \
 def get(title):
     """Gets the movie genre of the specified movie"""
     r = requests.get(IMDB + "?t=" + title)
-    return r.json()['Genre']
+    genres = r.json()['Genre']
+    genres = set(genres.split(", "))
+    return genres
