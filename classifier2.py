@@ -32,27 +32,53 @@ class predictor():
 		test_feature_vecs = util2.getFeatureVectors(self.testExamples, self.dVec, numbers)
 		return self.classif.predict(test_feature_vecs)
 
-p = predictor()
-p.learnPredictor()
-n_predicted = p.predict()
-correct = p.mlb.transform(util2.getCorrectGenres(p.testExamples))
-# print "PREDICTED: "
-# util2.printOutput(p.mlb, p.testExamples, predicted)
-# print "CORRECT: "
-# util2.printOutput(p.mlb, p.testExamples, correct)
-ny_score = np.array(n_predicted)
-y_true = np.array(correct)
-p.learnPredictor(numbers=False)
-p_predicted = p.predict(numbers=False)
-py_score = np.array(p_predicted)
-print "NUMBERS RESULTS"
+nlrloss = []
+nlraprecision = []
+plrloss = []
+plraprecision = []
+for i in range(0,80):
+        p = predictor()
+        p.learnPredictor()
+        n_predicted = p.predict()
+        correct = p.mlb.transform(util2.getCorrectGenres(p.testExamples))
+        # print "PREDICTED: "
+        # util2.printOutput(p.mlb, p.testExamples, predicted)
+        # print "CORRECT: "
+        # util2.printOutput(p.mlb, p.testExamples, correct)
+        ny_score = np.array(n_predicted)
+        y_true = np.array(correct)
+        p.learnPredictor(numbers=False)
+        p_predicted = p.predict(numbers=False)
+        py_score = np.array(p_predicted)
+        print "NUMBERS RESULTS"
+        print "LABEL RANKING LOSS:"
+        nscoreone = label_ranking_loss(y_true, ny_score)
+        print (label_ranking_loss(y_true, ny_score))
+        print "LABEL RANKING AVERAGE PRECISION"
+        nscoretwo = label_ranking_average_precision_score(y_true, ny_score)
+        print (nscoretwo)
+        print "=========="
+        print "PERCENT RESULTS"
+        print "LABEL RANKING LOSS:"
+        pscoreone = label_ranking_loss(y_true, py_score)
+        print (label_ranking_loss(y_true, py_score))
+        print "LABEL RANKING AVERAGE PRECISION"
+        pscoretwo = label_ranking_average_precision_score(y_true, py_score)
+        print (label_ranking_average_precision_score(y_true, py_score))
+        nlrloss.append(nscoreone)
+        nlraprecision.append(nscoretwo)
+        plrloss.append(pscoreone)
+        plraprecision.append(pscoretwo)
+
+print "================"
+print "NUMBERS AVERAGES"
 print "LABEL RANKING LOSS:"
-print (label_ranking_loss(y_true, ny_score))
+print (sum(nlrloss) / len(nlrloss))
 print "LABEL RANKING AVERAGE PRECISION"
-print (label_ranking_average_precision_score(y_true, ny_score))
-print "=========="
-print "PERCENT RESULTS"
+print (sum(nlraprecision) / len(nlraprecision))
+print "================"
+print "PERCENT AVERAGES"
 print "LABEL RANKING LOSS:"
-print (label_ranking_loss(y_true, py_score))
+print (sum(plrloss) / len(plrloss))
 print "LABEL RANKING AVERAGE PRECISION"
-print (label_ranking_average_precision_score(y_true, py_score))
+print (sum(plraprecision) / len(plraprecision))

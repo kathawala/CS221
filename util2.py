@@ -4,8 +4,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.feature_extraction import DictVectorizer
 
 num_path = "feature_vectors" #path for  pickle files that store feature vecs of movies
-# percent_path = "percentage_feature_vectors"
-percent_path = "pixel_vectors"
+percent_path = "percentage_feature_vectors"
 trainingRatio = .80 # divides up the dataset into training/ test sets in a 80-20 ratio. 
 
 def getMovieDataset():

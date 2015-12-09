@@ -10,7 +10,7 @@ genres = ["Action", "Adventure", "Animation", "Biography", "Comedy", "Crime", \
 "Musical", "Mystery", "Romance", "Sci-Fi", "Sport", "Thriller", "War", "Western"]
 genres_we_dont_care_about = ["War", "Western", "Sport", "Music", "Musical", "Mystery", \
                              "Family", "Film-Noir", "History", "Crime", "Thriller", \
-                             "Biography", "Sci-Fi", "Romance", "Fantasy"]
+                             "Biography", "Romance", "Fantasy", "Sci-Fi"]
 
 def get(title):
     """Gets the movie genre of the specified movie"""
@@ -19,13 +19,27 @@ def get(title):
         r = requests.get(IMDB + "?t=" + title)
     genres = r.json()['Genre']
     genres = set(genres.split(", "))
-    genres = genres.difference(genres_we_dont_care_about)
+    genres = set([u'Documentary']) if 'Documentary' in genres else genres.difference(genres_we_dont_care_about)
     return genres
 
 def print_list():
-    with open("movies.txt") as f:
-        content = [x.strip('\n').replace('_', ' ').replace('\\', '') for x in f.readlines()]
-        genre_dict = { x:get(x) for x in content}
-
+    os.chdir("feature_vectors")
+    files = os.listdir(os.getcwd())
+    genre_dict = {}
+    for f in files:
+        f = f.strip('\n')
+        title = f[:-2]
+        title = title.replace('_', ' ')
+        genres = get(title)
+        for genre in genres:
+            if genre in genre_dict:
+                genre_dict[genre].append(title)
+            else:
+                genre_dict[genre] = [title]
+                
     for x,y in genre_dict.items():
-        print (x + "\t\t" + repr(y))
+        print (x + "\t\t" + str(len(y)))
+
+    
+
+# print_list()

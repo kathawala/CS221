@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat "$1" | sed -e 's/^[0-9].*//g' -e 's/<font.*//g' -e 's/Subtitle.*//g' | tr -s '\n' > "$2"

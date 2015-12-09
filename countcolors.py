@@ -23,7 +23,7 @@ if sys.argv[1]:
         feature_vec.update(colors)
             
     pickle.dump(feature_vec, open("/home/cs221/project/feature_vectors/" + name.lower() + ".p", "wb"), 2)
-    percentage_vec = { x:y/num_files for x,y in vec.items() }
-    pickle.dump(percentage_vec, open("/home/cs221/project/percentage_vectors/" + name.lower() + ".p", "wb"), 2)
+    percentage_vec = { x:y/num_files for x,y in feature_vec.items() }
+    pickle.dump(percentage_vec, open("/home/cs221/project/percentage_feature_vectors/" + name.lower() + ".p", "wb"), 2)
 else:
     print ("Please specify a video file to count the colors of")

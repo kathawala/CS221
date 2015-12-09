@@ -1,0 +1,4651 @@
+﻿1
+"Laura, at this stage,
+
+I can offer nothing more than my word.
+
+I am a senior government employee
+in the intelligence community.
+
+I hope you understand that
+contacting you is extremely high risk
+
+and you are willing to agree
+to the following precautions
+
+before I share more.
+
+This will not be a waste of your time.
+
+The following sounds complex
+
+but should only take minutes
+to complete for someone technical.
+
+I would like to confirm out of email
+
+that the keys we exchanged
+were not intercepted
+
+and replaced by your surveillance.
+
+Please confirm that no one has
+ever had a copy of your private key
+
+and that it uses a strong passphrase.
+
+Assume your adversary is capable
+of one trillion guesses per second.
+
+If the device you store the private key
+
+and enter your passphrase on
+has been hacked,
+
+it is trivial to decrypt
+our communications.
+
+Understand that the above steps
+are not bulletproof
+
+and are intended only
+to give us breathing room.
+
+In the end, if you publish
+the source material,
+
+I will likely be immediately implicated.
+
+This must not deter you from releasing
+the information I will provide.
+
+Thank you, and be careful.
+
+Citizenfour."
+
+Bottom line is... surveillance means
+
+that there are facts
+that we no longer abide to.
+
+If you take away the surveillance,
+
+there are no facts that
+the government can manufacture.
+
+Ah, that's right, and this is all
+about creating an independent record.
+
+To me, this goes to the question
+
+of independently verifying
+what the government is doing.
+
+That's why I keep going
+back to that question.
+
+More with David Sirota after CBS news,
+
+traffic, and weather
+on KKZN Denver/Boulder, AM 7...
+
+Hey, can you hear me?
+
+I am here, David, how are you?
+
+Well I would just point...
+start by pointing to
+
+what Barack Obama himself
+said about those questions
+
+when he was running for the office
+that he now occupies.
+
+In December of 2007, he said, quote,
+
+"The president does not have
+the power under the Constitution
+
+to unilaterally
+authorize a military attack
+
+in a situation
+that does not involve stopping
+
+an actual or imminent threat
+to the nation."
+
+So by Obama's own words,
+the president does not have the power
+
+that he is now exercising
+under the Constitution.
+
+And as far as why it matters,
+in... on August 1, 2007,
+
+when he laid out his reasons
+why he was running for office
+
+and why he thought it was so important
+to change the way we were doing things,
+
+he said, quote, "No more ignoring
+the law when it's inconvenient.
+
+That is not who we are.
+
+We will again
+set an example for the world
+
+that the law is not subject
+to the whims of stubborn rulers..."
+
+You asked why I picked you.
+
+I didn't. You did.
+
+The surveillance you've experienced
+means you've been "selected,"
+
+a term which will mean
+more to you as you learn about
+
+how the modern SIGINT system works.
+
+For now, know that
+every border you cross,
+
+every purchase you make,
+every call you dial,
+
+every cell phone tower you pass,
+friend you keep,
+
+article you write, site you visit,
+subject line you type,
+
+and packet you route
+is in the hands of a system
+
+whose reach is unlimited,
+but whose safeguards are not.
+
+Your victimization by the NSA system means
+that you are well aware of the threat
+
+that unrestricted secret police
+pose for democracies.
+
+This is a story few but you can tell.
+
+Thank you for inviting me here
+
+to give me the opportunity
+to express my story.
+
+Let me give you some of my background.
+
+I spent about four years in the military,
+and then I went into NSA.
+
+Directly, so...
+
+So I ended up with about
+
+Most of it was a lot of fun, I tell you,
+
+it was really a lot of fun,
+breaking these puzzles you know,
+
+solving problems and things like that.
+
+And that's really what I did,
+I fundamentally started working with data,
+
+looking at data and data systems
+and how you do that.
+
+I was developing
+this concept of analysis
+
+that you could lay it out in such a way
+
+that it could be coded
+and executed electronically.
+
+Meaning you could automate analysis.
+
+And it has to do with metadata
+and using metadata relationships.
+
+So that was the whole,
+that was my whole theme there at NSA.
+
+That was eventually,
+that's what I ended up to.
+
+I was the only one there
+doing that, by the way.
+
+So any rate, 9/11 happened,
+
+and it must have been
+right after, a few days,
+
+no more than a week after 9/11
+
+that they decided to begin actively
+spying on everyone in this country.
+
+And they wanted the back part
+
+of our program to run all of the spying.
+
+All right?
+So, that's exactly what they did.
+
+And then they started
+taking the telecom data
+
+and expanded after that.
+
+I mean the one I knew was AT&T,
+
+and that one provided
+
+That program was reauthorized
+every 45 days
+
+by what I call the "yes committee,"
+
+which was Hayden and Tenet and the DOJ.
+
+The program was called Stellar Wind.
+
+So first I went to
+the House Intelligence Committee
+
+and the staff member
+that I personally knew there,
+
+and she then went to
+the chairman of the committee,
+
+Nancy Pelosi was the minority rep.
+
+They were all briefed into the program
+
+at the time, by the way,
+
+and all the other programs
+that were going on,
+
+including all these CIA programs.
+
+I wasn't alone in this.
+There were four others out of NSA,
+
+and we were all
+trying to work internally
+
+in the government over these years
+
+trying to get them to come around
+
+to being constitutionally acceptable
+
+and take it into the courts
+
+and have the courts'
+oversight of it too.
+
+So we, we naively kept thinking
+
+that could, uh, that could happen.
+
+And it never did.
+
+But any rate, after that,
+
+and all the stuff we were doing
+they decided to raid us,
+
+to keep us quiet, threaten us, you know.
+
+So we were raided
+simultaneously, four of us.
+
+In my case,
+they came in with guns drawn.
+
+I don't know why they did that,
+but they did, so...
+
+Laura, I will answer
+
+what I remember of your questions
+as best I can.
+
+Forgive the lack of structure.
+
+I am not a writer, and I have
+to draft this in a great hurry.
+
+What you know as Stellar Wind has grown.
+
+SSO, the expanded
+Special Source Operations
+
+that took over Stellar Wind's
+share of the pie,
+
+has spread all over the world
+to practically include
+
+comprehensive coverage
+of the United States.
+
+Disturbingly,
+the amount of US communication
+
+ingested by NSA is still increasing.
+
+Publicly, we complain that
+things are going dark,
+
+but in fact, our accesses are improving.
+
+The truth is that the NSA
+has never in its history
+
+collected more than it does now.
+
+I know the location of most
+domestic interception points
+
+and that the largest
+telecommunication companies in the US
+
+are betraying
+the trust of their customers,
+
+which I can prove.
+
+We are building the greatest
+weapon for oppression
+
+in the history of man,
+
+yet its directors exempt themselves
+from accountability.
+
+NSA director Keith Alexander
+lied to Congress,
+
+which I can prove.
+
+Billions of US communications
+are being intercepted.
+
+In gathering evidence of wrongdoing,
+
+I focused on the wronging
+of the American people,
+
+but believe me when I say that
+
+the surveillance we live under
+is the highest privilege
+
+compared to how we treat
+the rest of the world.
+
+This I can also prove.
+
+On cyber operations,
+the government's public position
+
+is that we still lack
+a policy framework.
+
+This too is a lie.
+
+There is a detailed policy framework,
+
+a kind of Marshall Law
+for cyber operations
+
+created by the White House.
+
+It's called Presidential
+Policy Directive 20
+
+and was finalized
+at the end of last year.
+
+This I can also prove.
+
+I appreciate your concern for my safety,
+
+but I already know
+how this will end for me,
+
+and I accept the risk.
+
+If I have luck and you are careful,
+
+you will have everything you need.
+
+I ask only that
+you ensure this information
+
+makes it home to the American public.
+
+Does the NSA routinely intercept
+American citizens' emails?
+
+No.
+
+Does the NSA intercept Americans'
+cell phone conversations?
+
+No.
+
+- Google searches?
+- No.
+
+- Text messages?
+- No.
+
+- Amazon.com orders?
+- No.
+
+- Bank records?
+- No.
+
+What judicial consent
+is required for NSA
+
+to intercept communications...
+
+and information
+involving American citizens?
+
+Within the United States,
+that would be the FBI lead.
+
+If it was a foreign actor
+in the United States,
+
+the FBI would still have the lead
+and could work that with...
+
+with NSA or other intelligence
+agencies as authorized.
+
+But to conduct that kind of...
+
+of collection in the United States,
+it would have to go through a court order,
+
+and the court
+would have to authorize it.
+
+We are not authorized to do it,
+nor do we do it.
+
+All rise.
+
+The United States Court of Appeals
+
+for the Ninth Circuit is now in session.
+
+Please be seated.
+
+Good morning, and welcome
+to the Ninth Circuit.
+
+The first case for argument is
+
+Jewel versus National Security Agency.
+
+You may proceed.
+
+May it please the court, Kevin Bankston,
+
+for Carolyn Jewel and her fellow plaintiff
+appellants in Jewel v. NSA.
+
+Your Honors, plaintiffs
+have specifically alleged
+
+that their own communications
+and communications records
+
+have been acquired by the government.
+
+But the District Court found that
+
+we had failed to allege facts
+
+that differentiated the injury
+that our plaintiffs suffered
+
+from the injuries suffered
+by every otherAT&T user
+
+whose communications and records
+have been acquired by the government,
+
+basically concluding that
+so long as everyone is being surveilled,
+
+no one has standing to sue.
+
+However, to deny standing to persons
+
+who are injured simply because
+many others are also injured
+
+would mean that the most injurious
+and widespread government actions
+
+could be questioned by nobody.
+
+Do you have anything
+concrete that in fact
+
+a specific communication
+of your client was intercepted?
+
+We have evidence
+that all the communications
+
+passing between AT&T's network
+and other networks
+
+in their Northern California
+facility have been intercepted.
+
+And so that would necessarily include
+the Internet communications
+
+of our Northern California plaintiffs.
+
+Okay, thank you.
+
+Thank you, Your Honors.
+
+May it please the court, I am Thomas Byron
+from the Department of Justice
+
+here on behalf
+of the government defendants.
+
+We think this litigation
+need not be resolved in federal court
+
+in light of the oversight
+of the political branches,
+
+both legislative and executive,
+
+which provides a better opportunity
+
+for oversight and resolution
+of the concerns raised
+
+concerning nationwide policies
+of alleged surveillance,
+
+uh, in these complaints.
+
+Even if it's revealed that
+one or more of the plaintiffs
+
+had email or telephone
+conversations intercepted
+
+that had nothing to do
+with national security?
+
+Your Honor, I don't know
+that anyone necessarily
+
+would have standing to raise
+
+the particular claims at issue
+in these two cases.
+
+We think instead that the kinds
+of claims at issue here
+
+against these defendants
+
+are those that are better suited
+to resolution
+
+before the... the representative
+branches of our government.
+
+So what role would the judiciary have
+
+if your approach is adopted?
+
+Judge Pregerson, I think that...
+
+I mean, we just
+get out of the way, is that it?
+
+Well, Judge Pregerson, I think
+that there is a narrow category,
+
+a subset of cases, in which
+it may be appropriate to step aside
+
+for that narrow category of cases.
+
+But the judiciary plays a role...
+
+To be sure, Judge Pregerson...
+
+- ...in our system.
+- Yes, Your Honor.
+
+And we don't mean to diminish that.
+
+You know, you're asking us
+to abdicate that role.
+
+No, Your Honor, um, but it is
+a question of this court's discretion
+
+whether to reach that issue.
+
+We do think that there is simply no way
+
+for the litigation to proceed
+without risk of divulging
+
+those very questions of privileged
+information that would cause,
+
+as the Director of National
+Intelligence has explained,
+
+exceptionally grave damage
+
+to national security if disclosed.
+
+Um, thanks for having me.
+
+If anybody has any questions, like I said,
+basically just raise your hand
+
+and I'll try to call on you
+as soon as I possibly can.
+
+So who here actually feels like
+
+they are under surveillance
+pretty regularly?
+
+Everyone inside of Occupy.
+
+How many people have been
+arrested and had their,
+
+at their court date, they had
+their phone taken into the back room?
+
+How many people in here
+had their retina scanned?
+
+Wow.
+
+Um, so you guys are actually in a sense
+the canaries in the coal mine.
+
+Right, because the incentives
+are all lined up against you.
+
+Anybody see on the subway,
+
+"Link your MetroCard
+to your debit card," right?
+
+Like, auto-refill?
+
+This is a concept which is key
+to everything we'll talk about today.
+
+And it's called linkability:
+
+Take one piece of data and link it
+to another piece of data.
+
+So, for example,
+if you have your MetroCard
+
+and you have your debit card,
+you have those things
+
+and you can draw a line
+between them, right?
+
+So that's, like, not a scary thing,
+except your bank card is tied
+
+to everything else that you do
+during the day.
+
+So now they know where you're going,
+when you make purchases.
+
+So when they decide to target you,
+
+they can actually
+recreate your exact steps.
+
+With a MetroCard
+and with a credit card, alone,
+
+like literally where you go
+and what you buy,
+
+and potentially by linking
+that data with other people
+
+on similar travel plans,
+
+they can figure out who you talk to
+and who you met with.
+
+When you then take cell phone data,
+which logs your location,
+
+and you link up purchasing data,
+
+MetroCard data, and your debit card,
+
+you start to get
+what you could call "metadata"
+
+in aggregate over a person's life.
+
+And metadata, in aggregate, is content.
+
+It tells a story about you
+which is made up of facts,
+
+but is not necessarily true.
+
+So for example, just because
+you were on the corner
+
+and all those data points point to it,
+it doesn't mean you committed the crime.
+
+So it's important to note that
+
+if someone has a perception
+of you having done a thing,
+
+it will now follow you
+for the rest of your life.
+
+So just keep in mind
+that what happens to you guys,
+
+for example, with fingerprints
+and retinal scans and photographs,
+
+that is what is going to
+happen to people in the future
+
+when they resist policy changes
+and when they try to protest
+
+in a totally constitutionally
+protected way.
+
+This is for you, Director Clapper,
+again on the surveillance front,
+
+and I hope we can do this
+in just a yes or no answer
+
+because I know Senator Feinstein
+wants to move on.
+
+So, does the NSA
+collect any type of data at all
+
+on millions or hundreds
+of millions of Americans?
+
+No, sir.
+
+It does not?
+
+Not wittingly.
+
+There are cases
+where they could inadvertently,
+
+perhaps, collect, but not wittingly.
+
+The encrypted archive should
+be available to you within seven days.
+
+The key will follow
+when everything else is done.
+
+The material I provide,
+and investigative effort required
+
+will be too much for any one person.
+
+I recommend at a very minimum,
+you involve Glenn Greenwald.
+
+I believe you know him.
+
+The plain text of the payload
+
+will include my true name details
+for the record...
+
+though it will be your decision
+as to whether
+
+or how to declare my involvement.
+
+My personal desire is that you paint
+the target directly on my back.
+
+No one, not even my most
+trusted confidante,
+
+is aware of my intentions,
+
+and it would not be fair for them
+to fall under suspicion for my actions.
+
+You may be the only one
+who can prevent that,
+
+and that is by immediately
+nailing me to the cross
+
+rather than trying
+to protect me as a source.
+
+On timing, regarding
+meeting up in Hong Kong.
+
+The first rendezvous attempt
+
+will be at 10:00 a.m. local time
+on Monday.
+
+We will meet in the hallway outside
+of a restaurant in the Mira Hotel.
+
+I will be working on a Rubik's Cube
+so you can identify me.
+
+Approach me, and ask if I know
+the hours of the restaurant.
+
+I'll respond by stating that
+I'm not sure,
+
+and suggest you try the lounge instead.
+
+I'll offer to show you where it is,
+and at that point we're good.
+
+You simply need to follow naturally.
+
+As far as positioning,
+I mean, if you want us to sit
+
+in any particular way or whatever.
+
+You know, I'm gonna go there,
+to try to get better light.
+
+So, um, there's, you know,
+so many different
+
+enormous stories
+
+just, that are kind of
+stand alone stories,
+
+that even, like, you know,
+
+certain things
+about an individual document
+
+that can just be their own story.
+
+And I just want to start
+churning those stories out.
+
+I basically woke up this morning
+and already started writing stories.
+
+So I'm hoping to, you know,
+
+start publishing
+like within a day or two days.
+
+- Okay.
+- As long as you're good with that.
+
+- Yeah.
+- Um, and...
+
+So, as far as like the stuff
+we have to talk about,
+
+I'm kind of dichotomizing it,
+
+between stuff that
+I'd like to talk to you about
+
+in terms of like the documents
+and the content,
+
+and Laura has a bunch of
+questions about that as well,
+
+sort of working through the documents,
+
+getting your take on
+a lot of this stuff that,
+
+you know, will help me
+understand it better.
+
+But then also the sort of "you" story,
+
+like the who you are, what you've done,
+
+why you've done what you've done.
+
+- Yeah.
+- And I'd love to do that first.
+
+Okay.
+
+Um, in part because you're
+the only one who can do that.
+
+So I'd just like to get that done
+so that it's done, um,
+
+and also because, you know,
+
+it might be that
+you want to do that early.
+
+- Because...
+- Who knows what could happen...
+
+It might be necessary, we might
+choose to have that done early.
+
+Tell me your thoughts on
+where you are with that...
+
+The primary one on that,
+
+I think I've expressed that
+a couple times online,
+
+is I feel the modern media has
+a big focus on personalities.
+
+Totally.
+
+And I'm a little concerned
+the more we focus on that,
+
+the more they're gonna use
+that as a distraction.
+
+And I don't necessarily
+want that to happen,
+
+which is why I've consistently
+said, you know,
+
+"I'm not the story here."
+
+Nervous, huh?
+
+No, it's a very, very cheap pen,
+
+that just with the slightest
+force broke, go ahead.
+
+But uh, yeah,
+
+anything I can do to help you guys
+
+get this out I will do.
+
+I don't have,
+uh, any experience with media,
+
+with how this works,
+so I'm kind of learning as I go.
+
+Right, so I just want to get a sense
+
+of why did you decide to do
+what you've done.
+
+So, for me,
+it all comes down to state power
+
+against the peoples' ability to
+meaningfully oppose that power.
+
+And I'm sitting there, uh, every day
+
+getting paid to design methods
+
+to amplify that state power.
+
+And I'm realizing that if, you know,
+
+the policy switches
+that are the only things
+
+that restrain these states,
+
+were changed, there...
+
+you couldn't meaningfully oppose these.
+
+I mean you would have to be
+
+the most incredibly sophisticated,
+
+technical actor in existence.
+
+I mean, I'm not sure there's anybody,
+
+no matter how gifted you are,
+
+who could oppose all of the offices
+
+and all the bright people,
+even all the mediocre people
+
+out there with all of their tools
+and all their capabilities.
+
+And as I saw the promise
+of the Obama administration
+
+be betrayed and walked away from
+
+and in fact, actually advance...
+
+Uh-huh, uh-huh.
+
+...the things that had been promised
+
+to be sort of curtailed
+and reigned in and dialed back,
+
+and actually get worse,
+particularly drone strikes,
+
+which I also learned at NSA,
+
+we could watch drone videos
+from our desktops.
+
+As I saw that, that really
+hardened me to action.
+
+- In real time?
+- In real time.
+
+Yeah, you... it'll stream
+
+a lower quality of the video
+to your desktop.
+
+Typically you'd be watching
+surveillance drones
+
+as opposed to actually
+like you know murder drones
+
+where they're going out there
+and bomb somebody.
+
+But you'll have a drone that's just
+following somebody's house
+
+for hours and hours.
+
+And you won't know who it is,
+
+because you don't have
+the context for that.
+
+But it's just a page,
+
+where it's lists
+and lists of drone feeds
+
+in all these different countries,
+
+under all these different code names,
+
+and you can just click on
+which one you want to see.
+
+Right, but, so if your self-interest
+
+is to live in a world in which
+there's maximum privacy,
+
+doing something
+that could put you into prison,
+
+in which your privacy
+is completely destroyed,
+
+is sort of the antithesis of that.
+
+How did you reach the point where that
+was a worthwhile calculation for you?
+
+I remember what the Internet was like
+before it was being watched,
+
+and there's never been anything
+in the history of man that's like it.
+
+I mean, you could again have children
+
+from one part of the world
+having an equal discussion
+
+where, you know,
+they were sort of granted,
+
+um, the same respect
+for their ideas and conversation,
+
+with experts in a field
+from another part of the world,
+
+on any topic, anywhere,
+anytime, all the time.
+
+And it was free and unrestrained.
+
+And we've seen, uh, the chilling of that
+
+and the cooling of that
+and the changing of that model,
+
+toward something in which people
+self-police their own views,
+
+and they literally make jokes
+about ending up on "the list"
+
+if they donate to a political cause
+
+or if they say something
+in a discussion.
+
+Uh, and it's become an expectation
+
+that we're being watched.
+
+Um, many people I've talked to
+have mentioned that
+
+they're careful about what
+they type into search engines
+
+because they know that
+it's being recorded.
+
+And that limits the boundaries
+of their intellectual exploration.
+
+Uh... and I'm...
+
+I am more willing to risk imprisonment,
+
+or any other negative outcome,
+personally,
+
+than I am willing to risk
+
+the curtailment
+of my intellectual freedom
+
+and that of those around me
+
+whom I care for, uh,
+equally, as I do for myself.
+
+And again, that's not to say
+that I'm self-sacrificing,
+
+because it gives me...
+
+I feel good in my human experience
+
+to know that I can contribute
+to the good of others.
+
+Could you elaborate on that?
+
+So, I don't know
+how much of the programs
+
+and the actual technical capacities
+everybody's talked to you about,
+
+but there's an infrastructure in place
+in the United States and worldwide...
+
+that NSA has built,
+
+in cooperation with
+other governments as well...
+
+that intercepts basically
+every digital communication,
+
+every radio communication,
+every analog communication
+
+that it has sensors in place to detect.
+
+And with these capabilities, basically,
+
+the vast majority of human
+
+and computer-to-computer communications,
+
+device-based communications,
+
+which sort of inform the relationships
+
+between humans,
+
+are automatically ingested
+without targeting.
+
+And that allows individuals
+to retroactively
+
+search your communications
+based on self-certifications.
+
+So, for example, if I wanted to see
+the content of your email,
+
+or, you know, your wife's phone calls,
+or anything like that,
+
+all I have to do is
+use what's called a "selector,"
+
+any kind of thing
+in the communications chain
+
+that might uniquely or almost uniquely
+
+identify you as an individual.
+
+And I'm talking about things
+like email addresses,
+
+IP addresses, phone numbers,
+credit cards,
+
+um, even passwords
+that are unique to you
+
+that aren't used by anyone else.
+
+I can input those into the system,
+
+and it will not only go back
+through the database
+
+and go, "Have I seen this
+anywhere in the past?"
+
+It will,
+
+basically put an additional
+level of scrutiny on it,
+
+moving into the future, that says,
+
+"If this is detected now
+or at anytime in the future
+
+I want this to go to me immediately,
+
+and alert me in real time"
+that you're communicating with someone.
+
+Things like that.
+
+So I don't know who you are
+or anything about you.
+
+Okay. Um...
+
+I work for Booz Allen Hamilton,
+
+a defense contractor,
+
+I'm sort of on loan to NSA.
+
+I don't talk to a Booz Allen boss,
+
+I don't get tasking from Booz Allen,
+it's all from NSA.
+
+- Sorry, I don't know your name.
+- Oh, sorry!
+
+I, uh... my name is Edward Snowden.
+
+I go by Ed. Um...
+
+Edward Joseph Snowden is the full name.
+
+- S-N...
+- O-W-D-E-N
+
+And where are you from?
+
+I'm originally, I was born
+in North Carolina,
+
+uh, small town, Elizabeth City.
+
+There's a Coast Guard station there.
+I'm from a military family.
+
+But I spent most of my time
+
+growing up around Fort Meade
+in Maryland.
+
+And your family,
+what's the consequences for them?
+
+This is actually
+what has made this hardest.
+
+My family doesn't know what's happening.
+
+They're unaware.
+
+I don't think I'll be able
+to keep the family ties
+
+that I've had for my life, um,
+
+because of the risk
+of associating them with this.
+
+And I'll leave, you know,
+what to publish on this
+
+and what not to publish to you guys.
+
+I trust you to be responsible on this.
+
+Um, but basically,
+the closer I stay to my family,
+
+the more likely they are to be
+leaned on, you know.
+
+So you don't want me to report this?
+
+I mean, we definitely want
+to do whatever we can
+
+not to include them
+or bring them into the mix.
+
+Yeah, yeah, sure,
+that's fine, I won't...
+
+I'm sorry, let me interrupt you.
+
+Can we just stop for a second and do
+the documents and then go back to that?
+
+- Does that makes sense?
+- Sure.
+
+What do I need?
+
+Do I need an email address
+that we're using, or...?
+
+Well, so you can, you can send them...
+
+once you've encrypted it, you can send it
+from whatever you think is appropriate.
+
+The main thing is you've got
+to encapsulate all of this
+
+in a way that it can't be
+decrypted and read
+
+when it's in transit
+across the network...
+
+Right.
+
+...or on either of the end
+points that it's received at.
+
+Just so you know, these documents are
+
+basically all gonna be uploaded
+in like 48 hours, 72 hours, whatever...
+
+This is simply... you want to get in
+the process of doing this for everything,
+
+because it seems hard, but it's not hard,
+his is super easy.
+
+So just walk me through it, and...
+
+Okay. Show me... show me
+the actual folder structure
+
+where these files are first.
+
+How many documents
+did you say there were?
+
+Seven.
+
+Well, while you're working
+did you want to...?
+
+Okay, go ahead.
+
+How many documents are we talking about?
+
+Because when The Guardian did WikiLeaks,
+
+technical people set up a system
+
+so they were available
+for anybody to see.
+
+And I just wondered
+if it's possible to do the same thing?
+
+That would be the ideal end game,
+
+um, but because some of these documents
+
+are legitimately classified in ways
+
+that could cause harm to people
+and methods...
+
+I'm comfortable in my technical
+ability to protect them,
+
+I mean you could literally
+shoot me or torture me,
+
+and I could not disclose
+the password if I wanted to.
+
+Um, you know, I have
+the sophistication to do that.
+
+There are some journalists
+that I think could do that,
+
+but there are a number of them
+that couldn't.
+
+But the question becomes,
+
+can an organization actually
+control that information
+
+in that manner without risking
+
+basically an uncontrolled disclosure?
+
+But I do agree with that.
+
+Honestly, I don't want to be the person
+
+making the decisions on
+
+what should be public
+and what shouldn't.
+
+Which is why, rather than
+publishing these on my own,
+
+or putting them out openly,
+I'm running them through journalists.
+
+So that my bias,
+you know, and my things...
+
+Because clearly
+I have some strongly held views,
+
+are removed from that equation,
+
+and the public interest
+is being represented
+
+in the most responsible manner.
+
+Yeah.
+
+Actually, given your sort of, you know,
+
+geographic familiarity
+with the UK and whatnot,
+
+I'd like to point out that GCHQ has, uh,
+
+probably the most invasive...
+
+I've heard about that.
+
+...network intercept program
+anywhere in the world.
+
+Yeah, yeah.
+
+It's called Tempora, T-E-M-P-O-R-A,
+
+and it's the world's first "full take,"
+
+they call it, and that means content
+
+in addition to metadata, on everything.
+
+Um, so this is what I'd like
+to do in terms of scheduling,
+
+if it's good with everybody else.
+
+Um, are you... do you feel like
+you're done with what you...?
+
+I am done.
+
+I'm anxious to go back,
+get those articles done.
+
+And then there's a bunch of
+documents that aren't about
+
+those first two or three stories that
+I'd like to spend time with you...
+
+- Sure, yeah...
+- ...you know, kind of going over it.
+
+- Um, and...
+- I'm not going anywhere!
+
+You're available?
+You want to check your book first?
+
+Yeah! Let me...
+uh... let me check my schedule.
+
+Is that good for you, Laura?
+
+- It's great.
+- Okay.
+
+Hello?
+
+Yes.
+
+My meal was great, thank you very much.
+
+No, I still have some left, and I think
+I'm gonna be eating it later.
+
+So, uh, you can just
+leave me alone for now.
+
+Okay, great. Thank you so much.
+
+Have a good one. Bye.
+
+Let's fix that real quick.
+
+So uh, another fun thing,
+I was telling Laura about this:
+
+all these new VOIP phones,
+they have little computers in them,
+
+and you can hot mic these
+over the network...
+
+all the time,
+even when the receiver's down.
+
+So as long as it's plugged in,
+it can be listening in on you.
+
+And I hadn't even considered
+that earlier, but yeah.
+
+Okay.
+
+There are so many ways this could be...
+
+Everything in here is gonna be
+on the public record at some point.
+
+We, we should operate on that,
+that basis, because...
+
+Yeah, we are.
+
+Do you have your air-gapped
+machine with you?
+
+I do, I do.
+
+You can pop that out.
+
+Do you have an understanding
+or commitment
+
+on when you guys are going to
+press with the first stories?
+
+I suppose seven or eight
+in the morning in London.
+
+Uh-huh, okay.
+
+Now let's see here.
+
+Oh, hey, look, there's the other one.
+
+Pro tip, let's not leave
+the same SD cards
+
+in our laptops forever, in the future.
+
+Did you know this was still
+kicking around in your laptop?
+
+Yeah, um, that was the...
+
+- Okay, just making sure.
+- Okay, yeah.
+
+- This is that.
+- Right there.
+
+You will have a new one that looks exactly
+identical that's a different archive,
+
+so you might want to
+take a Sharpie to it, or something.
+
+Could you pass me
+my magic mantle of power?
+
+Mm-hmm. I'm gonna go pick up...
+
+Is that about the possibility of...
+
+Visual... yeah, visual collection.
+
+I don't think at this point there's
+anything that will shock us.
+
+We've become pretty...
+
+In fact, Ewen said before, he's like,
+he's like "I'm never leaving my room...
+
+I'm never leaving anything in my room
+again, not a single machine."
+
+I was like, "You've been
+infected by the paranoia bug.
+
+- Happens to all of us!"
+- Yeah.
+
+The way he said it, he was like,
+
+"I would never leave a single device
+in the room again alone."
+
+My bag is getting heavier and heavier.
+
+That's your evil influence, Ed.
+
+All right, I'm going need you
+to enter your root password
+
+because I don't know what it is.
+
+If you want to use this,
+you're more than welcome to.
+
+Looks like your root password's about
+four characters long anyway, so...
+
+It's usually a lot longer, but that's
+just a one-time-only thing, right?
+
+So it is... uh...
+
+It had been a lot longer,
+but ever since I knew that
+
+it was just like a one time
+only session one,
+
+I've been making it shorter.
+Is that not good?
+
+It's actually not.
+I was expressing this with Laura.
+
+The issue is, because of the fact that
+it's got a hardware mac address
+
+and things like that, if people are able
+
+to identify your machine,
+and they're able to...
+
+This is the fact you're about
+to break the most upsetting story...
+
+Right, that's true, that's true.
+
+Yeah, so they might kind of
+prioritize you...
+
+It's ten letters. I type very quickly.
+
+It actually is ten letters.
+
+Okay, so ten letters would be good
+
+if they had to brute force
+the entire keyspace.
+
+Right.
+
+That would still probably
+only take a couple days for NSA.
+
+That's a fire alarm.
+
+Okay.
+
+Hopefully it just sounds like
+a three second test.
+
+Or is... do you want to call
+the desk and ask?
+
+I think it's fine.
+
+Yeah, I don't think it's an issue,
+but it's interesting that it just...
+
+Did that happen before?
+
+Maybe they got mad when they couldn't
+listen in to us via the phone anymore.
+
+Has the fire alarm gone off before?
+
+No, that's the first time
+that's happened.
+
+Let me see, just in case,
+
+they've got an alert that goes to...
+
+That's unusual.
+
+- You probably...
+- We might have to evacuate.
+
+...shouldn't ignore that.
+
+I don't know.
+
+- It's not continuous.
+- It's not continuous.
+
+No, I'm just saying, if it continues.
+
+And then we go and we meet
+the guys down in the lobby...
+
+- Yeah, right?
+- Yeah.
+
+Yeah, let's uh, let's leave it for now.
+
+Let me just finish this up.
+
+All right.
+
+Not that they're going to answer,
+
+because they probably got
+like 7,000 calls.
+
+Hi, uh, we hear a loud buzzing
+
+on the tenth floor,
+can you tell us what that is?
+
+Oh, okay.
+
+Okay great. Thank you. Bye.
+
+Fire alarm testing maintenance.
+
+That's good. That's what
+we wanted to hear.
+
+Nice of them to uh...
+
+nice of them to let us know
+about that in advance.
+
+Um...
+
+I just wanted to
+give you kind of a quick tour,
+
+uh, when Laura was looking at this,
+she was kind of salivating
+
+and couldn't stop actually
+reading the documents...
+
+Right, right.
+
+So we'll try and restrain ourselves
+without promising that we'll succeed.
+
+Yeah, I just wanted to kind of explain
+
+a brief overview of what these are
+and how they're organized.
+
+Um, the beginning are
+just some documents of interest.
+
+The primary purpose
+of the second archive
+
+is to bring the focus over to SSO,
+
+as opposed to uh, PRISM.
+
+And this is in general.
+
+SSO are the Special Source Operations,
+
+those are the worldwide
+passive collection on networks.
+
+They're both domestic to the US
+and international.
+
+There's a lot of different ways
+they do it,
+
+but corporate partnerships
+are one of the primary things,
+
+uh, they do domestically,
+they also do this with multinationals
+
+that might be headquartered
+in the US they can kind of coerce,
+
+or just pay into giving them access.
+
+And they also do it bilaterally, with
+the assistance of certain governments.
+
+And that's basically
+on the premise that they go,
+
+"All right, we'll help you
+set this system up
+
+if you give us all the data from it."
+
+Um, so yeah...
+
+There's, there's...
+
+There's a lot more in here than any
+one person or probably one team could do.
+
+Right.
+
+Um, XKeyscore DeepDive,
+XKeyscore in general,
+
+and there's a huge folder
+of documentation
+
+on XKeyscore and how it works,
+
+is the front-end system
+that analysts use
+
+for querying that sort of ocean of
+raw SIGINT that I was telling you about.
+
+All of that stuff where you can
+sort of do the retroactive searches
+
+and live searches
+and get flagging and whatnot,
+
+XKeyscore is the front end for that.
+
+I'm just gonna show you one slide here
+
+'cause Laura thought it was valuable,
+
+and I was talking about
+kind of how these,
+
+uh, capabilities ramp up
+in sophistication over time.
+
+This is kinda nice.
+As of fiscal year 2011,
+
+they could monitor one billion
+telephone or Internet sessions
+
+simultaneously per one of these devices.
+
+And they could collect at the rate
+of about 125 gigabytes a second,
+
+which is a terabit.
+
+That's just each one of these devices.
+
+That's for each one of these, yeah.
+
+And how many Tumult machines
+would there be, then?
+
+Uh... per this, back then,
+there were 20 sites,
+
+there's 10 at DOD installations,
+but these are all outdated.
+
+We've expanded pretty rapidly.
+
+But still 20 sites,
+that's at least 20 billion.
+
+This all needs to get out,
+you know I mean?
+
+It's like...
+
+just in terms of understanding
+the capabilities. It's so opaque.
+
+It's not science fiction.
+This stuff is happening right now.
+
+No, that's what I mean, it's like,
+the, the magnitude of it, and...
+
+and, like, this is a pretty
+inaccessible technical document,
+
+but even this, like, is really chilling.
+
+- Do you know what I mean?
+- Yeah.
+
+Yeah, I mean we should have...
+we should be having debates about
+
+whether we want governments...
+
+I mean, this is massive
+and extraordinary.
+
+It's amazing.
+
+Even though you know it,
+even though you know that...
+
+to see it, like,
+the physical blueprints of it,
+
+and sort of
+the technical expressions of it,
+
+really hits home
+in like a super visceral way
+
+that is so needed.
+
+This is CNN Breaking News.
+
+An explosive new report
+is reigniting the concerns
+
+that your privacy is being violated
+to protect America's security.
+
+It reveals a court order giving
+the National Security Agency
+
+blanket access to millions of Verizon
+customers' records on a daily basis.
+
+Earlier I had the chance to
+conduct the first TV interview
+
+with the reporter who broke
+this story wide open:
+
+Glenn Greenwald of The Guardian.
+
+Congratulations on the scoop.
+
+Explain for our viewers
+why this is important.
+
+It's important
+because people have understood
+
+that the law that this was done under,
+
+which is the Patriot Act,
+enacted in the wake of 9/11,
+
+was a law that allowed the government
+
+very broad powers
+to get records about people
+
+with a lower level of suspicion than
+probable cause, the traditional standard.
+
+So it's always been assumed
+that under the Patriot Act,
+
+if the government had even any suspicion
+
+that you were involved
+in a crime or terrorism,
+
+they could get a lot of
+information about you.
+
+What this court order does
+that makes it so striking,
+
+is that it's not directed
+at any individuals
+
+who they believe or have suspicion
+of committing crimes
+
+or are part of a terrorist organization,
+
+it's collecting the phone records
+of every single customer
+
+of Verizon business
+
+and finding out every single call that
+they've made, internationally and locally,
+
+so it's indiscriminate
+and it's sweeping.
+
+It's a government program
+designed to collect information
+
+about all Americans, not just people
+
+where they believe there's reason
+to think they've done anything wrong.
+
+Ah, it's, it's a tough situation,
+
+you know, hearing that
+the person that you love,
+
+that you've spent the decade with,
+
+may not be coming back.
+
+What did they ask her?
+
+Um, when was the last time she saw me,
+
+where am I, um, what am I doing,
+
+you know, what does she know about
+
+my illness, things like that.
+
+Uh...
+
+so.
+
+Yeah, they're um...
+they're pretty solidly aware.
+
+'Cause, uh...
+
+I'm clearly not at home ill.
+
+- Hello?
+- Hello?
+
+Hello, let me disconnect
+from the Internet.
+
+So, there's some news?
+
+Yes, there was indeed some news.
+I have config.
+
+Today, I think,
+maybe just a few hours ago?
+
+What... what kind of people visited?
+
+Uh...
+
+An H.R. lady, I'm assuming from NSA
+
+as opposed to,
+uh, as opposed to Booz Allen,
+
+because she was accompanied
+by a police officer,
+
+which means NSA police.
+
+And they were planning
+to break into my house,
+
+which regular police don't do.
+
+Does she live there?
+
+Yeah, she lives there.
+So I told her to cooperate fully...
+
+I can't find my phone,
+just one second...
+
+You know, don't worry about herself.
+
+You know what, I'll just
+take out the stuff I wanna use...
+
+Okay.
+
+Okay, well look, I mean,
+this is not a surprising development.
+
+Nah, I know, I planned for it,
+but it's just, you know,
+
+when it's impacting them
+and they're talking to you,
+
+it's a little bit different.
+
+Absolutely.
+
+But it's possible that they just
+noticed that you're missing.
+
+I guess it's not really a possibility.
+
+It is, but they're, I mean...
+
+Um... Let me just get rid of this.
+
+Sorry, I obviously was focused on
+other things than appearance this morning.
+
+How was... How did she react?
+Was she relatively calm about it?
+
+She's relatively calm...
+
+Does she know anything about
+what you're doing and why?
+
+She has no idea.
+
+And that's, I mean, I...
+
+I feel badly about that, but that's
+the only way I could think of where,
+
+like, she can't be in trouble.
+
+Did you just basically do a,
+"I have to go somewhere
+
+for reasons that I can't tell you
+about" kind of thing, or...?
+
+I just disappeared
+when she was on vacation.
+
+Um, and I left a note saying, "Hey, I'm
+going to be gone for a while for work,"
+
+which isn't unusual for me
+in my business.
+
+- Right.
+- You know, so...
+
+Okay, so let me ask you
+a couple things just quickly.
+
+Are they gonna be able to go into
+your stuff and figure out what you took?
+
+Um, in some kind of...
+
+some sort of, like, peripheral senses,
+but not necessarily...
+
+- Not with great specificity.
+- Yes.
+
+Because I cast such a wide net.
+
+If they do that the only thing
+they're gonna do is have a heart attack
+
+because they're gonna go,
+"He had access to everything."
+
+Yeah.
+
+And they're not gonna know
+what specifically has been done.
+
+I think they're gonna start to
+actually feel a little better,
+
+although they're not gonna be wild
+
+about this in any case,
+when they see that the stories
+
+are kind of cleaving to a trend,
+you know, it's not like,
+
+"Here's the list of everybody
+who works everywhere."
+
+Right.
+
+I also think, you know, they're gonna
+be paranoid in the extreme,
+
+and assuming all kinds of
+worst case scenarios,
+
+which is gonna,
+you know, I think make them
+
+react in ways that probably aren't,
+
+like, gonna be particularly
+rational on their part.
+
+But, at the same time,
+
+there's... I do think
+they're limited for the moment.
+
+I agree, and I mean,
+I had kinda time to set a stage
+
+where we all enjoy at least
+a minimum level of protection,
+
+you know, no matter who we are,
+who's involved in this,
+
+you know, you're either a journalist,
+or you're either out of jurisdiction,
+
+so we have some time to play this
+before they can really get nasty.
+
+I think it's over, you know, the weeks
+when they have times,
+
+to get lawyers really sort of go,
+"This is a special situation.
+
+How can we interpret this
+to our advantage?"
+
+We... we see them do this
+all the time, you know,
+
+whether it's drones
+or wiretapping or whatever,
+
+they'll go, "Well according
+to this law from the 1840s,
+
+you know, with X, Y, or Z authority..."
+
+But that takes time.
+And that takes agreement...
+
+And also, you know, I mean,
+
+I think the more public we are
+out there too, like as journalists,
+
+the more protection
+that's gonna give as well.
+
+Have you started to give thought to
+when you're ready to come forward?
+
+I'm ready whenever, um...
+
+Honestly, I think
+there's sort of an agreement
+
+that it's not going to bias
+the reporting process.
+
+That's my primary concern at this point.
+
+I don't want to get myself
+into the issue
+
+before it's gonna happen anyway,
+and where it takes away
+
+from the stories that are getting out.
+
+We're talking about tens
+of millions of Americans,
+
+who weren't suspected of doing anything,
+
+who were surveilled in this way.
+
+Hold your thoughts for a moment.
+I want to continue this conversation
+
+because these are really important,
+sensitive issues,
+
+and the public out there
+has a right to know what's going on.
+
+This is CNN Breaking News.
+
+Another explosive article
+has just appeared,
+
+this time in The Washington Post.
+
+It's breaking news
+and it reveals another broad
+
+and secret US government
+surveillance program.
+
+The Washington Post
+and The Guardian in London
+
+reporting that the NSA and the FBI
+
+are tapping directly
+into the central servers
+
+of nine leading Internet companies,
+
+including Microsoft,
+Yahoo, Google, Facebook,
+
+AOL, Skype, YouTube, and Apple.
+
+The Post says they're extracting audio,
+
+video, photographs, emails, documents,
+
+and connection logs that enable analysts
+
+to track a person's movements
+and contacts over time.
+
+Let's discuss this latest revelation...
+they're coming out fast. Bill Binney,
+
+former official of the NSA
+who quit back in 2001,
+
+you were angry over what was going on,
+
+you are known
+as a whistleblower right now.
+
+Bill, what do you think about
+this Washington Post story?
+
+Well, I assume it's just a continuation
+of what they've been doing all along.
+
+So you're not surprised.
+
+Do you have any idea who is
+leaking this information?
+
+I don't know who leaked this.
+
+I have no doubt that the administration
+
+will launch an investigation,
+
+not into who approved these programs
+but into who leaked the information.
+
+I'm not shocked
+the companies are denying it,
+
+- I don't assume...
+- Do you believe them?
+
+There may be some technical basis
+
+on which they can say that
+we are not actively collaborating
+
+or they don't have what we consider
+in our own definition
+
+to be direct access to our servers
+
+but what I do know is that I've talked
+to more than one person
+
+who has sat at a desk at a web portal
+
+and typed out commands and reached
+into those servers from a distance.
+
+So whatever they want to call that,
+that's what's happening.
+
+Well, what I would call it
+is the single biggest infringement
+
+on American civil liberties
+probably of all time, isn't it?
+
+It's interesting, already
+you have The New York Times
+
+now today saying that the administration
+has lost all credibility.
+
+The New York Times
+slammed President Obama for this,
+
+and frankly I was used to that.
+
+The New York Times
+used to slam George Bush
+
+for protecting the country
+and for the steps he took.
+
+I don't want us to drop our guard,
+I don't want us to be struck again.
+
+As we saw in Boston,
+Anderson, people are willing
+
+to sacrifice their civil liberties.
+
+People sheltered inside...
+
+How can you believe
+in freedom, do you think...
+
+I mean, try and play
+Devil's Advocate for me,
+
+when you have secret courts,
+secret operations like PRISM,
+
+secret investigations which go
+into every spit and cough
+
+of every American's lives,
+
+without any member of the American
+public knowing about it.
+
+That's not freedom, is it?
+
+In 2008, they eliminated
+the warrant requirement
+
+for all conversations
+except ones that take place
+
+by and among Americans
+exclusively on American soil.
+
+So they don't need warrants
+now for people
+
+who are foreigners outside of the US,
+
+but they also don't need
+warrants for Americans
+
+who are in the United States
+communicating with people
+
+reasonably believed to be
+outside of the US.
+
+So again, the fact that there are
+no checks, no oversight
+
+about who is looking
+over the NSA's shoulder,
+
+means that they can take
+whatever they want.
+
+And the fact that it's all
+behind a wall of secrecy
+
+and they threaten people
+who want to expose it,
+
+means that whatever they're doing,
+even violating the law,
+
+is something that we're unlikely to know
+until we start having real investigations
+
+and real transparency into
+what it is that the government is doing.
+
+Glenn Greenwald, congratulations again
+on exposing what is a true scandal.
+
+I appreciate you joining me.
+
+I just heard from Lindsay,
+
+and uh, she's still alive,
+which is good, and free.
+
+My rent checks apparently are no longer
+
+getting through to my landlord,
+
+uh, so they said if we don't pay them
+
+in five days we'll be evicted,
+which is strange
+
+because I've got a system set
+up that automatically pays them.
+
+Uh, so there's that,
+
+and apparently
+there's construction trucks
+
+all over the street of my house,
+so that's uh...
+
+I wonder what they're looking for.
+
+It is... uh, it is an unusual feeling
+that's kind of hard to...
+
+hard to like describe or...
+or convey in words,
+
+but not knowing what's going to
+happen the next day,
+
+the next hour, the next week,
+it's scary,
+
+but at the same time it's liberating.
+
+You know, the, uh...
+
+the planning comes a lot easier
+
+because you don't have that many
+variables to take into play.
+
+You can only act and then act again.
+
+Now all these phone calls
+are being recorded digitally,
+
+not for content
+but for origin and destination,
+
+now word the government is going
+right into the servers
+
+of these large Internet companies.
+
+How does the government,
+politically speaking,
+
+make the argument that this is
+essential to national security
+
+and not a dramatic overreach
+in terms of personal privacy?
+
+It's difficult Matt, because,
+as Peter was pointing out,
+
+overnight we had an extraordinary,
+late-night... close to midnight...
+
+announcement and a declassification
+
+from the Director
+of National Intelligence.
+
+They are scrambling.
+
+The administration's already supported
+strongly by leaders in both parties
+
+from the intelligence committees.
+
+GCHQ has an internal Wikipedia,
+at the top secret,
+
+you know, super classified level, uh,
+
+where anybody working intelligence
+can work on anything they want.
+
+Yep.
+
+That's what this is, I'm giving it to you,
+you can make the decisions on that,
+
+what's appropriate, what's not.
+
+It's going to be
+documents of different types,
+
+pictures and PowerPoints,
+Word documents, stuff like that.
+
+- Um...
+- Sorry, can I take a seat?
+
+Yeah.
+
+Sorry, I get you to repeat,
+so in these documents they all show...
+
+Yeah, there'll be a couple
+more documents on that,
+
+that's only one part though.
+
+Like, it talks about Tempora
+and a little more thing,
+
+that's the Wiki article itself.
+
+It was also talking about
+a self-developed tool
+
+called UDAQ, U-D-A-Q.
+
+It's their search tool
+for all the stuff they collect,
+
+was what it looked like.
+
+It's going to be projects,
+
+it's going to be troubleshooting pages
+for a particular tool...
+
+Thanks.
+
+Um... what's the next step?
+
+When do you think you'll go public?
+
+Ah, I think it's pretty soon,
+I mean with the reaction,
+
+this escalated more quickly.
+
+I think pretty much as soon as they start
+trying to make this about me,
+
+which should be any day now.
+
+Yep.
+
+I'll come out just to go,
+
+"Hey, this is not a question of somebody
+skulking around in the shadows."
+
+These are public issues,
+these are not my issues,
+
+you know, these are everybody's issues.
+
+And I'm not afraid of you, you know.
+
+You're not going to bully me into silence
+like you've done to everybody else.
+
+And if nobody else
+is gonna do it, I will,
+
+and hopefully when I'm gone,
+whatever you do to me,
+
+there will be somebody else
+who'll do the same thing.
+
+It'll be the sort of Internet
+principle of the hydra.
+
+You know, you can stomp one person,
+but there's gonna be seven more of us.
+
+Yeah.
+
+Are you getting more nervous?
+
+I mean, no.
+
+I think, uh...
+
+I think the way I look at stress,
+
+particularly because I sort of
+knew this was coming,
+
+you know, because I sort of volunteered
+
+to walk into it, um...
+
+I'm already sort of familiar
+with the idea.
+
+I'm not worried about it.
+
+When somebody, like, busts in the door?
+
+Suddenly I'll get nervous,
+and it'll affect me,
+
+but until they do...
+I don't know, you know.
+
+I'm eating a little less,
+that's the only difference, I think.
+
+Let's talk about the issue with,
+
+when we're gonna say who you are.
+
+Yeah.
+
+This is, you know, you have to
+talk me through this.
+
+Because I have a big worry about this.
+
+Okay, tell me.
+
+Which is that, if we come out and...
+
+I know that you believe
+that your detection
+
+is inevitable and that
+it's inevitable imminently.
+
+There's, you know,
+in the New York Times today,
+
+Charlie Savage, the fascinating
+Sherlock Holmes of political reporting,
+
+deduced that the fact that there's
+been these leaks in succession
+
+probably means that there's some
+one person who decided to leak...
+
+Somebody else quoted you
+as saying it was one of your readers,
+
+and somebody else put another thing,
+
+So, you know, it's fine.
+I want people...
+
+I want it to be like,
+you know, like, this is a person...
+
+I want to start introducing the concept
+that this is a person
+
+who has a particular set
+of political objectives
+
+about informing the world
+about what's taking place.
+
+So I'm keeping it all
+anonymous, totally,
+
+but I want to start introducing you
+
+in that kind of incremental way.
+
+But... here's the thing.
+
+What I'm concerned is that
+if we come out and say,
+
+"Here's who this is,
+here's what he did,"
+
+the whole thing that we talked about,
+
+that we're gonna basically be doing
+the government's work for them.
+
+And we're basically
+going to be handing them,
+
+you know, a confession,
+
+and helping them identify who found it.
+
+Maybe you're right,
+
+maybe they'll find out quickly,
+and maybe they'll know,
+
+but is there any possibility
+that they won't?
+
+Are we kind of giving them
+stuff that we don't... or, or...
+
+The possibility that they know
+
+but they don't want to reveal it
+because they don't know.
+
+Or that they don't know and we're
+going to be telling them, like...
+
+Is it a possibility that they're going
+to need two, three months of uncertainty,
+
+and we're going to be
+solving that problem for them?
+
+Or, let me just say, the or part,
+maybe it doesn't matter to you,
+
+maybe you wanted...
+
+You're not coming out
+because you think inevitably
+
+they're going to catch you,
+and you want to do it first,
+
+you're coming out because
+you want to fucking come out.
+
+- And you wanna be heard.
+- Well, there is that.
+
+I mean that's the thing,
+I don't want to hide on this
+
+and skulk around,
+I don't think I should have to.
+
+Um, obviously there are circumstances
+that are saying that,
+
+and I think it is powerful
+to come out and be like,
+
+look, I'm not afraid, you know,
+
+and I don't think
+other people should either.
+
+I was sitting in the office
+right next to you last week.
+
+You know, we all have a stake in this.
+This is our country.
+
+And the balance of power between
+the citizenry and the government
+
+is becoming that of the ruling
+and the ruled
+
+as opposed to actually, you know,
+the elected and the electorate.
+
+Okay, so that's what I needed
+to hear, that this is not about...
+
+But I do want to say:
+
+I don't think there's a case
+that I'm not going to be discovered
+
+in the fullness of time,
+it's a question of time frame.
+
+You're right, it could take them
+a long time. I don't think it will.
+
+But I didn't try to hide
+the footprint because again,
+
+I intended to come forward
+the whole time.
+
+I'm going to post this morning just
+a general defense of whistleblowers...
+
+That's fine, yeah.
+
+...and you in particular without
+saying anything about you.
+
+I'm gonna go post that
+right when I get back.
+
+And I'm also doing like
+a big fuck-you to all the people
+
+who keep, like,
+talking about investigations.
+
+I want that to be...
+
+The fearlessness and the fuck-you to,
+
+like, the bullying tactics has gotta be
+
+completely pervading everything we do.
+
+And I think that's brilliant.
+
+Your principles on this I love,
+I can't support them enough.
+
+Because it's inverting the model
+that the government has laid out,
+
+where people who are trying to,
+you know, say the truth
+
+skulk around and they hide in the dark
+
+and they quote anonymously
+and whatnot...
+
+I say yes, fuck that, let's just...
+
+Okay, so here's the plan then.
+
+And this is the thing.
+
+I think we just all felt the fact
+
+that this is the right way to do it.
+
+You feel the power of your
+choice, you know what I mean?
+
+I want that power
+to be felt in the world.
+
+And it is...
+
+it's the ultimate standing up to them.
+
+Right, like,
+"I'm not gonna fucking hide,
+
+even for like one second,
+
+I'm gonna get right in your face.
+
+You don't have to investigate,
+
+there's nothing to investigate,
+here I am."
+
+- Yeah.
+- You know?
+
+And I just think that is
+just incredibly powerful.
+
+And then the question just becomes
+
+how do we do this in the right...
+
+you know, the perfect way,
+and that's my burden.
+
+And that's what I'm gonna...
+
+So today is gonna be
+the story in the morning,
+
+assuming that it doesn't change
+with The Guardian,
+
+it's gonna be the story in the morning,
+
+just to keep the momentum going,
+just to keep the disclosures coming,
+
+a big one at night.
+
+Now it's becoming, like, okay,
+this is a major leak, and after today,
+
+when we post the two things
+that we're gonna post,
+
+it's gonna be,
+"What the fuck is this leak,
+
+and who did it," I guarantee you.
+
+I just want to make sure...
+move over slightly.
+
+Do you want me to move
+a little more over, or, okay.
+
+I just wanna... all right.
+
+All right, we're rolling.
+
+So let's just begin with some
+basic background information,
+
+like, just state your name,
+
+what position you held
+in the intelligence community,
+
+and... and how long you
+worked within that community.
+
+Okay, um, just so I'm aware of
+where we're going,
+
+how in depth are we going,
+just in general,
+
+like 'I'm currently
+an infrastructure analyst
+
+you know, Booz Allen Hamilton,
+
+not going through
+my whole back story...'
+
+- Yeah.
+- Okay.
+
+Just like, yeah, summary kind of...
+
+Okay.
+
+Uh, My name's Ed Snowden,
+I'm, uh, 29 years old,
+
+I work for Booz Allen Hamilton
+
+as an infrastructure analyst
+for NSA, uh, in Hawaii.
+
+And what are some of the positions
+
+that you held previously within
+the intelligence community?
+
+Uh, I've been, uh, a systems engineer,
+systems administrator,
+
+uh, senior advisor, uh, for the, uh,
+
+Central Intelligence Agency,
+
+solutions consultant and a, uh,
+
+telecommunications informations
+systems officer.
+
+And what kind of clearances have...
+
+have you held,
+what kind of classification?
+
+Uh, Top Secret, uh... Hm...
+
+So people in my levels of access
+for systems administration
+
+or as a... a infrastructure analyst,
+
+typically have, uh, higher accesses
+
+than an NSA employee
+would normally have.
+
+Normal NSA employees have
+a combination of clearances
+
+called TS, SI, TK, and Gamma.
+
+Um, that's Top Secret,
+
+uh, Signals Intelligence,
+Talent Keyhole, and Gamma.
+
+And they all,
+uh, relate to certain things
+
+that are sort of core
+to the NSA mission.
+
+As a systems administrator,
+
+you get a special clearance
+called PRIVAC,
+
+for Privileged Access,
+
+which allows you to be exposed
+
+to information of any classification,
+
+regardless of what your position
+actually needs.
+
+Just before we go,
+a reminder of our top story,
+
+that's that
+the former CIA technical worker
+
+Edward Snowden says he's responsible
+for leaking information
+
+that US authorities had been
+monitoring phone and Internet data.
+
+The US Justice Department confirmed
+
+it's in the first stages
+of a criminal investigation.
+
+Leave it longer or cut it shorter,
+what do you think?
+
+As far as the video that people saw?
+
+- Am I less identifiable now?
+- Lose it?
+
+Cause I can't go all the way down.
+It's still gonna be stubble.
+
+I don't have the blade for closer.
+
+Will you be talking to any
+other media about this story today?
+
+I am.
+
+Will you be coming to our
+office at Associated Press?
+
+We'd be interested to ask about where
+is Snowden now, what his plans are.
+
+I'm not going to talk about that,
+so unless you have other questions,
+
+it's gonna be a fruitless interview.
+
+What are your plans, please?
+
+Are you staying in Hong Kong
+for the time being?
+
+For a little while.
+
+And do you have any hopes
+to write more about this story,
+
+or are you stopping
+new writing about this story?
+
+No, I'm gonna continue
+to write about it.
+
+Have you had any pressure
+from the US authorities
+
+- about continuing to report on this?
+- No.
+
+And have you heard anything
+about what could be the attitude
+
+of Hong Kong authorities
+towards this case,
+
+whether they've contacted you
+or asked you anything about
+
+the whereabouts of Snowden
+and whether that is another...
+
+I haven't heard from the authorities
+of any government.
+
+And where do you think
+the story is going, for you
+
+and of course for Snowden,
+and of course for the US media
+
+and the US administration in general?
+
+Well, for me I can tell, I'm
+gonna continue to report on...
+
+do my reporting on what
+the government has been doing
+
+and what I think my readers
+should know about.
+
+Um, as for him, I don't...
+I don't think anyone knows.
+
+They could have people come after me
+
+or any of their third-party partners.
+
+You know, they work closely
+with a number of other nations.
+
+Or, you know,
+they could pay off the triads.
+
+You know, any of their agents or assets,
+
+uh... we have a CIA station
+just up the road,
+
+at the consulate here in Hong Kong.
+
+Hello, I'm Daniela Ritorto.
+The top story this hour:
+
+facing a criminal investigation,
+the whistleblower who revealed details
+
+on how the US is monitoring phone
+calls and Internet data goes public.
+
+Security forces in Afghanistan
+say a number of Taliban insurgents
+
+have targeted Kabul's airport.
+
+Now it's time for our newspaper review
+
+and looking at what's making
+headlines around the world.
+
+Let's start with The Guardian,
+our top story,
+
+which is revealing the identity
+of the former CIA employee
+
+who the paper says leaked information
+
+exposing the scale of American
+surveillance of the Internet.
+
+Edward Snowden.
+
+What a great story.
+
+Kira, Ewen, what do you think?
+
+Well, I think it's a fantastic story...
+
+first off, it could be straight
+out of a John Le Carre novel.
+
+I mean, when you read what he did,
+yes, he got the material.
+
+He then decided to go
+to the place he identified
+
+as being very difficult
+for America to get at him...
+
+God damn it.
+
+...which is Hong Kong, because,
+of course, technically inside China,
+
+the one country,
+two systems policy there,
+
+meaning he would get potentially
+some protection abroad.
+
+All very well-planned. It could have
+been just out of a spy novel.
+
+But what about the details?
+
+Well, that could make it worse, but...
+
+I don't know, only shows
+the lower half of my face.
+
+Snowden says he'd become
+increasingly dismayed
+
+by what he saw as
+the growing power of the NSA,
+
+hence his decision to pass on documents
+
+which are said to reveal
+not only that the organization
+
+monitored millions of phone calls,
+
+but that it had direct access
+to some of the biggest...
+
+How do you feel?
+
+Um...
+
+what happens, happens.
+We've, uh, we've talked about this.
+
+I knew what the risks were.
+
+If I get arrested, I get arrested.
+
+Um...
+
+We were able to get the information,
+uh, that needed to get out, out.
+
+And you and Glenn
+are able to keep reporting,
+
+regardless of what happens to me.
+
+Now what 29-year-old
+Edward Snowden said that US...
+
+The Guardian newspaper
+reveals his identity...
+
+Yes?
+
+...from Washington,
+David Willis has this.
+
+Uh, I'm sorry, who's asking?
+
+Uh, I'm afraid you have the wrong room.
+
+Thank you.
+
+Wall Street Journal.
+
+Yes?
+
+Uh, I'm sorry, say again?
+
+Uh, no. No thank you. No calls.
+
+I think they have the wrong number.
+
+Yeah, no calls. Thank you.
+Uh, wait, I'm sorry.
+
+If it's uh, if it's two men
+from the front desk,
+
+they can call, but no outside calls...
+
+Wait, actually, just let them through.
+
+Wait, wait, ma'am? Fuck!
+
+Yes?
+
+Uh, wait, is it... is it a lawyer?
+
+Yeah, no, no, no, I mean
+the people who are asking,
+
+ask them if they are lawyers.
+
+Uh, no. Tell her that, uh,
+she has the wrong number
+
+and there's no Mr. Snowden here.
+
+Hi, Robert, can you talk right now?
+
+I safely got into the room.
+
+I'm now safely with the client, okay?
+
+So, can we talk together about the plan?
+
+Did this application start already
+or what? Technically?
+
+Yeah, but...
+
+So technically it hasn't started yet.
+
+Would you mind to talk in speakerphone?
+
+Sorry.
+
+Hey, Robert.
+
+Yeah, hi.
+
+Hi, I'm the client.
+
+Hi, Edward, how are you holding up?
+
+Uh, pretty good. I'm doing well.
+
+Okay, I just met with the head
+of the UNHCR here in Hong Kong,
+
+and they are aware that you are raising
+
+the protection you are entitled to
+under the UNHCR and
+
+and they would like you
+to come in with us to the UN.
+
+Okay.
+
+If you come now, it's lunchtime,
+
+but they're gonna let us in.
+No one else can get in.
+
+Okay.
+
+At the UNHCR there are
+separate exits from the building
+
+so we have a good opportunity,
+
+if any of the media
+finds out you're there...
+
+Yeah.
+
+...you'll be able to exit
+a different way from the building.
+
+Okay, that's great.
+Is it okay if I bring equipment?
+
+'Cause I'm just kind of going
+
+so I can leave in any direction
+at any time
+
+and not come back, if necessary.
+
+Just walk out of there.
+You don't have to go back.
+
+Okay.
+
+Take whatever you want with you,
+and just go with Mr. Man.
+
+I will pick you... he knows where
+I'm gonna pick you guys up,
+
+and then I'll bring you to the UNHCR.
+
+Okay, that sounds good.
+
+Thank you, uh, thank you
+so much for helping me.
+
+He's quite worried about the next step,
+
+about accommodation,
+where he is going to stay,
+
+whether there is something private and
+he would not be discovered by the police.
+
+Don't worry about that now.
+Let's just get him to the UN.
+
+Okay, I see.
+
+Okay, I will give you a call
+before we start, okay?
+
+- Okay, thank you.
+- Okay, thank you.
+
+- Bye-bye.
+- Bye.
+
+So...
+
+We don't have a car.
+
+Okay.
+
+What I'm thinking...
+
+we may ask the concierge
+to arrange a car,
+
+or we just go down and catch a taxi.
+
+But it's quite...
+
+The traffic here in Tsim Sha Tsui
+is quite difficult to get a taxi.
+
+Yeah...
+
+And so is there a precedent for this,
+
+where Hong Kong would extradite
+someone for political speech?
+
+No, I'm not aware of.
+
+But if we have a torture claim
+
+or asylum-seeking claim,
+
+then they ought, under the law,
+
+they ought to give you recognizance
+
+for you to stay in Hong Kong
+
+because they don't know
+where to dump you back yet.
+
+The president certainly
+does not welcome the way
+
+that this debate has earned
+greater attention in the last week,
+
+the leak of classified information
+about sensitive programs
+
+that are important in our fight
+against terrorists
+
+who would do harm to Americans,
+is a problem.
+
+But the debate itself is legitimate
+and should be engaged.
+
+"The US Spied on Millions of
+Brazilian Emails and Phone Calls"
+
+I'd like to show you
+the new document now.
+
+You'll see it much more clearly.
+
+This map shows the cables they use
+to collect the data for PRISM.
+
+Here it shows how much
+they are collecting.
+
+The thicker the line,
+the more they're collecting.
+
+You can see these lines,
+
+the cables, are quite thick
+in the south of Brazil
+
+and up north in the Sea of Brazil.
+
+So they're collecting a lot
+through the PRISM program,
+
+which I think is very important
+because PRISM is Facebook,
+
+Skype, YouTube, Yahoo, Hotmail.
+
+And it shows a lot
+is being stolen from Brazil.
+
+But we don't know how much
+the Brazilian government knows,
+
+or whether it's collaborating
+with Brazilian companies.
+
+But we're going to know, I believe.
+
+One day we will know everything.
+Or almost everything.
+
+Yes.
+
+All right, so which ones
+do we want here, then?
+
+This is operational stuff,
+so we mustn't say any of this...
+
+So redact that.
+
+Go... go to top.
+
+What about the Alexander quote?
+
+Yeah, that's in TARMAC.
+
+"Why can't we collect
+all the signals all the time?
+
+Sounds like a good summer
+homework project for Menwith."
+
+Keith Alexander, the head of the NSA,
+on a visit to UK.
+
+- This one.
+- Yeah.
+
+Secret document, isn't it?
+Secret document.
+
+We've got a stick here that should
+just have three single slides on them.
+
+If it's got more than three single slides,
+we have to be extremely careful.
+
+- Yeah?
+- Yeah, that's it.
+
+This is really dangerous
+stuff for us, The Guardian, isn't it?
+
+You make mistakes and at the very end
+where we kept it all under lock and key...
+
+And no one knows. I'm not saying that...
+
+They will come in and smack
+the front door down if we...
+
+if we elaborate on that.
+
+He said the Prime Minister's
+extremely concerned about this.
+
+And they kept saying,
+"This is from the very top."
+
+As you can see on this map,
+
+the flight that reportedly
+has Snowden aboard
+
+has almost reached
+its destination here in Moscow,
+
+scheduled to land in the
+Russian capital within minutes.
+
+As you may have heard,
+there is a CIA Agent
+
+who has revealed a lot of information,
+
+and he is now trapped in the,
+um, the airport in Moscow.
+
+We managed to get him out of Hong Kong,
+
+but when he landed
+in the Moscow airport,
+
+the American government
+had canceled his passport.
+
+So, formally, he hasn't
+entered into Russian territory.
+
+He is in the transit area
+of the airport,
+
+and one of our people
+is accompanying him.
+
+We are trying to arrange
+a private jet to, um
+
+take him from Moscow to Ecuador
+
+or perhaps maybe Venezuela
+or maybe Iceland,
+
+countries where he will be safe.
+
+The floor is yours,
+for the time that you deem necessary.
+
+Thank you and hello.
+
+First of all, Americans' justification
+for everything
+
+since the September 11 attacks
+is terrorism.
+
+Everything is in the name
+of national security,
+
+to protect our population.
+
+In reality, it's the opposite.
+A lot of the documents
+
+have nothing to do with
+terrorism or national security,
+
+but with competition between countries,
+
+and with companies' industrial,
+financial, or economic issues.
+
+Secondly, there's XKeyscore.
+
+When we first started
+publishing articles,
+
+the US government's defense
+
+was that it was not invading
+the content of communications,
+
+just taking the metadata.
+
+That means the names
+of the people talking,
+
+who is calling whom, call durations.
+
+But if I know all the people
+you are communicating with,
+
+and everyone
+they are communicating with,
+
+where you are
+when you are communicating,
+
+the call duration and the location,
+
+then I can learn a lot
+about your personality,
+
+your activity, and your life.
+
+This is a major invasion of privacy.
+
+In reality, that defense
+is totally false.
+
+The US government has the ability
+to get not only metadata,
+
+but the actual content of your emails
+or what you say on the phone,
+
+the words you type into Google searches,
+
+the websites you visit,
+
+the documents you send to colleagues.
+
+This system can track nearly everything
+that every individual is doing online.
+
+So if you're a journalist investigating
+the American government,
+
+if you work for a company
+with American competitors,
+
+or if you work in human rights
+involving the American government,
+
+or any other field,
+
+they can very easily
+intercept your communication.
+
+If you're an American living in the US,
+
+they have to seek permission
+from a court,
+
+but they always get it.
+
+But if you're not American,
+they don't need anything,
+
+no special permission at all.
+
+I think the consequences of eliminating
+privacy are difficult to predict,
+
+but we must understand that this
+will have an enormous impact.
+
+The population's ability
+to have demonstrations
+
+or to organize is greatly reduced
+when people don't have privacy.
+
+May I collect all phones, please?
+
+Okay.
+
+I have everything here, so...
+
+Put them in the refrigerator.
+
+So...
+
+So as you know, in June,
+
+Snowden was charged
+with three legal violations,
+
+felonies, principally under
+a World War I-era criminal law
+
+called the Espionage Act.
+
+The Espionage Act
+is an extremely broad criminal
+
+prohibition against the sharing
+or dissemination
+
+of what's called
+national defense information.
+
+It was only used to,
+uh, prosecute people
+
+who had been accused of acting
+with a foreign power.
+
+Spies, not whistleblowers.
+
+And it's a very unusual
+legal representation, I think,
+
+not just for all of you
+but for me as well.
+
+The Espionage Act does not
+distinguish between leaks
+
+to the press in the public interest
+
+and selling secrets to foreign enemies
+
+for personal profit.
+
+So under the Espionage Act,
+it's not a defense
+
+if the information that was
+disclosed should not have been
+
+withheld in the first place,
+that it was improperly classified,
+
+it's not a defense if the dissemination
+
+was in the public interest,
+that it led to reforms,
+
+um, even if a court determines
+that the programs
+
+that were revealed were illegal
+or unconstitutional,
+
+that's still not a defense
+under the Espionage Act,
+
+the government doesn't have
+to defend the classification,
+
+it doesn't have to demonstrate
+harm from the release,
+
+um, all of this is irrelevant.
+
+So when we say
+that the trial wouldn't be fair,
+
+we're not talking about
+what human rights lawyers
+
+think of as fair trial practices.
+
+We're saying the law,
+the statute itself...
+
+eliminates
+any kind of defense that Snowden
+
+might be able to make,
+
+and essentially would equate him
+with a spy.
+
+And of course those
+three counts could be increased
+
+to a hundred or two hundred
+or three hundred.
+
+They could charge him separately
+for each document
+
+that has been published by a journalist.
+
+And I think that...
+that we all recognize,
+
+even though we sit here
+as lawyers in a lawyer's meeting,
+
+that it's probably 95 percent politics
+
+and five percent law
+how this will be resolved.
+
+Mr. Snowden has been charged
+with very serious crimes,
+
+and he should be returned
+to the United States
+
+where he will be granted
+full due process
+
+and every right available to him
+as a United States citizen...
+
+facing our justice system
+under the Constitution.
+
+No, I don't think
+Mr. Snowden was a patriot.
+
+I called for a thorough review
+of our surveillance operations
+
+before Mr. Snowden made these leaks.
+
+My preference, and I think the
+American peoples' preference,
+
+would have been for a lawful,
+
+orderly examination of these laws.
+
+A thoughtful, fact-based debate,
+
+uh, that would then lead us
+to a better place.
+
+Oh, my God. David.
+
+Hello, my baby, how you doing?
+
+- I'm okay.
+- You okay?
+
+Let's go.
+
+I just want to go home.
+
+Okay, okay, you just have to walk.
+
+How are you?
+
+Good, I'm totally fine,
+I didn't sleep at all,
+
+- I couldn't sleep.
+- I know.
+
+"Brazil Demands Explanation
+from UK Government"
+
+Recent reports have
+revealed that the NSA
+
+have access to encryption keys
+
+and they paid tech companies
+
+to introduce back doors
+in encryption protocols.
+
+So we're going to talk about
+
+ways in which we can defend ourselves
+
+against governments spying on us.
+
+So Mr. Jacob Applebaum is an encryption
+
+and security software developer
+and journalist.
+
+Ladar Levinson is the founder
+of the encrypted email service
+
+Lavabit, used by Edward Snowden.
+
+You have the floor.
+
+Thank you.
+
+Lavabit is an email service
+that hopefully one day will be able
+
+to stand on its own without
+any references to Snowden.
+
+My service was designed to remove me
+
+from the possibility of being
+forced to violate a person's privacy.
+
+Quite simply,
+Lavabit was designed to remove
+
+the service provider from the equation.
+
+By not having logs on my server
+and not having access
+
+to a person's emails on disk,
+
+I wasn't eliminating
+the possibility of surveillance,
+
+I was simply removing myself
+from that equation.
+
+In that surveillance would have
+to be conducted on the target,
+
+either the sender
+or the receiver of the messages.
+
+But I was approached by the FBI
+quite recently
+
+and told that because I couldn't
+turn over the information
+
+from that one particular user,
+
+I would be forced to give up
+those SSL keys
+
+and let the FBI collect
+every communication
+
+on my network without
+any kind of transparency.
+
+And of course...
+
+I wasn't comfortable with that,
+to say the least.
+
+More disturbing was the fact that
+
+I couldn't even tell anybody
+that it was going on.
+
+So I decided if I didn't win
+the fight to unseal my case,
+
+if I didn't win the battle
+to be able to tell people
+
+what was going on,
+
+then my only ethical choice left
+was to shut down.
+
+Think about that.
+
+I believe in the rule of law,
+
+I believe in the need
+to conduct investigations.
+
+But those investigations are
+supposed to be difficult for a reason.
+
+It's supposed to be difficult
+to invade somebody's privacy.
+
+Because of how intrusive it is.
+
+Because of how disruptive it is.
+
+If we can't... if we don't
+have our right to privacy,
+
+how do we have a free
+and open discussion?
+
+What good is the right to free speech...
+
+if it's not protected...
+
+in the sense that you can't have
+a private discussion
+
+with somebody else about
+something you disagree with.
+
+Think about the chilling effect
+that that has.
+
+Think about
+the chilling effect it does have
+
+on countries that don't have
+a right to privacy.
+
+I've noticed a really
+interesting discussion point.
+
+Which is that what people used
+to call liberty and freedom,
+
+we now call privacy.
+
+And we say, in the same breath,
+that privacy is dead.
+
+This is something that really
+concerns me about my generation.
+
+Especially when we talk about
+how we're not surprised by anything.
+
+I think that we should consider that
+
+when we lose privacy,
+we lose agency, we lose liberty itself.
+
+Because we no longer feel
+free to express what we think.
+
+There's this myth of the passive
+surveillance machine.
+
+But actually what is
+surveillance, except control?
+
+This notion that the NSA
+are passive, this is nonsense.
+
+What we see is that they actively
+attack European citizens,
+
+American citizens, and in fact,
+anyone that they can
+
+if they perceive an advantage.
+
+And then there's the key
+paragraph that says
+
+it was the SCS that intercepted
+
+Chancellor Merkel's mobile phone.
+
+We have the number.
+
+What will you tell the German people?
+
+I'll have to give that in testimony.
+
+- What are you going to tell?
+- Everything I can, truthfully.
+
+What will you talk about?
+
+Whatever the questions they ask me.
+
+- Yeah, I think it's over there.
+- Okay, all right. Thank you.
+
+Hello, Mr. Binney.
+
+Hey, how are you? How are you?
+Good to see you again.
+
+Nice to meet you again, yes.
+
+It is my pleasure to be here.
+I feel that it's important to testify
+
+about what's really going on
+behind the scenes
+
+in the intelligence communities
+around the world.
+
+Not just in NSA.
+
+All those programs that
+Edward Snowden has exposed
+
+fundamentally are ways
+of acquiring information.
+
+Every dictatorship down through
+history has always done that.
+
+One of the first things they need to do
+
+is try to acquire knowledge
+of their population.
+
+And that's exactly
+what these programs do.
+
+I see this as the most major threat
+to our democracies all around the world.
+
+What do you think
+they're doing to reporters,
+
+those of us that are working directly
+
+with the Snowden documents?
+
+How do you think they would approach
+dealing with people like us?
+
+You're on the cast iron cover list.
+
+Which means any...
+any electronic device you use
+
+that they can attach to you they'll record
+and capture all that data.
+
+And what do they do with that data?
+Trying to figure out what we're doing?
+
+Uh, well, that's part of it,
+
+but the other part for them I think
+
+is to find the sources
+of information you're getting.
+
+So if I have a confidential source
+
+who's giving me information
+as a whistleblower,
+
+and he works within the US government,
+
+and he's concerned about
+
+what he perceives as violations
+of the Constitution,
+
+and he gets in touch with me,
+they... go ahead.
+
+From there on, they would nail him
+and start watching everything he did,
+
+and if he started passing data,
+I'm sure they'd take him off the street.
+
+I mean, the way you'd have to do
+it is like Deep Throat did, right?
+
+In the Nixon years.
+
+Meet in the basement
+of a parking garage, physically.
+
+"Let's disassociate
+our metadata one last time...
+
+so we don't have a record
+of your true name
+
+in our final communication chain.
+
+This is obviously not to say
+you can't claim your involvement,
+
+but as every trick in the book
+is likely to be used in looking into this,
+
+I believe it's better that
+that particular disclosure
+
+come on your own terms.
+
+Thank you again for all you've done.
+
+So sorry again for the multiple delays,
+
+but we've been in uncharted territory
+with no model to benefit from.
+
+If all ends well, perhaps
+the demonstration that our methods worked
+
+will embolden more to come forward.
+
+Citizen."
+
+So the update that I wanna give you
+
+is about the new, um...
+
+the new source that we...
+
+Okay.
+
+That... This is what...
+
+This is the person
+who's doing the most...
+
+Mm-hmm, right.
+
+...the work on it, um...
+
+And now, basically what's happened is...
+
+And...
+
+That's actually...
+that's really dangerous.
+
+Um... on the source's side.
+
+Do they know how to
+take care of themselves?
+
+I mean he... it's all being done...
+
+through this.
+
+Okay.
+
+And they're all talking...
+
+this way.
+
+Okay.
+
+I was gonna say,
+one of the big questions there is,
+
+can they handle it?
+
+No, they're very careful.
+
+- Even... through that. Yeah.
+- Okay.
+
+And...
+
+That's where that is.
+
+Wow, that's really something.
+
+Did you know that?
+
+It's not the actual planes.
+
+Right, right, you mean the control.
+
+It's the process,
+who's sending the... yeah.
+
+There's a chart.
+
+There's like a whole layout
+for every one...
+
+That is really bold; it's really risky.
+
+You know, that's the thing,
+if they understand what they're doing...
+
+There's this chart, it goes like this.
+
+It shows the decision-making chart.
+
+It's shaped like this:
+
+- So up here it says...
+- Mm-hmm.
+
+That's the decision-making chart
+for each... one.
+
+- It's so political!
+- This is this part's amazing.
+
+- That's...
+- That's fucking ridiculous.
+
+This is... It's so shocking.
+
+That's... that's the population
+of entire countries.
+
+That's what we're working on.
+
+That person is incredibly bold.
+
+But, um...
+
+But also very well aware.
+
+You know, I just hope... I mean...
+
+No, I mean,
+the boldness of it is shocking,
+
+but it was obviously
+motivated by what you did,
+
+- I mean...
+- This is going to.
+
+This is going to
+That could raise the profile...
+
+of this whole political situation
+
+with whistleblowing
+to a whole new level.
+
+- Exactly.
+- It's gonna...
+
+Yeah, I actually think
+that's a great thing.
+
+And I think people are gonna see
+what's being hidden again,
+
+again, by a totally different part
+of the government.
+
