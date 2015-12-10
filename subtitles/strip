@@ -1,3 +1,10 @@
 #!/bin/bash
 
-cat "$1" | sed -e 's/^[0-9].*//g' -e 's/<font.*//g' -e 's/Subtitle.*//g' | tr -s '\n' > "$2"
+unzip "*.zip"
+
+for f in *.srt; do
+    INFILE="$f"
+    echo -n "Give output name for $INFILE: "
+    read OUTPUT
+    cat "$INFILE" | sed -e 's/^[0-9].*//g' -e 's/<font.*//g' -e 's/Subtitle.*//g' | tr -s '\n' > "$OUTPUT".txt
+done

@@ -1,0 +1,2990 @@
+
+A cofounder of the social, news and entertainment
+website Reddit has been found dead.
+
+He certainly was a prodigy, although
+he never thought of himself like that.
+
+He was totally unexcited
+
+about starting businesses and making money.
+
+There's a profound sense of loss tonight
+in Highland Park, Aaron Swartz's hometown,
+
+as loved ones say goodbye to
+one of the Internet's brightest lights.
+
+Freedom, open access, and computer
+activists are mourning his loss.
+
+"An astonishing intellect", if you talk to people who knew him.
+
+He was killed by the government, and
+MIT betrayed all of its basic principles.
+
+They wanted to make an example out of him, okay?
+
+Governments have an insatiable
+desire to control.
+
+He was potentially facing 35 years
+in prison and a one million dollar fine.
+
+Raising questions of prosecutorial zeal,
+and I would say even misconduct.
+
+Have you looked into that particular matter
+and reached any conclusions?
+
+Growing up, I slowly had this process of
+realizing that all the things around me that
+
+people had told me were just the natural way
+things were, the way things always would be,
+
+they weren't natural at all,
+there were things that could be changed
+
+and there were things that more importantly
+were wrong and should change,
+
+and once I realized that,
+there was really no going back.
+
+Welcome to story reading time.
+
+The name of the book is "Paddington at the Fair".
+
+Well, he was born in Highland Park
+and grew up here.
+
+Aaron came from a family of three
+brothers, all extraordinarily bright.
+
+"Oh, the box is tipping over..."
+
+So we were all, you know,
+not the best behaved children.
+
+You know, three boys running around
+all the time, causing trouble.
+
+"Hey, no, no no!"
+
+– Aaron!
+– What?
+
+But I've come to the realization that Aaron
+learned how to learn at a very young age.
+
+"One, two, three, four, five, six,
+seven, eight, nine, ten!"
+
+- Knock, knock!
+- Who's there?
+
+- Aaron.
+- Aaron who?
+
+- Aaron Funnyman.
+
+He knew what he wanted,
+and he always wanted to do it.
+
+He always accomplished what he wanted.
+
+His curiosity was endless.
+
+"Here's a little picture of what the planets are.
+And each planet has a symbol."
+
+"Mercury symbol, Venus symbol, Earth symbol,
+Mars symbol, Jupiter symbol."
+
+One day he said to Susan, "What's this free
+family entertainment downtown Highland Park?"
+
+"Free family entertainment
+downtown Highland Park."
+
+He was three at the time.
+
+She said, "What are you talking about?"
+
+He said, "Look, it says here on the refrigerator,"
+
+"Free family entertainment downtown Highland Park."
+
+She was floored and astonished that he could read.
+
+It's called "My Family Seder".
+
+The Seder night is different
+from all other nights.
+
+I remember once, we were at
+the University of Chicago Library.
+
+I pulled a book off the shelf
+that was from like 1900,
+
+and showed to him and said, "You know,
+this is really just an extraordinary place."
+
+We all were curious children, but Aaron really
+liked learning and really liked teaching.
+
+"And we're going to learn the ABC backwards."
+
+"Z, Y, X, W, V, U, T..."
+
+I remember, he came home
+from his first Algebra class.
+
+He was like, "Noah, let me teach you algebra!"
+
+And I'm like, "What is algebra?"
+
+And he was always like that.
+
+"Now let's press click button, there! Now it's got that!"
+
+"Now it's in pink!"
+
+When he was about two or three years old,
+and Bob introduced him to computers,
+
+then he just took off like crazy on them.
+
+(baby talk)
+
+We all had computers, but Aaron really
+took to them, really took to the Internet.
+
+- Working at the computer?
+- Nah...
+
+"How come...Mommy, why is nothing working?"
+
+He started programming from a really young age.
+
+I remember the first program
+that I wrote with him was in BASIC,
+
+and it was a Star Wars trivia game.
+
+He sat down with me in the basement,
+where the computer was,
+
+for hours, programming this game.
+
+The problem that I kept having with him is
+that there was nothing that I wanted done,
+
+and to him, there was always something to do,
+
+always something that programming could solve.
+
+The way Aaron always saw it, is that
+programming is magic.
+
+You can accomplish these things
+that normal humans can't.
+
+Aaron made an ATM using like a Macintosh
+and like a cardboard box.
+
+One year for Halloween,
+I didn't know what I wanted to be,
+
+and he thought it would be really, really cool
+if I dressed up like his new favorite computer,
+
+which at the time was the original iMac.
+
+I mean, he hated dressing up for Halloween
+but he loved convincing other people
+
+to dress up as things that he wanted to see.
+
+"Host Aaron, stop!
+Guys, come on, look at the camera!"
+
+"Spiderman looks at the camera!"
+
+He made this website called The Info,
+where people can just fill in information.
+
+I'm sure someone out there knows
+all about gold, gold leafing...
+
+Why they don't write about that on this website?
+And then other people can come at a later point,
+
+and read that information, and edit
+the information if they thought it was bad.
+
+Not too dissimilar from Wikipedia, right?
+
+And this was before Wikipedia had begun,
+and this was developed by a 12-year-old,
+
+in his room, by himself, running on this
+tiny server using ancient technology.
+
+And one of the teachers responds,
+
+"This is a terrible idea, you can't just
+let anyone author the encyclopedia!"
+
+"The whole reason we have scholars
+is to write these books for us."
+
+"How could you ever have such a terrible idea?"
+
+Me and my other brother would be like,
+"Oh, you know, yeah Wikipedia is cool, but..."
+
+"we had that in our house, like, five years ago."
+
+Aaron's website, theinfo.org, wins a school competition
+
+hosted by the Cambridge-based
+web design firm ArsDigita.
+
+We all went to Cambridge when he won the ArsDigita prize
+
+and we had no clue what Aaron was doing.
+
+It was obvious that the prize was really important.
+
+Aaron soon became involved with
+online programming communities,
+
+then in the process of shaping
+a new tool for the Web.
+
+He comes up to me and is like, "Ben, there's this
+really awesome thing that I'm working on."
+
+"You need to hear about it!"
+
+"Yeah, what is it?"
+
+"It's this thing called RSS."
+
+And he explains to me what RSS is.
+I'm like, "Why is that useful, Aaron?"
+
+"Is any site using it?
+Why would I want to use it?"
+
+There was this mailing list for people who are
+working on RSS, and XML more generally,
+
+and there was a person on it named
+Aaron Swartz who was combative but very smart,
+
+and who had lots of good ideas, and
+
+he didn't ever come to the
+face-to-face meetings, and they said,
+
+"You know, when are you gonna come out
+to one of these face-to-face meetings?"
+
+And he said, "You know, I don't think
+my mom would let me. I've just turned fourteen."
+
+And so their first reaction was: "Well, this person,
+this colleague we've been working with all year
+
+was thirteen years old while we were
+working with him, and he's only fourteen now."
+
+And their second reaction was:
+
+"Christ, we really want to meet him.
+That's extraordinary!"
+
+He was part of the committee that drafted RSS.
+
+What he was doing was to help build
+the plumbing for modern hypertext.
+
+The piece that he was working on, RSS,
+was a tool that you can use to get summaries
+
+of things that are going on on other web pages.
+
+Most commonly, you would use this for a blog.
+
+You might have 10 or 20 people's blogs you wanna read.
+
+You use their RSS feeds, these summaries of
+what's going on on those other pages
+
+to create a unified list of all the stuff that's going on.
+
+Aaron was really young, but he understood
+the technology and he saw that it was imperfect
+
+and looked for ways to help make it better.
+
+So his mom started bundling him on planes in Chicago. We'd pick him up in San Francicso.
+
+We'd introduce him to interesting people to argue with, and we'd marvel at his horrific eating habits.
+
+He only ate white food, only like steamed rice and not fried rice 'cause that wasn't sufficiently white
+
+and white bread, and so on...
+
+and you kind of marveled at the quality of the debate emerging from this,
+
+what appeared to be a small boy's mouth,
+
+and you'd think, this is a kid that's really going to get somewhere if he doesn't die of scurvy.
+
+Aaron, you're up!
+
+I think the difference is that now you can't make companies like dotcoms.
+
+You can't have companies that just sell dog food over the Internet, or sell dog food over cell phones.
+
+But there's still a lot of innovation going on.
+
+I think that maybe if you don't see the innovation, maybe your head is in the sand.
+
+He takes on this, like an alpha nerd personality, where he's
+
+sort of like, "I'm smarter than you, and because I'm smarter than you, I'm better than you,
+
+and I can tell you what to do."
+
+It's an extension of, like, him being kind of like a twerp.
+
+So you aggregate all these computers together and now they're solving big problems
+
+like searching for aliens and trying to cure cancer.
+
+I first met him on IRC, on Internet Relay Chat.
+
+He didn't just write code, he also got people excited about solving problems he got.
+
+He was a connector.
+
+The free culture movement has had a lot of his energy.
+
+I think Aaron was trying to make the world work. He was trying to fix it.
+
+He had a very kind of strong personality that definitely ruffled feathers at times.
+
+It wasn't necesarily the case that he was always comfortable in the world
+
+and the world wasn't always comfortable with him.
+
+Aaron got into high school and was really just sick of school.
+
+He didn't like it. He didn't like any of the classes that were being taught. He didn't like the teachers.
+
+Aaron really knew how to get information.
+
+He was like, "I don't need to go to this teacher to learn how to do geometry.
+
+I can just read the geometry book,
+
+and I don't need to go to this teacher to learn their version of American history,
+
+I have, like, three historical compilations here, I could just read them,
+
+and I'm not interested in that. I'm interested in the Web."
+
+I was very frustrated with school. I thought the teachers didn't know what they were talking about,
+
+and they were domineering and controlling, and the homework was kind of a sham,
+
+and it was all just like all about a way to pen students all together and force them to do busywork.
+
+And, you know, I started reading books about the history of education
+
+and how this educational system was developed,
+
+and, you know, alternatives to it and ways that people could actually learn things
+
+as opposed to just regurgitating facts that teachers told them,
+
+and that kind of led me down this path of questioning things, once I questioned the school I was in,
+
+I questioned the society that built the school, I questioned the businesses that the schools were training people for,
+
+I questioned the government that set up this whole structure.
+
+One of the thing he was most passionate about was copyright, especially in those early days.
+
+Copyright has always been something of a burden on the publishing industry and on readers,
+
+but it wasn't an excessive burden. It was a reasonable institution to have in place
+
+to make sure that people got paid.
+
+What Aaron's generation experienced was the collision between this antique copyright system
+
+and this amazing new thing we were trying to build--the Internet and the Web.
+
+These things collided, and what we got was chaos.
+
+He then met Harvard Law Professor Lawrence Lessig,
+
+who was then challenging copyright law in the Supreme Court.
+
+A young Aaron Swartz flew to Washington to listen to the Supreme Court hearings.
+
+I am Aaron Swartz and I'm here to listen to the Eldred--to see the Eldred document.
+
+Why did you fly out here from Chicago, and come all this way to see the Eldred argument?
+
+That's a more difficult question...
+
+I don't know. It's very exciting to see the Supreme Court,
+
+especially in such a prestigious case as this one.
+
+Lessig was also moving forward with a new way to define copyright on the Internet.
+
+It was called Creative Commons.
+
+So the simple idea of Creative Commons is to give people--creators--
+
+a simple way to mark their creativity with the freedoms they intended to carry.
+
+So if copyright is all about "All Rights Reserved", then this is a kind of a "Some Rights Reserved" model.
+
+I want a simple way to say to you, "Here's what you can do with my work,
+
+even if there are other things which you need to get my permission before you could do."
+
+And Aaron's role was the computer part.
+
+Like, how do you architect the licenses so they'll be simple and understandable
+
+and expressed in a way so that machines can process it?
+
+And people were like, "Why do you have this fifteen-year-old kid writing the specifications for Creative Commons?
+
+Don't you think that's a huge mistake?"
+
+And Larry is like, "The biggest mistake we would have done is not listening to this kid."
+
+He barely is not even tall enough to even get over the podium,
+
+and it was this movable podium so it was this embarrassing thing,
+
+where once he put his screen up nobody could see his face.
+
+When you come to our website here, and you go to "Choose License".
+
+It gives you this list of options, it explains what it means, and you've got three simple questions:
+
+"Do you want to require attribution?"
+
+"Do you want to allow commercial uses of your work?"
+
+"Do you want to allow modifications of your work?"
+
+I was floored, just completely flabbergasted that these adults regarded him as an adult,
+
+and Aaron stood up there in front of a whole audience full of people, and just started talking
+
+about the platform that he'd created for Creative Commons,
+
+and they were all listening to him, just...
+
+I was sitting at the back, thinking: he's just a kid, why are they listening to him?
+
+But they did...
+
+Well, I don't think I comprehended it fully.
+
+Though critics have said it does little to ensure artists get paid for their work,
+
+the success of Creative Commons has been enormous.
+
+Currently on the website Flickr alone, over 200 million people use some form of Creative Commons license.
+
+He contributed through his technical abilities, and yet it was not simply a technical matter to him.
+
+Aaron often wrote candidly in his personal blog:
+
+I think deeply about things, and I want others to do likewise.
+
+I work for ideas and learn from people. I don't like excluding people.
+
+I'm a perfectionist, but I won't let that get in the way of publication.
+
+Except for education and entertainment, I'm not going to waste my time
+
+on things that won't have an impact.
+
+I try to be friends with everyone, but I hate it when you don't take me seriously.
+
+I don't hold grudges, it's not productive, but I learn from my experience.
+
+I want to make the world a better place.
+
+In 2004, Swartz leaves Highland Park and enrolls in Stanford University.
+
+He'd had ulcerative colitis which was very troubling, and we were concerned about him taking his medication.
+
+He got hospitalized and he would take this cocktail of pills every day,
+
+and one of those pills was a steroid which stunted his growth,
+
+and made him feel different from any of the other students.
+
+Aaron, I think, shows up at Stanford ready to do scholarship
+
+and finds himself in effectively a babysitting program for overachieving high-schoolers
+
+who in four years are meant to become captains of industry and one-percenters
+
+and I think it just made him bananas.
+
+In 2005, after only one year of college,
+
+Swartz was offered a spot at a new start-up incubation firm called Y Combinator, lead by Paul Graham.
+
+He's like, "Hey, I have this idea for a a website."
+
+And Paul Graham likes him enough, and says, "Yeah, sure."
+
+So Aaron drops out of school, moves to this apartment...
+
+So this used to be Aaron's apartment when he moved here.
+
+I have vague memories of my father telling me how difficult it was to get a lease
+
+'cause Aaron had no credit and he dropped out of college.
+
+Aaron lived in what's now the livingroom and some of the posters are leftover from when Aaron lived here.
+
+And then the library...there are more books, but a lot of them are Aaron's.
+
+Aaron's Y Combinator site was called "infogami", a tool to build websites.
+
+But infogami struggles to find users, and Swartz eventually
+
+merges his company with another Y Combinator project in need of help.
+
+It was a project headed by Steve Huffman and Alexis Ohanian, called "Reddit".
+
+There we were, starting from almost nothing. No users, no money, no code,
+
+and growing day by day into a hugely popular website,
+
+And it showed no signs of letting up.
+
+First we had 1000 users, then 10000, then 20000 and on, and on...It was just incredible.
+
+Reddit becomes huge and it's a real sort of geeky corner of the Internet.
+
+There's a lot of humor, there's a lot of art, and there's just people who flock to the site,
+
+and make that site the main site they go to every morning to get their news.
+
+reddit kind of just borders on chaos at some levels,
+
+so on the one hand it's a place where people discuss news of the day, technology, politics and issues,
+
+and yet there is a lot of kind of Not Safe For Work material, offensive material,
+
+there are some sub-reddits where trolls find a welcome home,
+
+and so, in that sense reddit has been kind of home to controversy, as well.
+
+It kind of sits on that edge of chaos.
+
+reddit catches the attention of the corporate magazine giant Condé Nast,
+
+who makes an offer to buy the company.
+
+Some large amount of money, large enough that my dad was getting bugged with questions
+
+about like: "How do I store this money?"
+
+- Like a lot of money...
+- Like a lot of money.
+
+Like probably more than a million dollars, but I don't actually know.
+
+- And he's how old at the time?
+- 19, 20.
+
+So it was in this apartment. They sat around 
+on what predated these couches,
+
+hacking on Reddit, and when they sold Reddit
+
+they threw a giant party, and then all flew
+out to California the next day,
+
+and left the keys with me.
+
+It was funny, you know, he'd just sold his start-up so we all presumed
+
+he was the richest person around
+
+but he said, "Oh no, I'll take this tiny little
+shoebox-sized room. That's all I need."
+
+It was barely larger than a closet.
+
+The idea of him spending his money on
+fancy objects just seemed so implausible.
+
+He explains it as, "I like living in apartments so I'm not going to spend a lot of money on a new place to live. I'm not gonna buy a mansion,
+
+and I like wearing jeans and a T-shirt,
+
+so I'm not going to spend any more money on clothes.
+
+So it's really no big deal."
+
+What is a big deal to Swartz is how traffic 
+flows on the internet,
+
+and what commands our attention.
+
+In the old system of broadcasting, you're
+fundamentally limited by the amount of
+
+space in the airwaves. You could only send out ten channels over the airwaves, television
+
+or even with cable, you had 500 channels.
+
+On the Internet, everybody can have a channel. 
+Everyone can get a blog, or a MySpace page.
+
+Everyone has a way of expressing themselves.
+
+What you see now is not a question of who gets
+access to the airwaves,
+
+it's a question of who gets control over the 
+ways you find people.
+
+You know, you start seeing power centralizing in sites like Google, theses sort of gatekeepers that tell you
+
+where on the internet you want to go.
+
+The people who provide you your sources of news and information.
+
+So it's not only certain people have a license to speak, now everyone has
+
+a license to speak. It's a question of who gets heard.
+
+After he started working in San Francisco 
+at Condé Nast, he comes into the office
+
+and they want to give him a computer with all
+this crap installed on it
+
+and say he can't install any new things 
+on this computer,
+
+which to developers is outrageous.
+
+From the first day, he was complaining
+about all the stuff.
+
+"Gray walls, gray desks, gray noise. The first
+day I showed up here, I simply couldn't take it.
+
+By lunchtime, I had literally locked myself 
+in a bathroom stall and started crying.
+
+I can't imagine staying sane with someone
+buzzing in my ear all day
+
+Let alone getting any actual work done.
+
+Nobody else seems to get work done here either
+
+Everybody's always coming into our room to 
+hang out and chat, or invite us to play
+
+the new video game system that Wired is testing."
+
+He really had different aspirations that were politically-oriented,
+
+and Silicon Valley just doesn't really quite have that culture
+
+that orients technical activity for the purposes of political goals.
+
+Aaron hated working for a corporation.
+
+They all hate working for Condé Nast, but Aaron
+is the only one who is not going to take it.
+
+And Aaron basically gets himself fired.
+
+By not showing up to work, ever.
+
+It was said to be a messy breakup. 
+Both Alexis Ohanian and Steve Huffman
+
+declined to be interviewed for this film.
+
+He rejected the business world. One of the really important things to remember about
+
+that choice when Aaron decided to leave start-up
+culture is that he was also leaving behind
+
+the things that had made him famous and well-loved, and he was at risk of letting down fans.
+
+He got to where he was supposed to be going, and had the self-awareness
+
+and the orneriness to realize that he had climbed the mountain of shit to pluck
+
+the single rose and discovered that he'd lost his sense of smell,
+
+and rather than sit there and insist that it wasn't as bad as it seemed,
+
+and he did get the rose in any event,
+
+he climbed back down again, which is pretty cool.
+
+The way Aaron always saw it, is that 
+programming is magic--
+
+you can accomplish these things that normal
+humans can't, by being able to program.
+
+So if you had magical powers, would you use 
+them for good, or to make you mountains of cash?
+
+Swartz was inspired by one of the visionaries
+he had met as a child.
+
+The man who had invented the World Wide Web,
+Tim Berners-Lee.
+
+In the 1990s, Berners-Lee was arguably sitting on
+
+one of the most lucrative inventions of 
+the 20th century,
+
+but instead of profiting from the invention 
+of the World Wide Web, he gave it away for free.
+
+It is the only reason the World Wide Web exists today.
+
+Aaron is certainly deeply influenced by Tim.
+
+Tim is certainly a very prominent early Internet genius, who doesn't in any sense cash out.
+
+He's not at all interested in how he's going to figure out how to make a billion dollars.
+
+People were saying, "Ah, there's money to be made there,"
+
+so there would have been lots of little webs,
+
+instead of one big one,
+
+and one little web, and all sorts of webs doesn't work,
+
+because you can't follow links from one to the other.
+
+You had to have the critical masses--the thing was the entire planet,
+
+so it's not going to work unless the whole planet can get on board.
+
+I feel very strongly that it's not enough to just live in the world as it is,
+
+to just kind of take what you're given, and you know, follow the things that adults told you to do,
+
+and that your parents told you to do, and that society tells you to do. I think you should always be questioning.
+
+I take this very scientific attitude, that 
+everything you've learned is just provisional,
+
+that it's always open to recantation or refutation or 
+questioning, and I think the same applies to society.
+
+Once I realized that there were real serious problems--fundamental problems--
+
+that I could do something to address, I didn't see a way to forget that. I didn't see a way not to.
+
+We just started spending a lot of time,
+
+just kind of as friends.
+
+We would just talk, for hours, into the night.
+
+I definitely should have understood that he was flirting with me. I think to some degree,
+
+I was, like, this is a terrible idea, and impossible, and therefore I will pretend it is not happening.
+
+As my marriage was breaking down, and I was
+really stuck without anywhere to go,
+
+we became roommates, and I brought my daughter over.
+
+We moved in, and furnished the house, and it 
+was really peaceful.
+
+My life had not been peaceful for a while, and really neither had his.
+
+We were extremely close from the beginning of our romantic relationship.
+
+We just...we were in constant contact.
+
+But we're both really difficult people to deal with. [laughs]
+
+In a very Ally McBeal discussion, he confessed he had a theme song, and I made him play it for me.
+
+It was "Extraordinary Machine" by Fiona Apple.
+
+I think it was just that sense of kind of being a little bit embattled that the song has,
+
+and it also had, like, this hopefulness to it.
+
+♪ By foot it's a slow climb, but I'm good
+at being uncomfortable so I can't stop
+
+changing all the time ♪
+
+In many ways, Aaron was tremendously optimistic
+about life. Even when he didn't feel it,
+
+he could be tremendously optimistic about life.
+
+♪ Extraordinary machine ♪
+
+- What are you doing?
+(Quinn) - Flicker has video now.
+
+Swartz threw his energy into a string of new
+
+projects involving access to public information,
+
+including an accountability webside called
+Watchdog.net,
+
+and a project called The Open Library.
+
+So, the Open Library Project is a website you can visit at openlibrary.org,
+
+and the idea is to be a huge wiki, an editable website with one page per book.
+
+So for every book ever published, we want to have a web page about it that combines
+
+all the information from publishers, from booksellers, from libraries, from readers
+
+onto one site, and then gives you links where
+you can buy it, you can borrow it, or you can browse it.
+
+I love libraries. I'm the kind of person who 
+goes to a new city and immediately seeks out the library.
+
+That's the dream of Open Library, is building this website where both you can leap
+
+from book to book, from person to author, from subject to idea, go through this vast tree
+
+of knowledge that's been embedded and lost in big physical libraries, that's hard to find,
+
+that's not very well-accessible online. It's really important because books are our cultural legacy.
+
+Books are the place people go to write things down,
+
+and to have all that swallowed up by one corporation is kind of scary.
+
+How can you bring public access to the public domain?
+
+It may sound obvious that you'd have public access to the public domain,
+
+but in fact it's not true. So the public domain should be free to all, but it's often locked up.
+
+There's often guard cages. It's like having a national park but with a moat around it,
+
+and gun turrets pointed out, in case somebody might want to actually come and enjoy the public domain.
+
+One of the things Aaron was particularly interested in was bringing public access to the public domain.
+
+This is one of the things that got him into so much trouble.
+
+I had been trying to get access to federal court records in the United States.
+
+What I discovered was a puzzling system called PACER.
+
+Which stands for Public Access to Court Electronic Records.
+
+I started Googling, and that's when I ran
+across Carl Malamud.
+
+Access to legal materials in the United States is a ten billion dollar per year business.
+
+PACER is just this incredible abomination
+of government services. It's ten cents a page,
+
+it's this most braindead code you've ever seen. You can't search it. You can't bookmark anything.
+
+You've got to have a credit card, and these are public records.
+
+U.S. district courts are very important; it's
+where a lot of our seminal litigation starts.
+
+Civil rights cases, patent cases, all sorts of stuff. Journalists, students, citizens and lawyers
+
+all need access to PACER, and it fights them every step of the way.
+
+People without means can't see the law as readily as people that have that Gold American Express card.
+
+It's a poll tax on access to justice.
+
+You know, the law is the operating system of our democracy, and you have to pay to see it?
+
+You know, that's not much of a democracy.
+
+They make about 120 million dollars a year on the PACER system,
+
+and it doesn't cost anything near that, according to their own records. In fact, it's illegal.
+
+The E-Government Act of 2002 states that the courts may charge only to the extent necessary,
+
+in order to reimburse the costs of running PACER.
+
+As the founder of Public.Resource.Org, Malamud wanted to protest the PACER charges.
+
+He started a program called The PACER Recycling Project,
+
+where people could upload PACER documents they had already paid for
+
+to a free database so others could use them.
+
+The PACER people were getting a lot of flack from Congress and others about public access,
+
+and so they put together a system in 17 libraries across the country that was free PACER access.
+
+You know, that's one library every 22,000 square miles, I believe, so it wasn't like really convenient.
+
+I encouraged volunteers to join the so-called Thumb Drive Corps,
+
+and download docs from the public access libraries, upload them to the PACER recycling site.
+
+People take a thumb drive into one of these libraries, and they download a bunch of documents,
+
+and they send them to me. I mean, it was just a joke.
+
+In fact, when you clicked on Thumb Drive Corps, there was a Wizard of Oz,
+
+you know, the Munchkins singing, so a videoclip came up:
+
+♪ We represent the lollipop guild...♪
+
+But of course, I get this phone calls from Steve Shultz and Aaron, saying,
+
+"Gee, we'd like to join the Thumb Drive Corps."
+
+Around that time, I ran into Aaron at a conference.
+
+This is something that really has to be a collaboration between a lot of different people.
+
+So I approached him and I said,
+
+"Hey, I am thinking about an intervention on the PACER problem."
+
+Schultz had already developed a program that could automatically download PACER documents
+
+from the trial libraries.
+
+Swartz wanted to take a look.
+
+So, I showed him the code, and I didn't know what would come next,
+
+but as it turns out, over the course of the next few hours at that conference,
+
+he was off sitting in a corner, improving my code, recruiting a friend of his
+
+that lived near one of these libraries to go into the library, and to begin to test his improved code.
+
+At which point the folks at the courts realized something is not going quite according to plan.
+
+And data started to come in, and come in, and come in
+
+and soon there was 760 GB of PACER docs, about 20 million pages.
+
+Using information retrieved from the trial libraries,
+
+Swartz was conducting massive automated parallel downloading of the PACER system.
+
+He was able to acquire nearly 2.7 million Federal Court documents, almost 20 million pages of text.
+
+Now, I'll grant you that 20 million pages had perhaps exceed the expectations of the people
+
+running the pilot access project, but surprising a bureaucrat isn't illegal.
+
+Aaron and Carl decided to go talk to The New York Times about what happened.
+
+They also caught the attention of the FBI, who began to stake out Swartz's parents' house in Illinois.
+
+And I get a tweet from his mother, saying, "Call me!!"
+
+So, I think, like, what the hell's going on here?
+
+And so, finally I get a hold of Aaron and, you know, Aaron's mother was like, "Oh my God, FBI, FBI, FBI!"
+
+An FBI agent drives down our home's driveway, trying to see if Aaron is in his room.
+
+I remember being home that day, and wondering why this car was driving down our driveway,
+
+and just driving back up. That's weird!
+
+Like, five years later I read this FBI file, like, oh my goodness: that was the FBI agent, in my driveway.
+
+He was terrified. He was totally terrified.
+
+He was way more terrified after the FBI actually called him up on the phone,
+
+and tried to sucker him into coming down to a coffee shop without a lawyer.
+
+He said he went home and lay down on the bed and, you know, was shaking.
+
+The downloading also uncovered massive privacy violations in the court documents.
+
+Ultimately, the courts were forced to change their policies as a result,
+
+and the FBI closed their investigation without bringing charges.
+
+To this day, I find it remarkable
+
+that anybody, even at the most remote podunk field office of the FBI
+
+thought that a fitting use for taxpayer dollars was investigating people
+
+for criminal theft on the grounds that they had made the law public.
+
+How can you call yourself a lawman,
+
+and think that there could possibly be anything wrong in this whole world
+
+with making the law public?
+
+Aaron was willing to put himself at risk for the causes that he believed in.
+
+Bothered by wealth disparity, Swartz moves beyond technology, and into a broader range of political causes.
+
+I went into Congress, and I invited him to come and hang out and intern for us for a while
+
+so that he could learn the political process.
+
+He was sort of learning about new community and new sets of skills and kind of learning to hack politics.
+
+It seems ridiculous that miners should have to hammer away until their whole bodies are dripping with sweat
+
+faced with the knowledge that if they dare to stop, they won't able to put food on the table that night,
+
+while I get to make larger and larger amounts of money each day just by sitting and watching TV.
+
+But apparently the world <i>is</i> ridiculous.
+
+So, I co-founded a group called "The Progressive Change Campaign Committee",
+
+and what we try and do is we try to organize people over the Internet who care about progressive politics
+
+and moving the country toward a more progressive direction
+
+to kind of come together, join our e-mail list, join our campaigns
+
+and help us to get progressive candidates elected all across the country.
+
+The group is responsible for igniting the grassroots effort behind the campaign to elect Elizabeth Warren to the Senate.
+
+He might have thought it was a dumb system but he came in and he said, "I need to learn this system,
+
+because it can be manipulated like any social system."
+
+But his passion for knowledge and libraries didn't take a back seat.
+
+Aaron began to take a closer look at institutions that publish academic journal articles.
+
+By virtue of being students at a major U.S. university, I assume you have access
+
+to a wide variety of scholarly journals.
+
+Pretty much every major university in the United States pays these sort of licensing fees to organizations like
+
+JSTOR and Thompson Isi to get access to scholarly journals that the rest of the world can't read.
+
+These scholarly journals and articles are essentially the entire wealth of human knowledge online,
+
+and many have been paid for with taxpayer money or with government grants,
+
+but to read them, you often have to pay again handing over steep fees to publishers like Reed-Elsevier.
+
+These licenses fees are so substantial that people who are studying in India, instead of studying in United States,
+
+don't have this kind of access. They are locked out from all of these journals.
+
+They are locked out from our entire scientific legacy.
+
+I mean, a lot of these journal articles, they go back to The Enlightenment.
+
+Every time someone has written down a scientific paper, it's been scanned, digitized, and put in these collections.
+
+That is a legacy that has been brought to us by the history of people doing interesting work, the history of scientists.
+
+It's a legacy that should belong to us as a commons, as a people,
+
+but instead, it has been locked up and put online by an handful of for-profit corporations
+
+who then try to get the maximum profit they can out of it.
+
+So a researcher paid by the university or the people publishes a paper,
+
+and at the very, very last step of that process, after all the work is done,
+
+after all the original research is done--the thinking, the lab work, the analysis, after everything is done,
+
+at that last stage, then the researcher has to hand over his or her copyright to this multi-billion dollar company.
+
+And it's sick. It's an entire economy built on volunteer labor,
+
+and then the publishers sit at the very top and scrape off the cream.
+
+Talk about a scam. One publisher in Britain made a profit of three billion dollars last year.
+
+I mean, what a racket!
+
+JSTOR is just a very, very small player in that story
+
+but for some reason, JSTOR is the player that Aaron decided to confront.
+
+He'd gone to some conference around Open Access and Open Publishing,
+
+and I don't know who the person from JSTOR was,
+
+but I think they--at some point, Aaron asked the question,
+
+"How much would it cost to open up JSTOR in perpetuity?"
+
+And they gave some--I think it was two hundred million dollars,
+
+something that Aaron thought was totally ridiculous.
+
+Working on a fellowship at Harvard, he knew users on MIT's famously open and fast network next door
+
+had authorized access to the riches of JSTOR. Swartz saw an opportunity.
+
+You have a key to those gates,
+
+and with a little bit of shell script magic, you can get those journal articles.
+
+On September 24, 2010,
+
+Swartz registered a newly purchased Acer laptop
+
+on the MIT network, under the name "Garry Host".
+
+The client name was registered as "GHost laptop".
+
+He doesn't hack JSTOR in the traditional sense of hacking.
+
+The JSTOR database was organized,
+
+so it was completely trivial to figure out how you could download all the articles in JSTOR,
+
+because it was basically numbered.
+
+It was basically slash slash slash...number article 444024 and -25 and -26.
+
+He wrote a Python script called keepgrabbing.pi,
+
+which was like, keeping grabbing one article after another.
+
+The next day, GHost laptop begins grabbing articles,
+
+but soon, the computer's IP address is blocked. For Swartz, it's barely a bump in the road.
+
+He quickly reassigns his computer's IP address and keeps downloading.
+
+Well, JSTOR and MIT take a number of steps to try to interfere with this,
+
+when they notice that this is happening,
+
+and when the more modest steps don't work,
+
+then at a certain stage, JSTOR just cuts off MIT from having access to the JSTOR database.
+
+So there's a kind of cat-and-mouse game around
+
+getting access to the JSTOR database.
+
+Aaron, ultimately, obviously is the cat because he has more technical capability
+
+than the JSTOR database people do in defending them.
+
+Eventually, there was an unlocked supply closet in the basement of one of the buildings,
+
+and he went, instead of going through WiFi, he went down there and he just plugged his computer directly into the network
+
+and just left it there with an external hard drive downloading these articles to the computer.
+
+Unknown to Swartz, his laptop and hard drive had been found by authorities.
+
+They didn't stop the downloads.
+
+Instead, they installed a surveillance camera.
+
+They found the computer in this room in the basement of an MIT building.
+
+They could have unplugged it. They could have waited for the guy to come back and said,
+
+"Dude, what are you doing, you know, cut it out. Who are you?"
+
+They could have done all that kind of stuff, but they didn't.
+
+What they wanted to do was film it to gather evidence to make a case.
+
+That's the only reason you film something like that.
+
+At first, the only person caught on the glitchy surveillance camera
+
+was using the closet as a place to store bottles and cans.
+
+But days later, it caught Swartz.
+
+Swartz is replacing the hard drive. He takes it out of his backpack,
+
+leans out of frame for about five minutes,
+
+and then leaves.
+
+And then they organized, like, a stakeout where, as he was biking home from MIT,
+
+these cops came out from either side of the road,
+
+or something like that, and started going after him.
+
+He describes that he was pressed down and assaulted by the police.
+
+He tells me that they--it's unclear that they were police that were after him.
+
+He thought that someone was trying to attack him.
+
+He does tell me they beat him up.
+
+It was just devastating. The notion of any kind of criminal prosecution of anyone in our family or anything
+
+was so foreign and incomprehensible, I didn't know what to do.
+
+Well, they execute search warrants at Aaron's house, his apartment in Cambridge, in his office at Harvard.
+
+Two days before the arrest, the investigation had gone beyond JSTOR and the local Cambridge police.
+
+It had been taken over by the United States Secret Service.
+
+The Secret Service began investigating computer and credit card fraud in 1984,
+
+but six weeks after the attack on 9/11, their role expanded.
+
+[applause]
+
+President Bush used The Patriot Act to establish a network of what they called "Electronic Crimes Task Forces".
+
+The bill before me takes account of the new realities and dangers posed by modern terrorists.
+
+According to the Secret Service, they are primarily engaged in activity with economic impact,
+
+organized criminal groups, or use of schemes involving new technology.
+
+The Secret Service turned Swartz's case over to the Boston U.S. Attorney's office.
+
+There was a guy in the U.S. attorney's office who had the title:
+
+"Head of the Computer Crimes Division or Task Force"
+
+I don't know what else he had going,
+
+but you're certainly not much of a "Computer Crimes Prosecutor" without a computer crime to prosecute,
+
+so he jumped on it, kept if for himself, didn't assign it to someone else within the office or the unit
+
+and that's Steve Heymann.
+
+Prosecutor Stephen Heymann has been largely out of public view since the arrest of Aaron Swartz,
+
+but he can be seen here, in an episode of the television show "American Greed",
+
+filmed around the time of Aaron's arrest.
+
+He is describing his previous case against the notorious hacker Alberto Gonzales,
+
+a case that garnered Heymann enormous press attention and accolades.
+
+Gonzales masterminded the theft of over a hundred million credit card and ATM numbers,
+
+the largest such fraud in history.
+
+Here, Heymann, describing Gonzales, gives his view on the hacker mindset:
+
+These guys are driven by a lot of the same things that we're driven by.
+
+They have an ego, they like challenge, and of course they like money and everything you can get for money.
+
+One of the suspects implicated in the Gonzales case was a young hacker named Jonathan James.
+
+Believing Gonzales' crimes would be pinned on him,
+
+James committed suicide during the investigation.
+
+In an early press release describing the government's position in the case of Aaron Swartz,
+
+Heymann's boss, U.S. Attorney for the District of Massachusets, Carmen Ortiz, said this:
+
+"Stealing is stealing, whether you use a computer command or a crowbar,
+
+and whether you take documents, data, or dollars."
+
+It is not true. It's obviously not true.
+
+I'm not saying it's harmless,
+
+and I'm not saying that we shouldn't criminalize stealing of information,
+
+but you got to be much more subtle
+
+in trying to figure out exactly which kinds of harms are harmful here.
+
+So the thing about a crowbar is, every time I break into a place with a crowbar,
+
+I do damage. There is no doubt about it.
+
+But when Aaron writes a script that says
+
+download download download, a hundred times in a second,
+
+there's no obvious damage to anybody.
+
+If he does that for the purpose of gathering an archive to do academic research on it,
+
+there is never any damage to anybody.
+
+He wasn't stealing. He wasn't selling what he got or giving it away.
+
+He was making a point, for as far as I could tell.
+
+The arrest took its toll on Swartz.
+
+He just wouldn't talk about it.
+
+I mean, he was very stressed.
+
+If you would thought that the FBI was going to come to your doorstep any day,
+
+anytime you went down the hall, even to do your laundry,
+
+and they'd break in into your apartment 'cause you left the door unlocked,
+
+like...I'd be pretty stressed,
+
+and it was clear, and so Aaron was always sort of like in a dour mood.
+
+He wouldn't give off any sensitive information about his whereabouts during this time,
+
+because he was so afraid that the FBI would be waiting for him.
+
+It was a time of unprecedented social and political activism.
+
+Time Magazine would later name, as their 2011 Person of the Year, "The Protester".
+
+There was a kind of hotbed of hacker activity going on.
+
+WikiLeaks had released a trove of diplomatic cables,
+
+Manning had been under arrest at the time,
+
+it was unknown whether he was the source of the leak.
+
+Anonymous, which is a kind of protest ensemble that
+
+has a lot of hackers in its ranks,
+
+were going on various sprees of sorts.
+
+If you compare that to what he did,
+
+this stuff should have been left behind for MIT and JSTOR to deal with,
+
+in a kind of private, professional matter.
+
+It should have never gotten the attention of the criminal system.
+
+It just didn't belong there.
+
+Before he was indicted, Swartz was offered a plea deal
+
+that involved three months in prison, time in an halfway house,
+
+and a year of home detention,
+
+all without the use of a computer.
+
+It was on the condition that Swartz plead guilty to a felony.
+
+Here we are: we have no discovery, no evidence whatsoever
+
+about what the government's case is,
+
+and we have to make this immense decision
+
+where the lawyer is pushing you to do this,
+
+the government is giving you a non-negotiable demand,
+
+and you're told that your likelihood of prevailing is small,
+
+so whether you're guilty or not, you're better off taking the deal.
+
+Boston has its own Computer Crimes Division,
+
+lots of lawyers, probably more lawyers than they need.
+
+So, you know, you can imagine all sorts of cases that will be really hard to prosecute,
+
+because you've got some criminals in Russia,
+
+or you've got some people inside of a corporation
+
+that are gonna five hundred dollar lawyers or seven hundred dollar-an-hour lawyers
+
+sitting down against you, and then you've got this case with this kid,
+
+which is pretty easy to prove that he did something,
+
+and he's already marked himself as a troublemaker with the FBI,
+
+so why not go as tough as you can against that guy?
+
+It's good for you the prosecutor. It's good for the Republic,
+
+'cause you're fighting all those terrorist types.
+
+I was so scared.
+
+I was so scared of having my computer seized.
+
+I was so scared of going to jail because of my computer being seized.
+
+I had confidential material from sources from my previous work on my laptop,
+
+and that is, above all, my priority--is to keep my sources safe.
+
+I was so scared of what was going to happen to Ada.
+
+Aaron told me that they'd offered him a deal,
+
+and he finally just said that he would take it if I told him to,
+
+and I say--I came real close to saying, "Take it."
+
+He had these--he had developed, like, serious political aspirations
+
+in the intervening time, between when, you know,
+
+that moment when he ended that entrepreneurial start-up life,
+
+and begun this new life that had come to this political activism,
+
+and he just didn't believe that he could continue in his life with a felony.
+
+You know, he said to me one day, we were walking by the White House,
+
+and he said to me, "They don't let felons work there."
+
+And you know he really--he really wanted that to be his life.
+
+He hadn't killed anybody. He hadn't hurt anybody.
+
+He hadn't, like, stolen money.
+
+He hadn't done anything that seemed felony-worthy, and...
+
+there is this idea that there is no reason that he should be labelled a felon,
+
+and taken away his right to vote in many states
+
+for doing what he did. That's just outrageous.
+
+It makes sense for him to be maybe fined a bunch of money,
+
+or asked not to come back to MIT again.
+
+But to be a felon? To face jail time?
+
+Swartz turned down the plea deal.
+
+Heymann redoubled his efforts.
+
+Heymann continued to press us at all levels.
+
+Even with the physical evidence seized from Aaron's
+
+Acer computer harddrive and USB drive,
+
+the prosecutors needed evidence of his motives.
+
+Why was Aaron Swartz downloading articles from JSTOR,
+
+and just what did he plan to do with them?
+
+The government claim was that he was planning to publish these.
+
+We don't really know whether that was his real intention
+
+because Aaron also had a history of doing projects where he'd analyze giant data sets of articles
+
+in order to learn interesting things about them.
+
+The best evidence for that was that when he was at Stanford,
+
+he also downloaded the whole Westlaw legal database.
+
+In a project with Stanford law students,
+
+Swartz had downloaded the Westlaw legal database.
+
+He uncovered troubling connections between funders of legal research
+
+and favorable results.
+
+He did this amazing analysis of for-profit companies
+
+giving money to law professors who wrote law review articles
+
+which were then beneficial to, like, Exxon during an oil spill.
+
+So it was a very corrupt system of funding, you know, vanity research.
+
+Swartz had never released the Westlaw documents.
+
+In theory, he could have been doing the same thing about the JSTOR database.
+
+That would have been completely okay.
+
+If he were, on the other hand, intending to create a competitive service to JSTOR,
+
+like, we're going to set up our own, you know,
+
+access to the Harvard Law Review and charge, you know, money for it,
+
+then, okay, now it seems like criminal violation
+
+because you are commercially trying to exploit this material,
+
+but it's kind of crazy to imagine that that was what he was doing.
+
+So, but then there's the middle case: well, what if he was just trying to liberate it for all of the developing world?
+
+But depending on what he was doing, it creates a very different character
+
+to how the law should be thinking about it. The government was prosecuting him
+
+as if this was like a commercial criminal violation,
+
+like stealing a whole bunch of credit card records, that it was that kind of crime.
+
+I don't know what he was going to do with that database,
+
+but I heard from a friend of his that Aaron had told him
+
+that he was going to analyze the data for evidence of corporate funding of climate change research
+
+that led to biased results, and I totally believe that.
+
+I was just told that Steve wanted to talk to me,
+
+and I thought maybe this was a way I could get out of this,
+
+just exit the situation,
+
+and I didn't want to live in fear of having my computer seized.
+
+I didn't want to live in fear of having to go to jail on a contempt of court charge
+
+if they tried to compel me to decrypt my computer.
+
+When they came to me and said, "Steve wants to talk to you,"
+
+that seemed reasonable.
+
+They offered Norton what is know as a "Queen For A Day" letter or a proffer.
+
+It allowed prosecutors to ask questions about Aaron's case.
+
+Norton would be given immunity from prosecution herself,
+
+for any information she revealed during the meeting.
+
+I didn't like it. I told my lawyers repeatedly
+
+that I didn't...this seemed fishy, I didn't like this, I didn't want immunity,
+
+I didn't need immunity, I hadn't done anything,
+
+but they were really, really stringent that there was--
+
+they did not want me meeting the prosecutor without immunity.
+
+[Interviewer] But just to be clear, this is a "Queen For A Day" deal, a proffer.
+
+Right, a proffer letter.
+
+-In which you basically handed information to them in exchange for protection from prosecution.
+
+-So, it wasn't handing information over. It was--at least that's not how I saw it--
+
+it was just having a discussion, having an interview with them.
+
+-Well, they're asking you questions...
+-They're asking me questions.
+
+-and they can ask about whatever they want...
+-Right.
+
+- and whatever they learn...
+-I really...
+
+-They can't have you prosecuted.
+-Right, and I repeatedly tried to go in naked.
+
+I repeatedly--I repeatedly tried to turn down the proffer letter.
+
+I was ill. I was being pressured by my lawyers.
+
+I was confused. I was not doing well by this point.
+
+I was depressed, and I was scared, and I didn't understand the situation I was in.
+
+I had no idea why I was in this situation.
+
+I hadn't done anything interesting, much less wrong.
+
+We went out of our minds.
+
+Aaron was clearly very distraught about it. We were very distraught about it.
+
+Aaron's attorneys were very distraught about it.
+
+We tried to get Quinn to change attorneys.
+
+I was very unused to being in a room with large men, well-armed,
+
+that are continually telling me I'm lying, and that I must have done something.
+
+I told them that this thing that they were prosecuting
+
+wasn't a crime.
+
+I told them that they were on the wrong side of history.
+
+I used that phrase. I said, "You're on the wrong side of history."
+
+And they looked bored. They didn't even look angry. They just looked bored,
+
+and it began to occur to me that we weren't having the same conversation.
+
+I mean, I told them plenty of things about, you know, why people would download journal articles,
+
+and eventually--I don't remember what was around it--
+
+I mentioned that he'd done this blog post, the "Guerilla Open Access Manifesto".
+
+This is the "Guerrilla Open Access Manifesto",
+
+supposedly written in July, 2008 in Italy.
+
+"Information is power. But like all power, there are those who want to keep it for themselves."
+
+"The world's entire scientific and cultural heritage,
+published over centuries in books and journals,
+
+is increasingly being digitized and locked up by a handful of private corporations."
+
+"Meanwhile, those who have been locked out are not standing idly by."
+
+"You have been sneaking through holes and climbing over fences,
+
+liberating the information locked up by the publishers and sharing them with your friends."
+
+"But all of this action goes on in the dark, hidden underground."
+
+"It's called stealing or piracy, as if sharing a wealth of knowledge were
+
+"the moral equivalent of plundering a ship and murdering its crew."
+
+"But sharing isn't immoral — it's a moral imperative."
+
+"Only those blinded by greed would refuse to let a friend make a copy."
+
+"There's no justice in following unjust laws."
+
+"It's time to come into the light and, in a grand tradition of civil disobedience,
+
+declare our opposition to this private theft of public culture."
+
+The Manifesto itself was allegedly written by four different people, and also edited by Norton.
+
+But it was Swartz who had signed his name to it.
+
+When it's over, I go immediately to Aaron and tell him everything I can remember about it,
+
+and he gets very angry.
+
+The things that I'd done shouldn't have added up that way.
+
+I hadn't done anything wrong, and everything had gone wrong,
+
+but I was never...
+
+I'm still angry.
+
+I'm still angry that you could try your best with these people to do the right thing,
+
+and they'd turn everything against you.
+
+And they will hurt you with anything they can.
+
+And in that moment, I regret that I said what I did.
+
+But my much larger regret is that we have settled for this.
+
+That we are okay with this.
+
+That we are okay with the justice system,
+
+a system that tries to game people into little traps so they can ruin our lives.
+
+So yeah, I wish I hadn't said that.
+
+But I'm much, much angrier that this is where I am.
+
+That this is what we, as a people, think is okay.
+
+They used every method that I think they could think of
+
+to get her to provide information which would be unhelpful to Aaron,
+
+and helpful to the prosecution of Aaron,
+
+but I don't think she had information that was helpful to the government.
+
+Months go by, as Swartz's friends and family await a looming indictment.
+
+In the meantime, Swartz was becoming a go-to expert on a series of internet issues.
+
+[RT interviewer} ...a question to you then: Do you think that the internet is something
+
+that should be considered a human right, and something that the government cannot take away from you?
+
+Yes, definitely, I mean this notion that national security is an excuse to shut down the internet,
+
+that's exactly what we heard in Egypt and Syria and all these other countries,
+
+and so, yeah, it's true, sites like WikiLeaks are going to be putting up some embarassing material
+
+about what the U.S. government does, and people are going to be organizing to protest about it,
+
+and try and change their government. You know, and that's a good thing,
+
+that's what all these First Amendment Rights of free expression, of freedom of association are all about,
+
+and so the notion that we should try and shut those down I think, just goes against very basic American principles.
+
+A principle, I think, is one that our Founding Fathers would have understood.
+
+If the internet had been around back then,
+
+instead of putting "post offices" in the Constitution, they would have put "ISPs".
+
+[RT interviewer] Well, it's definitely interesting to see how far...
+
+Swartz meets activist Taren Stinebrickner-Kauffman, and the two begin to date.
+
+[Aaron] We need a massive global public outcry.
+
+[Taren] If there's no massive global public outcry, it won't create any change.
+
+-You know, four people in this city should cause a massive global public outcry.
+
+-You know, we need a petition signer.
+
+Without telling her specifics, he warned her he was involved in something
+
+he called simply "The Bad Thing".
+
+And I had sort of crazy theories, like, that he was having an affair with Elizabeth Warren or something.
+
+I speculated both Hillary Clinton and Elizabeth Warren, actually, but...
+
+So, sometime in probably late July, Aaron called me,
+
+and I happened to pick up, and he said, "The Bad Thing" might be in the news tomorrow.
+
+Do you want me to tell you, or do you want to read about it in the news?"
+
+And I said, "Well, I want you to tell me."
+
+Aaron said, "Well, I've been--I've been arrested
+
+for downloading too many academic journal articles, and they want to make an example out of me."
+
+And I was like, "That's it? That's the big fuss? Really? It just doesn't sound like a very big deal."
+
+On July 14, 2011, federal prosecutors indict Swartz on four felony counts.
+
+He gets indicted on the same day that two people in England who are part of LulzSec get arrested,
+
+and a few other real hackers. And Aaron is just someone who kind of looks like a hacker,
+
+enough that they can, you know, put his head on a stake and put it on the gates.
+
+Aaron went to surrender, and they arrested him.
+
+They then strip searched him,
+
+took away his shoelaces, took away his belt, and left him in solitary confinement.
+
+The District of Massachusetts United States Attorney's office released a statement
+
+saying, "Swartz faces up to 35 years in prison,
+
+to be followed by three years of supervised release,
+
+restitution, forfeiture and a fine of up to one million dollars."
+
+He is released on one hundred thousand dollars bail.
+
+The same day, the primary victim in the case, JSTOR,
+
+formally drops all charges against Swartz, and declines to pursue the case.
+
+JSTOR--they weren't our friends; they weren't helpful or friendly to us,
+
+but they also were just kind of like, "We're not part of this."
+
+JSTOR, and their parent company, ITHAKA, also sidestepped requests to talk with this film.
+
+But at the time, they released a statement saying,
+
+"It was the government's decision whether to prosecute, not JSTOR's."
+
+And so it's our belief that, with that, the case will be over.
+
+That we should be able to get Steve Heymann to drop the case, or settle it in some rational way.
+
+And the government refused.
+
+[Narrator] Why?
+
+Well, because I think they wanted to make an example out of Aaron,
+
+and they said they wanted--the reason why they wouldn't
+
+move on requiring a felony conviction and jail time
+
+was that they wanted to use this case as a case for deterrence. They told us that.
+
+[Interviewer] They told you that?
+- Yes.
+
+-This was going to be an example?
+-Yes.
+
+-He was going to be made an example?
+- Yes.
+
+Steve Heymann said that.
+
+Deterring who? There's other people out there running around logging onto JSTOR,
+
+and downloading the articles to make a political statement? I mean, who are they deterring?
+
+It would be easier to understand the Obama administration's
+
+posture of supposedly being for deterrence
+
+if this was an administration that, for instance,
+
+prosecuted arguably the biggest economic crime
+
+that this country has seen in the last hundred years.
+
+The crimes that were committed that led to the financial crisis on Wall Street.
+
+When you start deploying
+
+the non-controversial idea of deterrence
+
+only selectively
+
+you stop making a dispassionate analysis of law-breaking
+
+and you started deciding to deploy law enforcement resources
+
+specifically on the basis of political ideology,
+
+and that's not just undemocratic, it's supposed to be un-American.
+
+Prosecutor Stephen Heymann later reportedly told MIT's outside counsel
+
+that the straw that broke the camel's back
+
+was a press release sent out by an organization Swartz founded called "Demand Progress".
+
+According to the MIT account, Heymann reacted to the short statement of support,
+
+calling it a "wild internet campaign" and a "foolish move"
+
+that moved the case from a human one-on-one level to an institutional level.
+
+That was a poisonous combination: a prosecutor who didn't want to lose face,
+
+who had a political career in the offing, maybe, and didn't want to have this come back and haunt them.
+
+You spend how many tax dollars arresting someone for taking too many books out of the library,
+
+and then got your ass handed to you in court? No way!
+
+I then moved to try to put as much pressure on MIT in various ways to get them
+
+to go to the government, and request the government to stop the prosecution.
+
+[Interviewer] What was MIT's reaction to that?
+
+There doesn't seem to be any reaction from MIT at that point.
+
+MIT doesn't defend Aaron
+
+which, to people inside of the MIT community, seems outrageous,
+
+because MIT is a place that encourages hacking in the biggest sense of the word.
+
+At MIT, the idea of going and running around on roofs and tunnels that you weren't allowed to be in
+
+was not only a rite of passage, it was part of the MIT tour,
+
+and lockpicking was a winter course at MIT.
+
+They had the moral authority to stop it in its tracks.
+
+MIT never stood up and took a position of saying to the Feds, "Don't do this."
+
+"We don't want you to do this. You're overreacting. This is too strong."
+
+...that I'm aware of.
+
+They acted kind of like any corporation would. They sort of--they helped the government,
+
+they didn't help us, unless they felt they had to, and they never tried to stop it.
+
+MIT declined repeated requests to comment,
+
+but they later released a report saying they attempted to maintain a position of neutrality,
+
+and believed Heymann and the U.S. Attorney's office did not care what MIT thought or said about the case.
+
+MIT's behaviour seemed really at odds with the MIT ethos.
+
+You could argue that MIT turned a blind eye, and that was okay for them to do,
+
+but taking that stance--taking that neutral stance, in and of itself--was taking a pro-prosecutor stance.
+
+If you look at Steve Jobs and Steve Wozniak,
+
+they started by selling a Blue Box, which was a thing designed to defraud the phone company.
+
+If you look at Bill Gates and Paul Allen,
+
+they initially started their business by using computer time at Harvard,
+
+which was pretty clearly against the rules.
+
+The difference between Aaron and the people I just mentioned
+
+is that Aaron wanted to make the world a better place, he didn't just want to make money.
+
+Swartz continues to be outspoken on a variety of internet issues.
+
+You know, the reason the internet works is because of the competitive marketplace of ideas,
+
+and what we need to be focusing on is getting more information about our government, more accessibility,
+
+more discussion, more debate, but instead it seems like what congress is focused on is shutting things down.
+
+Aaron thought he could change the world just by explaining the world very clearly to people.
+
+[RT interviewer] Flame can literally control your computer, and make it spy on you.
+
+Welcome, Aaron. Good to have you back on the show here.
+
+You know, just like spies used to in olden days, put microphones and tap what people were saying,
+
+now they're using computers to do the same things.
+
+[Narrator] Swartz's political activity continues,
+
+his attention turning to a bill moving through Congress designed to curb online piracy.
+
+It was called "SOPA".
+
+Activists like Peter Eckersley saw it as an enormous overreach,
+
+threatening the technical integrity of the Internet itself.
+
+[Ekersley] And one of the first things I did was to call Aaron.
+
+And I said, "Can we do a big online campaign against this?"
+
+"This isn't a bill about copyright."
+
+"It's not?"
+
+"No," he said, "it's a bill about the freedom to connect."
+
+Now I was listening.
+
+And he thought about it for a while, and then said, "Yes."
+
+And he went and founded Demand Progress.
+
+Demand Progress is an online activism organization, we've got around a million and a half members now,
+
+but started in the fall of 2010.
+
+Aaron was one of the most prominent people in a community of people
+
+who helped lead organizing around social justice issues at the federal level in this country.
+
+SOPA was the bill that was intended to curtail online piracy of music and movies,
+
+but what it did was basically take a sledgehammer to a problem that needed a scalpel.
+
+If passed, the law would allow a company to cut off finances to entire websites without due process,
+
+or even to force Google to exclude their links.
+
+All they needed was a single claim of copyright infringement.
+
+It pitted the titans of traditional media against a new and now far more sophisticated remix culture.
+
+It makes everyone who runs a website into a policeman,
+
+and if they don't do their job of making sure that nobody on their site uses it for anything
+
+that's even potentially illegal, the entire site can get shut down without even so much as a trial.
+
+This was over the top, I mean, this was a catastrophe.
+
+This bill poses a serious threat to speech and civil liberties for all who use the internet.
+
+There were only a handful of us who said, "Look, we're not for piracy either,
+
+but it makes no sense to destroy the architecture of the internet,
+
+the domain name system and so much that makes it free and open in the name of fighting piracy,
+
+and Aaron got that right away.
+
+The freedoms, guaranteed in our Constitution, the freedoms our country had been built on
+
+would be suddenly deleted.
+
+New technology, instead of bringing us greater freedom, would have snuffed out fundamental rights
+
+we'd always taken for granted.
+
+And I realized that day, talking to Peter, that I couldn't let that happen.
+
+When SOPA was introduced in October, 2011, it was considered inevitable.
+
+Our strategy, when it first came out, was to hopefully slow the bill down,
+
+maybe weaken it a little bit but, even we
+
+didn't think that we would be able to stop this bill.
+
+Having worked in Washington, what you learn is that, typically in Washington,
+
+the legislative fights are fights between different sets of corporate monied interests.
+
+They're all duking it out to pass legislation, and the fights that are the closest
+
+are when you have one set of corporate interests against another set of corporate interests,
+
+and they're financially equally matched in terms of campaign contributions and lobbying.
+
+Those are the closest ones.
+
+The ones that aren't even fights, typically, are ones
+
+where all the money is on one side, all the corporations are on one side,
+
+and it's just millions of people on the other side.
+
+I haven't seen anything like PIPA and SOPA in all my time in public service.
+
+There were more than forty United States senators on that bill as co-sponsors,
+
+so they were already a long, long way to getting the
+
+sixty votes to have it clear all the procedural hoops.
+
+Even I began to doubt myself. It was a rough period.
+
+Swartz and Demand Progress were able to marshal enormous support using traditional outreach,
+
+combined with commonly used voiceover IP, to make it very easy for people to call Congress.
+
+I've never met anybody else who was able to operate at his level
+
+both on the technological side and on the campaign strategy side.
+
+Millions of people contacted Congress and signed anti-SOPA petitions.
+
+Congress was caught off guard.
+
+There was just something about watching those clueless members of Congress debate the bill,
+
+watching them insist they could regulate the internet,
+
+and a bunch of nerds couldn't possibly stop them.
+
+I am not a nerd.
+
+I'm just not enough of a nerd...
+
+Maybe we oughta ask some nerds what this thing really does. [laughter]
+
+Let's have a hearing, bring in the nerds...
+
+[laughter]
+
+Really?
+
+[laughter]
+
+"Nerds"?
+
+[laughter]
+
+You know, I think, actually the word you're looking for is "experts"...
+
+[laughter]
+
+to enlighten you so your laws don't backfire [audience laughter and applause]
+
+and break the internet.
+
+We use the term "geek" but we're allowed to use that because we are geeks.
+
+The fact that it got as far as it did, without them talking to any technical experts,
+
+reflects the fact that there is a problem in this town.
+
+I'm looking for somebody to come before this body, and testify in a hearing and say, "This is why they're wrong."
+
+There used to be an office that provided science and technology advice,
+
+and members could go to them and say, "Help me understand X,Y,Z."
+
+And Gingrich killed it. He said it was a waste of money.
+
+Ever since then, Congress has plunged into the Dark Ages.
+
+I don't think anybody really thought that SOPA could be beaten, including Aaron.
+
+It was worth trying, but it didn't seem winnable,
+
+and I remember, maybe a few months later, I remember him just turning to me and being like,
+
+"I think we might win this."
+
+And I was like, "That would be amazing."
+
+Calls to Congress continue.
+
+When the domain hosting site Go Daddy becomes a supporter of the bill,
+
+tens of thousands of users transferred their domain names in protest.
+
+Within a week, a humbled Go Daddy reverses their position on SOPA.
+
+When the congress people that supported the record and movie industries,
+
+realized that there was this backlash, they kind of scaled the bill back a little bit.
+
+You could see the curve happening. You could see that our arguments were starting to resonate.
+
+It was like Aaron had been striking a match and it was being blown out,
+
+striking another one, and it was being blown out,
+
+and finally he'd managed to catch enough kindling that the flame actually caught,
+
+and then it turned into this roaring blaze.
+
+On January 16, 2012, the White House issued a statement
+
+saying they didn't support the bill.
+
+And then this happened:
+
+I'm a big believer that we should be dealing with issues of piracy,
+
+and we should deal with them in a serious way, but this bill is not the right bill.
+
+When Jimmy Wales put his support toward blacking out Wikipedia,
+
+the number five most popular website in the world,
+
+this is a website that's seven percent of all of the clicks on anywhere on the internet.
+
+Wikipedia went black.
+
+Reddit went black.
+
+Craigslist went black.
+
+The phone lines on Capitol Hill flat out melted.
+
+Members of Congress started rushing to issue statements retracting their support for the bill
+
+that they were promoting just a couple days ago.
+
+Within 24 hours, the number of opponents of SOPA in Congress
+
+went from this...
+
+to this.
+
+To see congressmen and senators slowly flip sides throughout the day of the blackout
+
+was pretty unbelievable.
+
+There was like a hundred representative swing.
+
+And that was when, as hard as it was for me to believe, after all this,
+
+we had won.
+
+The thing that everyone said was impossible,
+
+that some of the biggest companies in the world had written off as kind of a pipedream,
+
+had happened.
+
+We did it.
+
+We won.
+
+
+
+This is a historic week in internet politics--maybe American politics.
+
+The thing that we heard from people in Washington, D.C., from the staffers on Capitol Hill was:
+
+they received more emails and more phone calls on SOPA Blackout Day
+
+than they'd ever received about anything.
+
+I think that was an extremely exciting moment.
+
+This was the moment when the internet had grown up, politically.
+
+It was exhilarating because it's hard to believe it actually happened.
+
+It's hard to believe a bill with so much financial power behind it
+
+didn't simply sail through the Congress.
+
+And not only did not sail through, it didn't pass at all.
+
+It's easy sometimes to feel like you're powereless,
+
+like when you come out on the streets and you march and you yell and nobody hears you.
+
+But I'm here to tell you today, you are powerful.
+
+[Crowd cheers]
+
+So, yeah, maybe sometimes you feel like you're not being listened to, but I'm here to tell you that you are.
+
+You are being listened to. You are making a difference.
+
+You can stop this bill if you don't stop fighting.
+
+[Crowd cheers]
+
+Stop PIPA.
+
+Stop SOPA.
+
+[Crowd cheers]
+
+Some of the biggest internet companies, to put it frankly, would benefit
+
+from a world in which their little competitors could get censored.
+
+We can't let that happen.
+
+For him, it was more important to be sure that you made a small change
+
+than to play a small part in a big change.
+
+But SOPA was like playing a major part in a major change,
+
+and so for him, it was kind of this proof of concept
+
+like, "Okay, what I want to do with my life is change the world."
+
+"I think about it in this really scientific way of measuring my impact,
+
+and this shows that it's possible."
+
+"The thing that I want to do with my life is possible."
+
+"I have proved that I can do it,
+
+that I, Aaron Swartz, can change the world."
+
+For a guy who never really thought he had done much--which was Aaron--
+
+was one of the few moments where you could really see
+
+that he felt like he had done something good,
+
+feeling like here is his maybe one and only victory lap.
+
+Everyone said there was no way we could stop SOPA.
+
+We stopped it.
+
+This is three outrageously good victories, and the year isn't even over yet.
+
+I mean, if there's a time to be positive, it's now.
+
+You know, he wins at SOPA a year after he's arrested.
+
+It's not unambiguously happy moments. There's a lot going on.
+
+He's so attuned towards participating in the political process, you can't stop him.
+
+The list of organizations Swartz founded or co-founded is enormous,
+
+and years before Edward Snowden would expose widespread internet surveillance,
+
+Swartz was already concerned.
+
+It is shocking to think that the accountability is so lax
+
+that they don't even have sort of basic statistics about how big the spying program is.
+
+And if the answer is: "Oh, we're spying on so many people we can't possibly even count them"
+
+then that's an awful lot of people.
+
+It'd be one thing if they said, "Look, we know the number of telephones we're spying on,
+
+we don't know exactly how many real people that corresponds to."
+
+but they just came back and said, "We can't give you a number at all."
+
+That's pretty--I mean, that's scary, is what it is.
+
+And they put incredible pressure on him, took away all of the money he had made.
+
+They, you know, threatened to take away his physical freedom.
+
+Why'd they do it, you know? I mean, well, why are they going after whistleblowers?
+
+You know, why are they going after people who tell the truth
+
+about all sorts of things, I mean, from the banks, to war, to just sort of government transparency.
+
+So secrecy serves those who are already in power,
+
+and we are living in an era of secrecy that coincides with an era where the government is doing, also,
+
+a lot of things that are probably illegal and unconstitutional.
+
+So, those two things are not coincidences.
+
+It's very clear that this technology has been developed
+
+not for small countries overseas, but right here, for use in the United States, by the U.S. government.
+
+The problem with the spying program is it's this sort of long, slow expansion, you know,
+
+going back to the Nixon administation, right,
+
+obviously it became big after 9/11 under George W. Bush,
+
+and Obama has continued to expand it, and the problems have slowly grown worse and worse,
+
+but there's never been this moment you can point to and say,
+
+"Okay, we need to galvanize opposition today because today is when it matters..."
+
+The prosecution, in my estimation of Aaron Swartz, was about sending a particular, laserlike message
+
+to a group of people that the Obama administration sees as politically threatening,
+
+and that is, essentially, the hacker, the information, and the democracy activist community,
+
+and the message that the Obama administration wanted to send to that particular community was,
+
+in my estimation, "We know you have the ability to make trouble for the establishment,
+
+and so we are going to try to make an example out of Aaron Swartz
+
+to scare as many of you as possible into not making that trouble."
+
+And the government said, "Oh, the legal opinions we're using
+
+to legalize the spying program are also classified,
+
+so we can't even tell you which laws we're using to spy on you."
+
+You know, every time they can say, "Oh, this is another instance of cyberwar.
+
+The cybercriminals are attacking us again. We're all in danger. We're all under threat."
+
+They use those as excuses to push through more and more dangerous laws.
+
+[Interviewer] And so just to follow--personally, how do you feel the fight is going?
+
+It's up to you!
+
+-I know. It's just that we gotta, you know...
+
+You know, there's sort of these two polarizing perspectives, right,
+
+everything is great, the internet has created all this freedom and liberty, and everything's going to be fantastic
+
+or everything is terrible,
+
+the internet has created all these tools for cracking down and spying,
+
+and controlling what we say.
+
+And the thing is, both are true, right?
+
+The internet has done both, and both are kind of amazing and astonishing
+
+and which one will win out in the long run is up to us.
+
+It doesn't make sense to say, "Oh, one is doing better than the other." You know, they're both true.
+
+And it's up to us which ones we emphasize and which ones we take advantage of
+
+because they're both there, and they're both always going to be there.
+
+On September 12, 2012, federal prosecutors filed a superseding indictment against Swartz,
+
+adding additional counts of wire fraud, unauthorized access to a computer, and computer fraud.
+
+Now, instead of four felony counts, Swartz was facing thirteen.
+
+The prosecution's leverage had dramatically increased,
+
+as did Swartz's potential jail time and fines.
+
+They filed a separate indictment to add more charges,
+
+and they had a theory about why this conduct constituted a number of federal crimes,
+
+and that a very significant sentence could attach to it under the law.
+
+That theory, and much of the prosecution's case against Swartz
+
+involved a law created originally in 1986.
+
+It is called the "Computer Fraud and Abuse Act".
+
+The Computer Fraud and Abuse Act
+
+was inspired by the movie "War Games" with Matthew Broderick--great movie.
+
+[Broderick] I have you now.
+
+In this movie, a kid gets the ability, through the magic of computer networks
+
+to launch a nuclear attack.
+
+[missiles firing up]
+
+You know, that's not actually possible, and it certainly wasn't possible in the '80s
+
+but apparently this movie scared Congress enough to
+
+pass the original Computer Fraud and Abuse Act.
+
+This is a law that's just behind the times, for example, it penalizes
+
+a terms of service kind of arrangement. You can have something like
+
+eHarmony or Match.com, and somebody sort of inflates their own personal characteristics,
+
+and all of a sudden, depending on the jurisdiction and the prosecutors,
+
+they could be in a whole host of troubles.
+
+We all know what "Terms of Use" are.
+
+Most people don't read them, but not abiding by their terms could mean
+
+you are committing a felony.
+
+The website Terms of Service often say things like:
+
+"Be nice to each other", or "Don't do anything that's improper."
+
+The idea that the Criminal Law has anything to say about these kinds of violations,
+
+I think strikes most people as crazy.
+
+The examples get even more "crazy":
+
+Until it was changed in March of 2013, the Terms of Use on the website of Hearst's Seventeen magazine
+
+said you had to be eighteen in order to read it.
+
+I would say that the way the CFAA has been interpreted by the Justice Department,
+
+we are probably all breaking the law.
+
+Vague and prone to misuse, the CFAA has become a one-size-fits-all hammer
+
+for a wide range of computer-related disputes.
+
+Though not the only factor in his case,
+
+eleven of the thirteen charges against Swartz involved the Computer Fraud and Abuse Act.
+
+The question "Why?" hangs over much of the story of Aaron Swartz.
+
+Just what was motivating the government, and what would their case have been?
+
+The Department of Justice declined requests for answers,
+
+but Professor Orin Kerr is a former prosecutor who has studied the case.
+
+So, I think I come about this case from a different direction than other people on a number of reasons:
+
+I was a federal prosecutor at the Justice Department for three years
+
+before I started teaching. The government came forward
+
+with an indictment based on what crimes they thought were committed,
+
+just as a purely lawyer's matter, looking at the precedents, looking at the statute,
+
+looking at the history, looking at the cases that are out there so far,
+
+I think it was a fair indictment based on that.
+
+You can debate whether they should have charged this case.
+
+There's just a lot of disagreement. Some people are on the Open Access side, some people are not.
+
+I think the government took Swartz's "Guerilla Open Access Manifesto" very seriously,
+
+and I think they saw him as somebody who was committed, as a moral imperative,
+
+to breaking the law, to overcome a law that Swartz saw as unjust,
+
+and in a democracy, if you think a law is unjust, there are ways of changing that law.
+
+There's going to Congress as Swartz did so masterfully with SOPA,
+
+or you can violate that law in a way to try to nullify that law,
+
+and I think what was driving the prosecution was the sense that Swartz was committed,
+
+not just to breaking the law, but to really making sure that law was nullified.
+
+That everyone would have access to the database in a way that
+
+you couldn't put the toothpaste back into the tube.
+
+It would be done, and Swartz's side would win.
+
+There's a big disagreement in society as to whether that is an unjust law,
+
+and ultimately, that is a decision for the American people to make, working through Congress.
+
+And then the second problem is, I think, we're still trying to figure out:
+
+What's the line between less serious offences and more serious offences?
+
+We're now entering this different environment of computers and computer misuse,
+
+and we don't yet have a really strong sense of exactly what these lines are
+
+because we're just working that out.
+
+This is a poor use of prosecutorial discretion.
+
+The hammer that the Justice Department has to scare people with
+
+just gets bigger and bigger and bigger,
+
+and so most people just--you know, you can't roll the dice with your life like that.
+
+Should we tap somebody's phone? Should we film them?
+
+Should we turn somebody and get them to testify against these other people?
+
+That's how federal agents and prosecutors think.
+
+They build cases. They make cases.
+
+Swartz was caught in the gears of a brutal criminal justice system that could not turn back,
+
+a machine that has made America the country with the highest rate of incarceration in the world.
+
+We have, in this country, allowed ourselves to be captured by the politics of fear and anger,
+
+and anything we're afraid of, like the future of the internet and access,
+
+and anything we're angry about, instinctively creates a criminal justice intervention,
+
+and we've used jail, prison, and punishment to resolve a whole host of problems
+
+that, historically, were never seen as criminal justice problems.
+
+The impulse to threaten, indict, prosecute, which is part of what
+
+has created this debate and controversy over online access and information on the internet,
+
+is very consistent with what we've seen in other areas.
+
+The one difference is that the people who are usually targeted and victimized
+
+by these kinds of criminal and carceral responses are typically poor and minority.
+
+Swartz's isolation from friends and family increased.
+
+He had basically stopped working on anything else,
+
+and the case was, in fact, taking over sort of his whole life.
+
+One of Aaron's lawyers apparently told the prosecutors that he was emotionally vulnerable,
+
+and that that was something they really needed to keep in mind so that they knew that.
+
+It was weighing on him very heavily.
+
+He did not like having his actions and his movements restricted in any way,
+
+and the threat of jail, which they pounded him with a lot,
+
+was terrifying to him.
+
+Completely exhausted his financial resouces,
+
+and it cost us a lot of money also, and he raised a substantial amount of money,
+
+so it was, you know, it was in the millions of dollars.
+
+[Interviewer] The legal defence?
+- Yes.
+
+-Was in millions?
+- Yes.
+
+I think he didn't want to be a burden to people.
+
+I think that was a factor like, "I have my normal life,
+
+and then I have this shitty thing I have to deal with,
+
+and I try to keep the two of them as separate as possible,
+
+but they were just beginning to blur together and everything was becoming shitty."
+
+Swartz faced a tough choice that was only getting tougher:
+
+Do you admit guilt and move on with your life,
+
+or do you fight a broken system?
+
+With his legal case, the answer was simple:
+
+He rejects a final plea deal and a trial date is set.
+
+Aaron was resolute that he didn't want to knuckle under and accept something
+
+that he didn't believe was fair, but I also think he was scared.
+
+I don't think they would have convicted Aaron.
+
+I think we would have walked him out of that courthouse, and I would have given him a big hug,
+
+and we would have walked across that little river in Boston, and gone and had a couple of beers.
+
+I really thought that we were right. I thought that we were going to win the case.
+
+I thought that we could win the case.
+
+He didn't talk about it very much, but you could see
+
+the enormous pain that he was going through.
+
+[song]
+
+No time in his childhood did Aaron have any severe mood swings
+
+or depressive episodes or anything that I would describe as "severe depression"
+
+and it's possible, you know, he was depressed. People get depressed.
+
+[music]
+
+Very early in our relationship, three or four weeks in or something,
+
+I remember him saying to me
+
+that I was a lot stronger than he was.
+
+You know, he was brittle in a lot of ways.
+
+Things were a lot harder for him than for a lot of people.
+
+That was part of his brilliance, too.
+
+I think he probably had something like clinical depression in his early twenties.
+
+I don't think he did when I was with him.
+
+He wasn't a "joyful" person, but that's different from being depressed.
+
+He was just under such enormous pressure for two years straight.
+
+He just didn't want to do it anymore.
+
+He was just--I just think it was too much.
+
+[song]
+
+I got a phone call late at night.
+
+I could tell something was wrong, and then I called, and I realized what had happened.
+
+A co-founder of the social news and entertainment website "Reddit" has been found dead.
+
+Police say twenty-six-year-old Aaron Swartz
+
+killed himself yesterday in his Brooklyn apartment.
+
+I just thought, we've lost one of the most creative minds of our generation.
+
+I was like, the whole world fell apart at that moment.
+
+It was one of the hardest nights of my life.
+
+I just kept screaming, "I can't hear you! What did you say? I can't hear you!"
+
+I can't. That's it.
+
+[Interviewer] Okay.
+
+Yeah, none of it made any sense,
+
+and really still doesn't.
+
+I was so frustrated, angry.
+
+[exhales]
+
+You know, I tried to explain it to my kids.
+
+My three-year-old told me that the doctors would fix him.
+
+I've known lots of people that have died, but I've never lost anybody like this,
+
+because everybody feels, and I do too, there is so much we could have--more to do like...
+
+I just didn't know he was there. I didn't know this was what he was suffering and...
+
+He was part of me.
+
+And I just wanted it to not be real, and then...
+
+and then I just looked at his Wikipedia page and I saw the end date:
+
+"to 2013".
+
+[quote on screen]
+
+My first thought was: what if nobody even notices?
+
+You know, because it wasn't clear to me how salient he was.
+
+I had never seen anything quite like the outpouring I saw.
+
+The Net just lit up.
+
+Everyone was trying to explain it in their own way, but I've never seen
+
+people grieve on Twitter before.
+
+People were visibly grieving online.
+
+He was the internet's own boy,
+
+and the old world killed him.
+
+We are standing in the middle of a time when great injustice is not touched.
+
+Architects of the financial meltdown have dinner with the president, regularly.
+
+In the middle of that time, the idea that this is what the government had to prosecute,
+
+It just seems absurd, if it weren't tragic.
+
+The question is: Can we do something, given what's happened,
+
+to make the world a better place,
+
+and how can we further that legacy?
+
+That's the only question one could ask.
+
+All over the world there are starting to be hack-a-thons, gatherings,
+
+Aaron Swartz has, in some sense, brought the best out of us, in trying to say:
+
+How do we fix this?
+
+He was, in my humble opinion, one of the true extraordinary revolutionaries
+
+that this country has produced.
+
+I don't know whether Aaron was defeated or victorious,
+
+but we are certainly shaped by the hand of the things that he wrestled with.
+
+When we turn armed agents of the law on citizens trying to increase access to knowledge,
+
+we've broken the rule of law--we've desecrated the temple of justice.
+
+Aaron Swartz was not a criminal.
+
+[applause]
+
+Change does not roll in on the wheels of inevitability,
+
+it comes through continuous struggle.
+
+Aaron really could do magic,
+
+and I'm dedicated to making sure that his magic doesn't end with his death.
+
+He believed that he could change the world, and he was right.
+
+Out of the last week, and out of today, phoenixes are already rising.
+
+[applause]
+
+Since Swartz's death, Representative Zoe Lofgren and Senator Ron Wyden
+
+have introduced legislation that would reform the Computer Fraud and Abuse Act--
+
+the outdated law that formed the majority of the charges against Swartz.
+
+It's called "Aaron's Law".
+
+Aaron believed that you literally ought to be asking yourself all of the time:
+
+What is the most important thing I could be working on in the world right now?
+
+And if you're not working on that, why aren't you?
+
+[Protesters] This is what democracy looks like!
+
+[crowd chants] We are the people too!
+
+Internet freedom's under attack, what do we do?
+
+Stand up, fight back!
+
+Internet freedom's under attack, what do we do?
+
+Hey, hey! Ho, ho! NROC has got to go!
+
+I wish we could change the past, but we cannot.
+
+But we can change the future and we must.
+
+We must do so for Aaron, we must do so for ourselves.
+
+We must do so to make our world a better place, a more humane place,
+
+a place where justice works, and access to knowledge becomes a human right. [applause]
+
+So there was a kid, back in February, from Baltimore, fourteen years old,
+
+who had access to JSTOR, and he'd been spalunking through JSTOR after reading something,
+
+and he figured out a way to do early tests for pancreatic cancer,
+
+and pancreatic cancer kills the shit out of you because we detect it way too late
+
+by the time we detect it, it's already too late to do anything about it,
+
+and he sent emails off to the entire oncology department at Johns Hopkins,
+
+you know hundreds of them, and every--
+- [Interviewer] Did you say fourteen years old?
+
+- Fourteen-year-old kid, yeah, and most of them ignored it but one of them sent him an email back,
+
+and said this is not an entirely stupid idea, why don't you come on over?
+
+This kid worked evenings and weekends with this researcher, and in February I heard him on the news
+
+just a couple of weeks after Aaron died, when Aaron was in the news a lot..
+
+Sorry...
+
+and he said the reason he was on the news was 'cause they'd done it. They were shipping
+
+an early test for pancreatic cancer that was going to save lives,
+
+and he said, "This is why what Aaron did was so important."
+
+Because you never know, right? This truth of the universe is not only something
+
+that policymakers use to figure out, you know, what the speed limit should be.
+
+It's where the thing that's gonna keep your kid from dying of pancreatic cancer comes from,
+
+and without access, the person who might come up with the thing that's got your number on it,
+
+may never find that answer.
+
+He sleeped so well, he didn't fall out of [baby talk], not even when he dreamed he was back on the spacecraft.
+
+[Aaron's dad] Very good, Aaron. Very good. Yay, Aaron!
+
+Okay, now it's song time.
+
+♪ ♪ ♪
+
+AARON SWARTZ, 1986-2013
+
+[credits]
+
+[the end]

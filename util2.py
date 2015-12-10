@@ -20,10 +20,44 @@ def getMovieDataset():
 	shuffle(filenames)
 	return filenames
 
+def seedTrainSet():
+        # What we really want to do here is not to have an equal representation
+        # set but to have a large training set with examples from every genre.
+        # Our classifier suffers when some genres are more heavily represented
+        # in the test set than the training.
+        """
+        Picks 80% of the most underrepresented genre and then an equivalent number
+        of every other genre. Thus, the training set will have equal representation
+        of movies.
+        """
+        genre_dict = movie_genre.get_genre_list()
+        min_len = 100
+        smallest_genre = "Action"
+        for x in genre_dict.keys():
+                if len(genre_dict[x]) < min_len:
+                        smallest_genre = x
+                        min_len = len(genre_dict[x])
+
+        num_per_genre = len(genre_dict[smallest_genre]) * 0.2
+        num_per_genre = math.ceil(num_per_genre)
+
+        trainSet = []
+        for x in genre_dict.keys():
+                files = genre_dict[x]
+                shuffle(files)
+                for i in range(0, int(num_per_genre)):
+                        trainSet.append(files[i])
+        return (int(num_per_genre) * len(genre_dict.keys()), trainSet)
+
 # Global variables initiatizing the training and data set. 
 dataset = getMovieDataset()
 numTrainExamples = int(math.ceil(trainingRatio * len(dataset)))
-trainFiles = dataset[0:numTrainExamples]
+offset, seededTrainSet = seedTrainSet()
+print (offset)
+print len(seededTrainSet)
+# trainFiles = getTrainSet()
+# testFiles = list(set(dataset).difference(set(trainFiles)))
+trainFiles = dataset[offset:numTrainExamples] + seededTrainSet
 testFiles = dataset[numTrainExamples:]
 
 def getColors():
@@ -43,6 +77,7 @@ def getFeatureVectors(dataset, dVec, numbers=False):
 	for movie in dataset: 		
 		feature_vec = pickle.load(open(path + "/" + movie, "rb"))
 		feature_vectors.append(feature_vec)
+        
 	return dVec.transform(feature_vectors)
 
 

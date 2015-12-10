@@ -22,24 +22,26 @@ def get(title):
     genres = set([u'Documentary']) if 'Documentary' in genres else genres.difference(genres_we_dont_care_about)
     return genres
 
-def print_list():
+def get_genre_list():
+    prev_dir = os.getcwd()
     os.chdir("feature_vectors")
     files = os.listdir(os.getcwd())
     genre_dict = {}
     for f in files:
         f = f.strip('\n')
+        prev_f = f
         title = f[:-2]
         title = title.replace('_', ' ')
         genres = get(title)
         for genre in genres:
             if genre in genre_dict:
-                genre_dict[genre].append(title)
+                genre_dict[genre].append(prev_f)
             else:
-                genre_dict[genre] = [title]
-                
-    for x,y in genre_dict.items():
+                genre_dict[genre] = [prev_f]
+
+    os.chdir(prev_dir)
+    return genre_dict
+
+def print_list():
+    for x,y in get_genre_list().items():
         print (x + "\t\t" + str(len(y)))
-
-    
-
-# print_list()
