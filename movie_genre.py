@@ -3,6 +3,7 @@
 import requests
 import argparse
 import os
+import pickle
 
 IMDB = "http://www.omdbapi.com/"
 genres = ["Action", "Adventure", "Animation", "Biography", "Comedy", "Crime", \
@@ -43,5 +44,6 @@ def get_genre_list():
     return genre_dict
 
 def print_list():
-    for x,y in get_genre_list().items():
+    genre_dict = get_genre_list()
+    for x,y in genre_dict.items():
         print (x + "\t\t" + str(len(y)))
