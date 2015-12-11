@@ -51,13 +51,12 @@ def seedTrainSet():
 
 # Global variables initiatizing the training and data set. 
 dataset = getMovieDataset()
-numTrainExamples = int(math.ceil(trainingRatio * len(dataset)))
 offset, seededTrainSet = seedTrainSet()
-print (offset)
-print len(seededTrainSet)
-# trainFiles = getTrainSet()
-# testFiles = list(set(dataset).difference(set(trainFiles)))
-trainFiles = dataset[offset:numTrainExamples] + seededTrainSet
+numTrainExamples = int(math.ceil(trainingRatio * len(dataset))) - offset
+# print (offset)
+# print len(seededTrainSet)
+dataset = [x for x in dataset if x not in seededTrainSet]
+trainFiles = dataset[0:numTrainExamples] + seededTrainSet
 testFiles = dataset[numTrainExamples:]
 
 def getColors():

@@ -56,7 +56,6 @@ class predictor():
         # This way, we can try out different loss functions easily
 	def __init__(self):
 		self.trainExamples = util2.trainFiles
-                print len(self.trainExamples)
 		self.testExamples = util2.testFiles
 		# Standard DictVectorizer fitted with all colors as the features. 
 		self.dVec = DictVectorizer(sparse=False)
@@ -85,19 +84,13 @@ class predictor():
                         ('sgd', SGDClassifier(loss="hinge", penalty="l2")),
                 ])
 		# OneVsRestClassifier used for prediction
-		# self.classif = OneVsRestClassifier(SGDClassifier(loss="hinge", penalty="l2"))
                 self.classif = OneVsRestClassifier(self.pipeline)
                 
-	def learnPredictor(self, numbers=True):
-		# train_feature_vecs = util2.getFeatureVectors(self.trainExamples, self.dVec, numbers)
-                
+	def learnPredictor(self, numbers=False):
 		train_genres = self.mlb.fit_transform(util2.getCorrectGenres(self.trainExamples))
-                # print (train_feature_vecs)
-                # print (train_genres)
 		self.classif.fit(self.trainExamples, train_genres)
 
-	def predict(self, numbers=True): 
-		# test_feature_vecs = util2.getFeatureVectors(self.testExamples, self.dVec, numbers)
+	def predict(self, numbers=False): 
 		return self.classif.predict(self.testExamples)
         
 nlrloss = []
