@@ -1,0 +1,766 @@
+##########################     USING GRID SEARCH    ##################################
+TRAIN SET: 
+['tomorrowland.p', 'the_trip_to_italy.p', 'john_wick.p', 'the_grand_budapest_hotel.p', 'iris.p', 'the_book_of_life.p', 'earth_to_echo.p', 'and_so_it_goes.p', 'endless_love.p', 'unbroken.p', 'tammy.p', 'the_interview.p', 'blended.p', 'fear_clinic.p', 'divergent.p', 'horrible_bosses_2.p', 'as_above_so_below.p', 'merchants_of_doubt.p', 'ride_along.p', 'my_little_pony_equestria_girls.p', 'a_most_wanted_man.p', 'red_army.p', 'rosewater.p', 'the_judge.p', 'dawn_of_the_planet_of_the_apes.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'noble.p', 'paranormal_activity_the_marked_ones.p', "winter's_tale.p", 'veronica_mars.p', 'exodus_gods_and_kings.p', 'spring.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'guardians_of_the_galaxy.p', 'captain_america_the_winter_soldier.p', 'planes:fire_&_rescue.p', 'the_fault_in_our_stars.p', 'muppets_most_wanted.p', "let's_be_cops.p", 'the_good_lie.p', 'addicted.p', 'cowspiracy_the_sustainability_secret.p', 'the_raid_2.p', 'kill_the_messenger.p', 'teenage_mutant_ninja_turtles.p', 'the_drop.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'the_maze_runner.p', 'brick_mansions.p', 'interstellar.p', 'noah.p', 'cabin_fever_patient_zero.p', 'st_vincent.p', 'night_at_the_museum_secret_of_the_tomb.p', 'transcendence.p', 'american_sniper.p', 'old_fashioned.p', 'jessabelle.p', 'home&y=2015.p', 'wild.p', 'inherent_vice.p', 'hercules.p', 'project_almanac.p', 'need_for_speed.p', 'the_pyramid.p', 'the_lego_movie.p', 'this_is_where_i_leave_you.p', 'maleficent.p', 'into_the_storm.p', 'yellowbird.p', 'dumb_and_dumber_to.p', 'hot_tub_time_machine_2.p', 'robocop.p', 'the_other_woman.p', 'the_purge_anarchy.p', 'black_or_white.p', 'the_town_that_dreaded_sundown.p', 'i-lived&y=2015.p', 'annabelle.p', 'jersey_boys.p', 'the_theory_of_everything.p', 'dracula_untold.p', 'the_hero_of_color_city.p', 'the_nut_job.p', 'how_to_train_your_dragon_2.p', 'maya_the_bee_movie.p', 'edge_of_tomorrow.p', 'rio_2.p', 'i_frankenstein.p', 'lucy.p', 'big_hero_6.p', 'mr_peabody_&_sherman.p', 'vampire_academy.p', 'the_boxtrolls.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_salt_of_the_earth.p', 'citizenfour.p']
+
+TEST SET: 
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'that_sugar_film.p', "devil's_due.p", 'sabotage.p', 'dolphin_tale_2.p', 'the_identical.p', 'a_walk_among_the_tombstones.p', 'if_i_stay.p', 'virunga.p', 'get_on_up.p', 'see_no_evil_2.p', 'ouija.p', 'song_one.p', 'unfriended.p', 'the_november_man.p', 'gone_girl.p', 'non-stop.p', 'lambert,_stamp.p', 'persecuted.p', 'cake.p', 'seventh_son.p', 'beyond_the_lights.p', 'dear_white_people.p', 'bears.p']
+
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 2880 candidates, totalling 8640 fits
+done in 3250.066s
+
+Best score: 0.214
+Best parameters set:
+	estimator__sgd__alpha: 1e-06
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 80
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+
+RESULTS:
+LABEL RANKING LOSS:
+0.597222222222
+LABEL RANKING AVERAGE PRECISION
+0.405257936508
+if_i_stay.p
+PREDICTED: 
+	Adventure
+	Drama
+CORRECT: 
+	Drama
+get_on_up.p
+PREDICTED: 
+	Comedy
+	Drama
+CORRECT: 
+	Drama
+bears.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Documentary
+virunga.p
+PREDICTED: 
+CORRECT: 
+	Documentary
+a_walk_among_the_tombstones.p
+PREDICTED: 
+	Action
+	Adventure
+CORRECT: 
+	Drama
+lambert,_stamp.p
+PREDICTED: 
+	Horror
+CORRECT: 
+	Documentary
+dear_white_people.p
+PREDICTED: 
+	Action
+	Adventure
+	Comedy
+CORRECT: 
+	Comedy
+	Drama
+the_november_man.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Action
+the_identical.p
+PREDICTED: 
+CORRECT: 
+	Drama
+dolphin_tale_2.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+	Drama
+that_sugar_film.p
+PREDICTED: 
+	Documentary
+CORRECT: 
+	Documentary
+sabotage.p
+PREDICTED: 
+CORRECT: 
+	Action
+	Drama
+gone_girl.p
+PREDICTED: 
+CORRECT: 
+	Drama
+see_no_evil_2.p
+PREDICTED: 
+CORRECT: 
+	Horror
+devil's_due.p
+PREDICTED: 
+CORRECT: 
+	Horror
+cake.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+unfriended.p
+PREDICTED: 
+	Comedy
+	Documentary
+CORRECT: 
+	Horror
+ouija.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Horror
+seventh_son.p
+PREDICTED: 
+	Adventure
+	Drama
+CORRECT: 
+	Action
+	Adventure
+persecuted.p
+PREDICTED: 
+	Action
+	Adventure
+	Drama
+CORRECT: 
+	Action
+	Drama
+non-stop.p
+PREDICTED: 
+	Action
+	Adventure
+CORRECT: 
+	Action
+song_one.p
+PREDICTED: 
+	Adventure
+	Drama
+CORRECT: 
+	Drama
+beyond_the_lights.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+alexander_and_the_terrible_horrible_no_good_very_bad_day.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+	Comedy 
+
+#################################################################################
+##########################     USING RANDOM SEARCH    ###########################
+['exodus_gods_and_kings.p', 'how_to_train_your_dragon_2.p', 'bears.p', 'see_no_evil_2.p', 'addicted.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_salt_of_the_earth.p', 'the_other_woman.p', 'project_almanac.p', 'edge_of_tomorrow.p', 'maya_the_bee_movie.p', 'cowspiracy_the_sustainability_secret.p', "let's_be_cops.p", "winter's_tale.p", 'the_trip_to_italy.p', 'yellowbird.p', 'alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'rosewater.p', 'the_hero_of_color_city.p', 'endless_love.p', 'dracula_untold.p', 'dumb_and_dumber_to.p', 'tomorrowland.p', 'the_hunger_games_mockingjay_part_1.p', 'tammy.p', 'hot_tub_time_machine_2.p', 'lucy.p', 'the_lego_movie.p', 'the_judge.p', 'cake.p', 'st_vincent.p', 'black_or_white.p', 'american_sniper.p', 'mr_peabody_&_sherman.p', 'this_is_where_i_leave_you.p', 'x-men_days_of_future_past.p', 'non-stop.p', 'get_on_up.p', 'the_fault_in_our_stars.p', 'song_one.p', 'robocop.p', 'into_the_storm.p', 'a_most_wanted_man.p', 'the_good_lie.p', 'wild.p', 'the_maze_runner.p', 'beyond_the_lights.p', 'divergent.p', 'spring.p', 'as_above_so_below.p', 'noble.p', 'hercules.p', 'i-lived&y=2015.p', 'night_at_the_museum_secret_of_the_tomb.p', 'planes:fire_&_rescue.p', 'old_fashioned.p', 'the_identical.p', 'dawn_of_the_planet_of_the_apes.p', 'cabin_fever_patient_zero.p', 'ride_along.p', 'dear_white_people.p', 'if_i_stay.p', 'red_army.p', 'the_boxtrolls.p', 'captain_america_the_winter_soldier.p', 'virunga.p', 'the_interview.p', 'earth_to_echo.p', 'a_walk_among_the_tombstones.p', 'persecuted.p', 'the_book_of_life.p', 'unbroken.p', 'the_drop.p', 'need_for_speed.p', 'brick_mansions.p', 'maleficent.p', 'blended.p', "devil's_due.p", 'jessabelle.p', 'fear_clinic.p', 'gone_girl.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'kill_the_messenger.p', 'my_little_pony_equestria_girls.p', 'rio_2.p', 'big_hero_6.p', 'guardians_of_the_galaxy.p', 'noah.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'i_frankenstein.p', 'the_november_man.p', 'the_pyramid.p', 'and_so_it_goes.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'inherent_vice.p', 'merchants_of_doubt.p', 'iris.p', 'lambert,_stamp.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.245s
+
+Best score: 0.204
+Best parameters set:
+	estimator__sgd__alpha: 1e-06
+	estimator__sgd__loss: 'perceptron'
+	estimator__sgd__n_iter: 150
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 15
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.312s
+
+Best score: 0.194
+Best parameters set:
+	estimator__sgd__alpha: 1e-05
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 100
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 10
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.204s
+
+Best score: 0.194
+Best parameters set:
+	estimator__sgd__alpha: 0.0001
+	estimator__sgd__loss: 'log'
+	estimator__sgd__n_iter: 20
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.2, 'subs': 0.8}
+###########################################################################
+['this_is_where_i_leave_you.p', 'ride_along.p', 'get_on_up.p', 'my_little_pony_equestria_girls.p', 'see_no_evil_2.p', 'project_almanac.p', 'cowspiracy_the_sustainability_secret.p', 'unfriended.p', 'robocop.p', 'john_wick.p', 'the_raid_2.p', 'vampire_academy.p', 'the_lego_movie.p', 'dawn_of_the_planet_of_the_apes.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'non-stop.p', 'the_good_lie.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'veronica_mars.p', 'yellowbird.p', 'fear_clinic.p', 'gone_girl.p', "let's_be_cops.p", 'jersey_boys.p', 'endless_love.p', 'as_above_so_below.p', 'the_interview.p', 'unbroken.p', 'hot_tub_time_machine_2.p', 'mr_peabody_&_sherman.p', 'teenage_mutant_ninja_turtles.p', 'iris.p', 'the_fault_in_our_stars.p', 'a_most_wanted_man.p', 'captain_america_the_winter_soldier.p', 'noble.p', 'the_other_woman.p', 'blended.p', 'noah.p', 'tomorrowland.p', 'the_town_that_dreaded_sundown.p', 'the_purge_anarchy.p', 'dracula_untold.p', 'black_or_white.p', 'that_sugar_film.p', 'home&y=2015.p', 'ouija.p', 'the_maze_runner.p', 'the_pyramid.p', 'night_at_the_museum_secret_of_the_tomb.p', "winter's_tale.p", 'earth_to_echo.p', 'kill_the_messenger.p', 'the_hero_of_color_city.p', 'virunga.p', 'and_so_it_goes.p', 'cabin_fever_patient_zero.p', 'st_vincent.p', 'lambert,_stamp.p', 'i-lived&y=2015.p', 'the_identical.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_november_man.p', 'rosewater.p', 'transcendence.p', 'addicted.p', 'muppets_most_wanted.p', 'the_nut_job.p', 'hercules.p', 'beyond_the_lights.p', 'american_sniper.p', 'persecuted.p', 'the_boxtrolls.p', 'edge_of_tomorrow.p', 'cake.p', 'alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'spring.p', "devil's_due.p", 'jessabelle.p', 'a_walk_among_the_tombstones.p', 'brick_mansions.p', 'the_drop.p', 'planes:fire_&_rescue.p', 'the_book_of_life.p', 'rio_2.p', 'divergent.p', 'guardians_of_the_galaxy.p', 'the_hunger_games_mockingjay_part_1.p', 'big_hero_6.p', 'how_to_train_your_dragon_2.p', 'x-men_days_of_future_past.p', 'maya_the_bee_movie.p', 'the_trip_to_italy.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'citizenfour.p', 'red_army.p', 'bears.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 13.036s
+
+Best score: 0.173
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'hinge'
+	estimator__sgd__n_iter: 150
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.406s
+
+Best score: 0.153
+Best parameters set:
+	estimator__sgd__alpha: 1e-05
+	estimator__sgd__loss: 'perceptron'
+	estimator__sgd__n_iter: 50
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 12.111s
+
+Best score: 0.153
+Best parameters set:
+	estimator__sgd__alpha: 1e-06
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 80
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 14.435s
+
+Best score: 0.173
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'hinge'
+	estimator__sgd__n_iter: 100
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 12.119s
+
+Best score: 0.184
+Best parameters set:
+	estimator__sgd__alpha: 1e-05
+	estimator__sgd__loss: 'squared_hinge'
+	estimator__sgd__n_iter: 20
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 10
+	estimator__union__transformer_weights: {'colors': 0.2, 'subs': 0.8}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.680s
+
+Best score: 0.163
+Best parameters set:
+	estimator__sgd__alpha: 1e-06
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 20
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 15
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.499s
+
+Best score: 0.153
+Best parameters set:
+	estimator__sgd__alpha: 0.0001
+	estimator__sgd__loss: 'log'
+	estimator__sgd__n_iter: 100
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.532s
+
+Best score: 0.184
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'hinge'
+	estimator__sgd__n_iter: 80
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 10
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.270s
+
+Best score: 0.153
+Best parameters set:
+	estimator__sgd__alpha: 1e-05
+	estimator__sgd__loss: 'squared_hinge'
+	estimator__sgd__n_iter: 80
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.179s
+
+Best score: 0.184
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 10
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 15
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.380s
+
+Best score: 0.204
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'hinge'
+	estimator__sgd__n_iter: 150
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.2, 'subs': 0.8}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.263s
+
+Best score: 0.184
+Best parameters set:
+	estimator__sgd__alpha: 0.0001
+	estimator__sgd__loss: 'squared_hinge'
+	estimator__sgd__n_iter: 50
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 15
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.352s
+
+Best score: 0.153
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'perceptron'
+	estimator__sgd__n_iter: 50
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.388s
+
+Best score: 0.163
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'hinge'
+	estimator__sgd__n_iter: 80
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.246s
+
+Best score: 0.173
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'log'
+	estimator__sgd__n_iter: 20
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 10
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 13.810s
+
+Best score: 0.163
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'perceptron'
+	estimator__sgd__n_iter: 20
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.2, 'subs': 0.8}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 13.236s
+
+Best score: 0.173
+Best parameters set:
+	estimator__sgd__alpha: 1e-05
+	estimator__sgd__loss: 'hinge'
+	estimator__sgd__n_iter: 150
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 5
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.852s
+
+Best score: 0.184
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'log'
+	estimator__sgd__n_iter: 20
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 10
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 12.158s
+
+Best score: 0.184
+Best parameters set:
+	estimator__sgd__alpha: 0.001
+	estimator__sgd__loss: 'squared_hinge'
+	estimator__sgd__n_iter: 150
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 15
+	estimator__union__transformer_weights: {'colors': 0.35, 'subs': 0.65}
+###########################################################################

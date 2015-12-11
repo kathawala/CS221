@@ -1,0 +1,56 @@
+TEST RESULTS WITH DIFFERENT PARAMETERS: 
+-------------------------------------------------------------------------------
+	estimator__sgd__alpha: 1e-06
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 80
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 3
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
+
+LABEL RANKING LOSS:
+5.37333333333
+LABEL RANKING AVERAGE PRECISION
+4.7846031746
+
+LABEL RANKING LOSS:
+5.82291666667
+LABEL RANKING AVERAGE PRECISION
+4.60052910053
+
+LABEL RANKING LOSS:
+5.32569444444
+LABEL RANKING AVERAGE PRECISION
+4.44973544974
+
+LABEL RANKING LOSS:
+5.81025641026
+LABEL RANKING AVERAGE PRECISION
+4.27655677656
+
+LABEL RANKING LOSS:
+5.11805555556
+LABEL RANKING AVERAGE PRECISION
+4.40267857143
+-------------------------------------------------------------------------------
+ORIGINAL: loss="hinge", 
+			penalty="l2"
+			 transformer_weights={
+                'colors': 0.35,
+                'subs': 0.65,
+                },
+            max_features=15)
+
+LABEL RANKING LOSS:
+6.40466666667
+LABEL RANKING AVERAGE PRECISION
+3.99831746032
+
+LABEL RANKING LOSS:
+6.89513888889
+LABEL RANKING AVERAGE PRECISION
+3.63310185185
+
+LABEL RANKING LOSS:
+5.98666666667
+LABEL RANKING AVERAGE PRECISION
+4.62634920635

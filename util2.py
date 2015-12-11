@@ -96,11 +96,16 @@ def getCorrectGenres(dataset):
 		movie_genres.append(genres) 
 	return movie_genres
 
-def printOutput(mlb, testExamples, result):
-	assert (len(result) == len(testExamples)), "No. of samples in predicted and test data don't match"
-	for i, sample in enumerate(result):
-		print testExamples[i]
-		assert(len(sample) == len(mlb.classes_)), "Labels of the predicted output and fit input don't match"
-		for index, label in enumerate(sample): 
+def printOutput(mlb, testExamples, predicted, correct):
+	assert (len(predicted) == len(testExamples)), "No. of samples in predicted and test data don't match"
+	assert (len(predicted) == len(correct)), "No. of samples in predicted and correct datasets don't match"
+	for i, sample in enumerate(testExamples):
+		print sample
+		print "PREDICTED: "
+		for index, label in enumerate(predicted[i]):
+			if label: 
+				print "\t" + mlb.classes_[index]
+		print "CORRECT: "
+		for index, label in enumerate(correct[i]):
 			if label: 
 				print "\t" + mlb.classes_[index]
