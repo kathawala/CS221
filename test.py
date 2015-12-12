@@ -13,7 +13,7 @@ plraprecision = []
 nscoreone = 0
 nscoretwo = 0
 for i in range(0,10):
-	p = classifier2.predictor()
+	p = classifier3.predictor()
 	p.learnPredictor()
 	n_predicted = p.predict()
 	correct = p.mlb.transform(util2.getCorrectGenres(p.testExamples))

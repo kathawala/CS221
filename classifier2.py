@@ -22,7 +22,7 @@ class Movie_Data_Aggregator(BaseEstimator, TransformerMixin):
     data = {'colors': [unrboken_color_vector, wild_color_vector, etc]
             'subs': [unbroken.txt, wild.txt, etc]}
     """
-    def __init__(self, numbers=True):
+    def __init__(self, numbers=False):
         self.path = "feature_vectors" if numbers else "percentage_feature_vectors"
         self.sub_path = "subtitles"
             
