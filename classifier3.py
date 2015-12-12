@@ -1,5 +1,7 @@
 # ONE-VS-REST CLASSIFIER
 from sklearn.neighbors import RadiusNeighborsClassifier, KNeighborsClassifier, NearestNeighbors
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -80,7 +82,7 @@ class predictor():
                 'subs': 0.5,
                 },
                 )),
-            ('neighbors', KNeighborsClassifier()),
+            ('est', KNeighborsClassifier()),
             ])
         # OneVsRestClassifier used for prediction
         self.classif = OneVsRestClassifier(self.pipeline)

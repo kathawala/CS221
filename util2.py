@@ -120,7 +120,8 @@ def printCorrectness(mlb, testExamples, predicted, correct):
 				if correct[i][index]:
 					correctCount +=1 
 	correctness = float(correctCount)/totCount
-	print "CORRECTNESS: " + str(correctness)
+	# print "CORRECTNESS: " + str(correctness)
+	return correctness
 
 def printAccuracyByGenre(mlb, testExamples, predicted, correct):
 	print "ACCURACY BY GENRE:"

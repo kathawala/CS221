@@ -12,8 +12,9 @@ plraprecision = []
 
 nscoreone = 0
 nscoretwo = 0
+correctness = 0
 for i in range(0,10):
-	p = classifier3.predictor()
+	p = classifier2.predictor()
 	p.learnPredictor()
 	n_predicted = p.predict()
 	correct = p.mlb.transform(util2.getCorrectGenres(p.testExamples))
@@ -22,10 +23,11 @@ for i in range(0,10):
 	y_true = np.array(correct)
 	nscoreone += label_ranking_loss(y_true, ny_score)
 	nscoretwo += label_ranking_average_precision_score(y_true, ny_score)
+	correctness += util2.printCorrectness(p.mlb, p.testExamples, n_predicted, correct)
 
 print "LABEL RANKING LOSS: " + str(float(nscoreone)/10)
 print "LABEL RANKING AVERAGE PRECISION: " + str(float(nscoretwo)/10)
-# util2.printCorrectness(p.mlb, p.testExamples, n_predicted, correct)
+print "CORRECTNESS: " + str(float(correctness)/10)
 # util2.printAccuracyByGenre(p.mlb, p.testExamples, n_predicted, correct)
 # util2.printOutput(p.mlb, p.testExamples, n_predicted, correct)
 
