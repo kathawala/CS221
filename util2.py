@@ -109,3 +109,31 @@ def printOutput(mlb, testExamples, predicted, correct):
 		for index, label in enumerate(correct[i]):
 			if label: 
 				print "\t" + mlb.classes_[index]
+
+def printCorrectness(mlb, testExamples, predicted, correct):
+	totCount = 0
+	correctCount = 0
+	for i, sample in enumerate(predicted):
+		for index, label in enumerate(sample):
+			if label: 
+				totCount +=1 
+				if correct[i][index]:
+					correctCount +=1 
+	correctness = float(correctCount)/totCount
+	print "CORRECTNESS: " + str(correctness)
+
+def printAccuracyByGenre(mlb, testExamples, predicted, correct):
+	print "ACCURACY BY GENRE:"
+	for index, genre in enumerate(mlb.classes_):
+		totCount = 0
+		correctCount = 0
+		for i, sample in enumerate(correct):
+			if sample[index]: 
+				totCount +=1
+				if predicted[i][index]:
+					correctCount += 1
+		if totCount !=0: 
+			accuracy = float(correctCount)/totCount
+			print genre + ": " + str(accuracy)
+		else: 
+			print genre + ": Does not appear in test data" 

@@ -22,7 +22,7 @@ class Movie_Data_Aggregator(BaseEstimator, TransformerMixin):
     data = {'colors': [unrboken_color_vector, wild_color_vector, etc]
             'subs': [unbroken.txt, wild.txt, etc]}
     """
-    def __init__(self, numbers=False):
+    def __init__(self, numbers=True):
         self.path = "feature_vectors" if numbers else "percentage_feature_vectors"
         self.sub_path = "subtitles"
             
@@ -55,9 +55,8 @@ class predictor():
     # __init__(self, loss="hinge", penalty="l2")
     # This way, we can try out different loss functions easily
     def __init__(self):
-        self.trainExamples = ['tomorrowland.p', 'the_trip_to_italy.p', 'john_wick.p', 'the_grand_budapest_hotel.p', 'iris.p', 'the_book_of_life.p', 'earth_to_echo.p', 'and_so_it_goes.p', 'endless_love.p', 'unbroken.p', 'tammy.p', 'the_interview.p', 'blended.p', 'fear_clinic.p', 'divergent.p', 'horrible_bosses_2.p', 'as_above_so_below.p', 'merchants_of_doubt.p', 'ride_along.p', 'my_little_pony_equestria_girls.p', 'a_most_wanted_man.p', 'red_army.p', 'rosewater.p', 'the_judge.p', 'dawn_of_the_planet_of_the_apes.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'noble.p', 'paranormal_activity_the_marked_ones.p', "winter's_tale.p", 'veronica_mars.p', 'exodus_gods_and_kings.p', 'spring.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'guardians_of_the_galaxy.p', 'captain_america_the_winter_soldier.p', 'planes:fire_&_rescue.p', 'the_fault_in_our_stars.p', 'muppets_most_wanted.p', "let's_be_cops.p", 'the_good_lie.p', 'addicted.p', 'cowspiracy_the_sustainability_secret.p', 'the_raid_2.p', 'kill_the_messenger.p', 'teenage_mutant_ninja_turtles.p', 'the_drop.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'the_maze_runner.p', 'brick_mansions.p', 'interstellar.p', 'noah.p', 'cabin_fever_patient_zero.p', 'st_vincent.p', 'night_at_the_museum_secret_of_the_tomb.p', 'transcendence.p', 'american_sniper.p', 'old_fashioned.p', 'jessabelle.p', 'home&y=2015.p', 'wild.p', 'inherent_vice.p', 'hercules.p', 'project_almanac.p', 'need_for_speed.p', 'the_pyramid.p', 'the_lego_movie.p', 'this_is_where_i_leave_you.p', 'maleficent.p', 'into_the_storm.p', 'yellowbird.p', 'dumb_and_dumber_to.p', 'hot_tub_time_machine_2.p', 'robocop.p', 'the_other_woman.p', 'the_purge_anarchy.p', 'black_or_white.p', 'the_town_that_dreaded_sundown.p', 'i-lived&y=2015.p', 'annabelle.p', 'jersey_boys.p', 'the_theory_of_everything.p', 'dracula_untold.p', 'the_hero_of_color_city.p', 'the_nut_job.p', 'how_to_train_your_dragon_2.p', 'maya_the_bee_movie.p', 'edge_of_tomorrow.p', 'rio_2.p', 'i_frankenstein.p', 'lucy.p', 'big_hero_6.p', 'mr_peabody_&_sherman.p', 'vampire_academy.p', 'the_boxtrolls.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_salt_of_the_earth.p', 'citizenfour.p']
+        self.trainExamples = ['exodus_gods_and_kings.p', 'how_to_train_your_dragon_2.p', 'bears.p', 'see_no_evil_2.p', 'addicted.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_salt_of_the_earth.p', 'the_other_woman.p', 'project_almanac.p', 'edge_of_tomorrow.p', 'maya_the_bee_movie.p', 'cowspiracy_the_sustainability_secret.p', "let's_be_cops.p", "winter's_tale.p", 'the_trip_to_italy.p', 'yellowbird.p', 'alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'rosewater.p', 'the_hero_of_color_city.p', 'endless_love.p', 'dracula_untold.p', 'dumb_and_dumber_to.p', 'tomorrowland.p', 'the_hunger_games_mockingjay_part_1.p', 'tammy.p', 'hot_tub_time_machine_2.p', 'lucy.p', 'the_lego_movie.p', 'the_judge.p', 'cake.p', 'st_vincent.p', 'black_or_white.p', 'american_sniper.p', 'mr_peabody_&_sherman.p', 'this_is_where_i_leave_you.p', 'x-men_days_of_future_past.p', 'non-stop.p', 'get_on_up.p', 'the_fault_in_our_stars.p', 'song_one.p', 'robocop.p', 'into_the_storm.p', 'a_most_wanted_man.p', 'the_good_lie.p', 'wild.p', 'the_maze_runner.p', 'beyond_the_lights.p', 'divergent.p', 'spring.p', 'as_above_so_below.p', 'noble.p', 'hercules.p', 'i-lived&y=2015.p', 'night_at_the_museum_secret_of_the_tomb.p', 'planes:fire_&_rescue.p', 'old_fashioned.p', 'the_identical.p', 'dawn_of_the_planet_of_the_apes.p', 'cabin_fever_patient_zero.p', 'ride_along.p', 'dear_white_people.p', 'if_i_stay.p', 'red_army.p', 'the_boxtrolls.p', 'captain_america_the_winter_soldier.p', 'virunga.p', 'the_interview.p', 'earth_to_echo.p', 'a_walk_among_the_tombstones.p', 'persecuted.p', 'the_book_of_life.p', 'unbroken.p', 'the_drop.p', 'need_for_speed.p', 'brick_mansions.p', 'maleficent.p', 'blended.p', "devil's_due.p", 'jessabelle.p', 'fear_clinic.p', 'gone_girl.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'kill_the_messenger.p', 'my_little_pony_equestria_girls.p', 'rio_2.p', 'big_hero_6.p', 'guardians_of_the_galaxy.p', 'noah.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'i_frankenstein.p', 'the_november_man.p', 'the_pyramid.p', 'and_so_it_goes.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'inherent_vice.p', 'merchants_of_doubt.p', 'iris.p', 'lambert,_stamp.p']
         self.testExamples = [x for x in util2.getMovieDataset() if x not in self.trainExamples]
-        print self.testExamples
         # Standard DictVectorizer fitted with all colors as the features.
         self.dVec = DictVectorizer(sparse=False)
         self.dVec.fit([dict((feature,0) for feature in util2.getColors())])
@@ -73,7 +72,7 @@ class predictor():
                     ])),
                 ('subs', Pipeline([
                     ('selector', Data_Selector(key='subs')),
-                    ('tfidf', TfidfVectorizer(strip_accents='ascii', max_features=3)),
+                    ('tfidf', TfidfVectorizer(strip_accents='ascii', max_features=15)),
                     ])),
                 ],
                 transformer_weights={
@@ -81,7 +80,7 @@ class predictor():
                 'subs': 0.5,
                 },
                 )),
-            ('sgd', SGDClassifier(alpha= 1e-06, loss="modified_huber", n_iter= 80, penalty="l2")),
+            ('sgd', SGDClassifier(alpha= 1e-06, loss="perceptron", n_iter= 150, penalty="l2")),
             ])
 		# OneVsRestClassifier used for prediction
         self.classif = OneVsRestClassifier(self.pipeline)

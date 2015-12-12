@@ -1,5 +1,26 @@
-TEST RESULTS WITH DIFFERENT PARAMETERS: 
--------------------------------------------------------------------------------
+##########################     ONE   ##################################
+TRAIN SET: 
+['tomorrowland.p', 'the_trip_to_italy.p', 'john_wick.p', 'the_grand_budapest_hotel.p', 'iris.p', 'the_book_of_life.p', 'earth_to_echo.p', 'and_so_it_goes.p', 'endless_love.p', 'unbroken.p', 'tammy.p', 'the_interview.p', 'blended.p', 'fear_clinic.p', 'divergent.p', 'horrible_bosses_2.p', 'as_above_so_below.p', 'merchants_of_doubt.p', 'ride_along.p', 'my_little_pony_equestria_girls.p', 'a_most_wanted_man.p', 'red_army.p', 'rosewater.p', 'the_judge.p', 'dawn_of_the_planet_of_the_apes.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'noble.p', 'paranormal_activity_the_marked_ones.p', "winter's_tale.p", 'veronica_mars.p', 'exodus_gods_and_kings.p', 'spring.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'guardians_of_the_galaxy.p', 'captain_america_the_winter_soldier.p', 'planes:fire_&_rescue.p', 'the_fault_in_our_stars.p', 'muppets_most_wanted.p', "let's_be_cops.p", 'the_good_lie.p', 'addicted.p', 'cowspiracy_the_sustainability_secret.p', 'the_raid_2.p', 'kill_the_messenger.p', 'teenage_mutant_ninja_turtles.p', 'the_drop.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'the_maze_runner.p', 'brick_mansions.p', 'interstellar.p', 'noah.p', 'cabin_fever_patient_zero.p', 'st_vincent.p', 'night_at_the_museum_secret_of_the_tomb.p', 'transcendence.p', 'american_sniper.p', 'old_fashioned.p', 'jessabelle.p', 'home&y=2015.p', 'wild.p', 'inherent_vice.p', 'hercules.p', 'project_almanac.p', 'need_for_speed.p', 'the_pyramid.p', 'the_lego_movie.p', 'this_is_where_i_leave_you.p', 'maleficent.p', 'into_the_storm.p', 'yellowbird.p', 'dumb_and_dumber_to.p', 'hot_tub_time_machine_2.p', 'robocop.p', 'the_other_woman.p', 'the_purge_anarchy.p', 'black_or_white.p', 'the_town_that_dreaded_sundown.p', 'i-lived&y=2015.p', 'annabelle.p', 'jersey_boys.p', 'the_theory_of_everything.p', 'dracula_untold.p', 'the_hero_of_color_city.p', 'the_nut_job.p', 'how_to_train_your_dragon_2.p', 'maya_the_bee_movie.p', 'edge_of_tomorrow.p', 'rio_2.p', 'i_frankenstein.p', 'lucy.p', 'big_hero_6.p', 'mr_peabody_&_sherman.p', 'vampire_academy.p', 'the_boxtrolls.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_salt_of_the_earth.p', 'citizenfour.p']
+
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 2880 candidates, totalling 8640 fits
+done in 3250.066s
+
+Best score: 0.214
+Best parameters set:
 	estimator__sgd__alpha: 1e-06
 	estimator__sgd__loss: 'modified_huber'
 	estimator__sgd__n_iter: 80
@@ -7,50 +28,526 @@ TEST RESULTS WITH DIFFERENT PARAMETERS:
 	estimator__union__subs__tfidf__max_features: 3
 	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
 
-LABEL RANKING LOSS:
-5.37333333333
-LABEL RANKING AVERAGE PRECISION
-4.7846031746
+['a_walk_among_the_tombstones.p', 'virunga.p', 'sabotage.p', 'see_no_evil_2.p', 'the_november_man.p', 'lambert,_stamp.p', 'alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'get_on_up.p', 'unfriended.p', 'persecuted.p', 'cake.p', 'ouija.p', 'dear_white_people.p', 'song_one.p', 'beyond_the_lights.p', 'bears.p', 'non-stop.p', 'dolphin_tale_2.p', 'if_i_stay.p', "devil's_due.p", 'the_identical.p', 'seventh_son.p', 'gone_girl.p', 'that_sugar_film.p']
+LABEL RANKING LOSS: 0.534722222222
+LABEL RANKING AVERAGE PRECISION: 0.428075396825
+CORRECTNESS: 0.428571428571
+ACCURACY BY GENRE:
+Action: 0.6
+Adventure: 0.0
+Animation: Does not appear in test data
+Comedy: 1.0
+Documentary: 0.5
+Drama: 0.666666666667
+Horror: 0.0
+a_walk_among_the_tombstones.p
+PREDICTED: 
+	Action
+	Adventure
+	Drama
+CORRECT: 
+	Drama
+virunga.p
+PREDICTED: 
+CORRECT: 
+	Documentary
+sabotage.p
+PREDICTED: 
+	Comedy
+	Drama
+CORRECT: 
+	Action
+	Drama
+see_no_evil_2.p
+PREDICTED: 
+CORRECT: 
+	Horror
+the_november_man.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Action
+lambert,_stamp.p
+PREDICTED: 
+	Documentary
+	Horror
+CORRECT: 
+	Documentary
+alexander_and_the_terrible_horrible_no_good_very_bad_day.p
+PREDICTED: 
+	Comedy
+	Drama
+CORRECT: 
+	Comedy
+get_on_up.p
+PREDICTED: 
+	Comedy
+	Drama
+CORRECT: 
+	Drama
+unfriended.p
+PREDICTED: 
+	Comedy
+	Documentary
+CORRECT: 
+	Horror
+persecuted.p
+PREDICTED: 
+	Action
+	Adventure
+	Drama
+CORRECT: 
+	Action
+	Drama
+cake.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+ouija.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Horror
+dear_white_people.p
+PREDICTED: 
+	Action
+	Adventure
+	Comedy
+CORRECT: 
+	Comedy
+	Drama
+song_one.p
+PREDICTED: 
+	Adventure
+	Drama
+CORRECT: 
+	Drama
+beyond_the_lights.p
+PREDICTED: 
+CORRECT: 
+	Drama
+bears.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Documentary
+non-stop.p
+PREDICTED: 
+	Action
+	Adventure
+CORRECT: 
+	Action
+dolphin_tale_2.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+	Drama
+if_i_stay.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+devil's_due.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Horror
+the_identical.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+seventh_son.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Action
+	Adventure
+gone_girl.p
+PREDICTED: 
+CORRECT: 
+	Drama
+that_sugar_film.p
+PREDICTED: 
+	Documentary
+CORRECT: 
+	Documentary
+########################### 	TWO     ######################################['exodus_gods_and_kings.p', 'how_to_train_your_dragon_2.p', 'bears.p', 'see_no_evil_2.p', 'addicted.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'the_salt_of_the_earth.p', 'the_other_woman.p', 'project_almanac.p', 'edge_of_tomorrow.p', 'maya_the_bee_movie.p', 'cowspiracy_the_sustainability_secret.p', "let's_be_cops.p", "winter's_tale.p", 'the_trip_to_italy.p', 'yellowbird.p', 'alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'rosewater.p', 'the_hero_of_color_city.p', 'endless_love.p', 'dracula_untold.p', 'dumb_and_dumber_to.p', 'tomorrowland.p', 'the_hunger_games_mockingjay_part_1.p', 'tammy.p', 'hot_tub_time_machine_2.p', 'lucy.p', 'the_lego_movie.p', 'the_judge.p', 'cake.p', 'st_vincent.p', 'black_or_white.p', 'american_sniper.p', 'mr_peabody_&_sherman.p', 'this_is_where_i_leave_you.p', 'x-men_days_of_future_past.p', 'non-stop.p', 'get_on_up.p', 'the_fault_in_our_stars.p', 'song_one.p', 'robocop.p', 'into_the_storm.p', 'a_most_wanted_man.p', 'the_good_lie.p', 'wild.p', 'the_maze_runner.p', 'beyond_the_lights.p', 'divergent.p', 'spring.p', 'as_above_so_below.p', 'noble.p', 'hercules.p', 'i-lived&y=2015.p', 'night_at_the_museum_secret_of_the_tomb.p', 'planes:fire_&_rescue.p', 'old_fashioned.p', 'the_identical.p', 'dawn_of_the_planet_of_the_apes.p', 'cabin_fever_patient_zero.p', 'ride_along.p', 'dear_white_people.p', 'if_i_stay.p', 'red_army.p', 'the_boxtrolls.p', 'captain_america_the_winter_soldier.p', 'virunga.p', 'the_interview.p', 'earth_to_echo.p', 'a_walk_among_the_tombstones.p', 'persecuted.p', 'the_book_of_life.p', 'unbroken.p', 'the_drop.p', 'need_for_speed.p', 'brick_mansions.p', 'maleficent.p', 'blended.p', "devil's_due.p", 'jessabelle.p', 'fear_clinic.p', 'gone_girl.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'kill_the_messenger.p', 'my_little_pony_equestria_girls.p', 'rio_2.p', 'big_hero_6.p', 'guardians_of_the_galaxy.p', 'noah.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'i_frankenstein.p', 'the_november_man.p', 'the_pyramid.p', 'and_so_it_goes.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'inherent_vice.p', 'merchants_of_doubt.p', 'iris.p', 'lambert,_stamp.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.245s
 
-LABEL RANKING LOSS:
-5.82291666667
-LABEL RANKING AVERAGE PRECISION
-4.60052910053
+Best score: 0.204
+Best parameters set:
+	estimator__sgd__alpha: 1e-06
+	estimator__sgd__loss: 'perceptron'
+	estimator__sgd__n_iter: 150
+	estimator__sgd__penalty: 'l2'
+	estimator__union__subs__tfidf__max_features: 15
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
 
-LABEL RANKING LOSS:
-5.32569444444
-LABEL RANKING AVERAGE PRECISION
-4.44973544974
+['the_purge_anarchy.p', 'vampire_academy.p', 'john_wick.p', 'ouija.p', 'sabotage.p', 'muppets_most_wanted.p', 'the_grand_budapest_hotel.p', 'the_nut_job.p', 'annabelle.p', 'the_theory_of_everything.p', 'the_raid_2.p', 'unfriended.p', 'transcendence.p', 'home&y=2015.p', 'dolphin_tale_2.p', 'citizenfour.p', 'interstellar.p', 'teenage_mutant_ninja_turtles.p', 'veronica_mars.p', 'paranormal_activity_the_marked_ones.p', 'that_sugar_film.p', 'seventh_son.p', 'horrible_bosses_2.p', 'jersey_boys.p', 'the_town_that_dreaded_sundown.p']
+LABEL RANKING LOSS: 0.467333333333
+LABEL RANKING AVERAGE PRECISION: 0.55380952381
+CORRECTNESS: 0.55
+ACCURACY BY GENRE:
+Action: 0.714285714286
+Adventure: 0.285714285714
+Animation: 1.0
+Comedy: 0.571428571429
+Documentary: 1.0
+Drama: 0.625
+Horror: 0.333333333333
+the_purge_anarchy.p
+PREDICTED: 
+	Action
+CORRECT: 
+	Action
+	Horror
+vampire_academy.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Action
+	Comedy
+john_wick.p
+PREDICTED: 
+	Action
+CORRECT: 
+	Action
+ouija.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Horror
+sabotage.p
+PREDICTED: 
+CORRECT: 
+	Action
+	Drama
+muppets_most_wanted.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Adventure
+	Comedy
+the_grand_budapest_hotel.p
+PREDICTED: 
+	Animation
+	Comedy
+CORRECT: 
+	Adventure
+	Comedy
+	Drama
+the_nut_job.p
+PREDICTED: 
+	Adventure
+	Animation
+	Comedy
+CORRECT: 
+	Adventure
+	Animation
+	Comedy
+annabelle.p
+PREDICTED: 
+	Action
+	Horror
+CORRECT: 
+	Horror
+the_theory_of_everything.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+the_raid_2.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Action
+unfriended.p
+PREDICTED: 
+	Comedy
+	Documentary
+CORRECT: 
+	Horror
+transcendence.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+home&y=2015.p
+PREDICTED: 
+	Adventure
+	Animation
+	Comedy
+CORRECT: 
+	Adventure
+	Animation
+	Comedy
+dolphin_tale_2.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+	Drama
+citizenfour.p
+PREDICTED: 
+	Documentary
+CORRECT: 
+	Documentary
+interstellar.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Adventure
+	Drama
+teenage_mutant_ninja_turtles.p
+PREDICTED: 
+	Action
+	Comedy
+CORRECT: 
+	Action
+	Adventure
+	Comedy
+veronica_mars.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+paranormal_activity_the_marked_ones.p
+PREDICTED: 
+	Action
+	Horror
+CORRECT: 
+	Horror
+that_sugar_film.p
+PREDICTED: 
+	Comedy
+	Documentary
+CORRECT: 
+	Documentary
+seventh_son.p
+PREDICTED: 
+CORRECT: 
+	Action
+	Adventure
+horrible_bosses_2.p
+PREDICTED: 
+	Adventure
+CORRECT: 
+	Comedy
+jersey_boys.p
+PREDICTED: 
+	Action
+	Drama
+	Horror
+CORRECT: 
+	Drama
+the_town_that_dreaded_sundown.p
+PREDICTED: 
+	Action
+	Adventure
+CORRECT: 
+	Horror
+#############################   THREE    ################################
+['alexander_and_the_terrible_horrible_no_good_very_bad_day.p', 'transcendence.p', 'blended.p', 'the_identical.p', 'divergent.p', 'and_so_it_goes.p', 'tomorrowland.p', 'wild.p', 'cake.p', 'unfriended.p', 'interstellar.p', 'the_trip_to_italy.p', 'hot_tub_time_machine_2.p', 'edge_of_tomorrow.p', 'the_fault_in_our_stars.p', 'the_drop.p', 'dawn_of_the_planet_of_the_apes.p', 'old_fashioned.p', 'st_vincent.p', 'endless_love.p', 'sabotage.p', 'jessabelle.p', 'american_sniper.p', 'get_on_up.p', 'if_i_stay.p', 'i_frankenstein.p', 'birdman_or_the_unexpected_virtue_of_ignorance.p', 'dolphin_tale_2.p', 'a_walk_among_the_tombstones.p', 'need_for_speed.p', 'home&y=2015.p', 'virunga.p', 'maya_the_bee_movie.p', 'the_november_man.p', 'a_most_wanted_man.p', 'teenage_mutant_ninja_turtles.p', 'annabelle.p', 'dumb_and_dumber_to.p', 'vampire_academy.p', 'earth_to_echo.p', 'mr_peabody_&_sherman.p', 'spring.p', 'beyond_the_lights.p', 'horrible_bosses_2.p', 'into_the_storm.p', 'how_to_train_your_dragon_2.p', 'guardians_of_the_galaxy.p', 'cowspiracy_the_sustainability_secret.p', 'tammy.p', 'the_boxtrolls.p', 'dracula_untold.p', 'the_grand_budapest_hotel.p', 'noble.p', 'the_interview.p', 'the_raid_2.p', 'this_is_where_i_leave_you.p', 'addicted.p', 'black_or_white.p', 'exodus_gods_and_kings.p', 'rosewater.p', 'the_theory_of_everything.p', 'unbroken.p', 'the_hobbit_the_battle_of_the_five_armies.p', 'song_one.p', 'planes:fire_&_rescue.p', 'fear_clinic.p', 'that_sugar_film.p', 'dear_white_people.p', 'the_book_of_life.p', 'the_maze_runner.p', 'the_other_woman.p', 'kill_the_messenger.p', 'jersey_boys.p', 'noah.p', 'non-stop.p', 'night_at_the_museum_secret_of_the_tomb.p', 'john_wick.p', "devil's_due.p", 'the_purge_anarchy.p', 'cabin_fever_patient_zero.p', 'veronica_mars.p', 'brick_mansions.p', 'inherent_vice.p', 'big_hero_6.p', 'the_hero_of_color_city.p', 'rio_2.p', 'x-men_days_of_future_past.p', 'the_hunger_games_mockingjay_part_1.p', 'hercules.p', 'x-men_days_of_future_past.p', 'persecuted.p', 'maleficent.p', 'yellowbird.p', 'ride_along.p', "let's_be_cops.p", 'merchants_of_doubt.p', "the_internet's_own_boy_the_story_of_aaron_swartz.p", 'iris.p']
+Performing grid search...
+parameters:
+{'estimator__sgd__alpha': (0.001, 0.0001, 1e-05, 1e-06),
+ 'estimator__sgd__loss': ('hinge',
+                          'log',
+                          'modified_huber',
+                          'squared_hinge',
+                          'perceptron'),
+ 'estimator__sgd__n_iter': (10, 20, 50, 80, 100, 150),
+ 'estimator__sgd__penalty': ('l2', 'elasticnet'),
+ 'estimator__union__subs__tfidf__max_features': (3, 5, 10, 15),
+ 'estimator__union__transformer_weights': ({'colors': 0.35, 'subs': 0.65},
+                                           {'colors': 0.5, 'subs': 0.5},
+                                           {'colors': 0.2, 'subs': 0.8})}
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+done in 11.312s
 
-LABEL RANKING LOSS:
-5.81025641026
-LABEL RANKING AVERAGE PRECISION
-4.27655677656
+Best score: 0.194
+Best parameters set:
+	estimator__sgd__alpha: 1e-05
+	estimator__sgd__loss: 'modified_huber'
+	estimator__sgd__n_iter: 100
+	estimator__sgd__penalty: 'elasticnet'
+	estimator__union__subs__tfidf__max_features: 10
+	estimator__union__transformer_weights: {'colors': 0.5, 'subs': 0.5}
 
-LABEL RANKING LOSS:
-5.11805555556
-LABEL RANKING AVERAGE PRECISION
-4.40267857143
--------------------------------------------------------------------------------
-ORIGINAL: loss="hinge", 
-			penalty="l2"
-			 transformer_weights={
-                'colors': 0.35,
-                'subs': 0.65,
-                },
-            max_features=15)
 
-LABEL RANKING LOSS:
-6.40466666667
-LABEL RANKING AVERAGE PRECISION
-3.99831746032
 
-LABEL RANKING LOSS:
-6.89513888889
-LABEL RANKING AVERAGE PRECISION
-3.63310185185
-
-LABEL RANKING LOSS:
-5.98666666667
-LABEL RANKING AVERAGE PRECISION
-4.62634920635
+LABEL RANKING LOSS: 0.533333333333
+LABEL RANKING AVERAGE PRECISION: 0.547619047619
+CORRECTNESS: 0.46875
+ACCURACY BY GENRE:
+Action: 0.0
+Adventure: 0.142857142857
+Animation: 1.0
+Comedy: 0.666666666667
+Documentary: 0.4
+Drama: 1.0
+Horror: 0.428571428571
+robocop.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Action
+seventh_son.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Action
+	Adventure
+see_no_evil_2.p
+PREDICTED: 
+	Horror
+CORRECT: 
+	Horror
+captain_america_the_winter_soldier.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Action
+	Adventure
+as_above_so_below.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Horror
+the_pyramid.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Action
+	Adventure
+	Horror
+lambert,_stamp.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Documentary
+the_nut_job.p
+PREDICTED: 
+	Adventure
+	Animation
+	Comedy
+CORRECT: 
+	Adventure
+	Animation
+	Comedy
+the_judge.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+citizenfour.p
+PREDICTED: 
+	Documentary
+CORRECT: 
+	Documentary
+the_town_that_dreaded_sundown.p
+PREDICTED: 
+	Adventure
+	Drama
+CORRECT: 
+	Horror
+muppets_most_wanted.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+	Adventure
+	Comedy
+the_salt_of_the_earth.p
+PREDICTED: 
+	Action
+	Documentary
+CORRECT: 
+	Documentary
+gone_girl.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
+winter's_tale.p
+PREDICTED: 
+	Adventure
+	Drama
+CORRECT: 
+	Drama
+lucy.p
+PREDICTED: 
+CORRECT: 
+	Action
+the_lego_movie.p
+PREDICTED: 
+	Animation
+	Comedy
+CORRECT: 
+	Action
+	Adventure
+	Animation
+red_army.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+	Documentary
+project_almanac.p
+PREDICTED: 
+	Comedy
+CORRECT: 
+ouija.p
+PREDICTED: 
+	Action
+	Drama
+CORRECT: 
+	Horror
+i-lived&y=2015.p
+PREDICTED: 
+	Horror
+CORRECT: 
+	Horror
+paranormal_activity_the_marked_ones.p
+PREDICTED: 
+	Horror
+CORRECT: 
+	Horror
+my_little_pony_equestria_girls.p
+PREDICTED: 
+	Animation
+	Documentary
+CORRECT: 
+	Adventure
+	Animation
+	Comedy
+bears.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Documentary
+the_good_lie.p
+PREDICTED: 
+	Drama
+CORRECT: 
+	Drama
